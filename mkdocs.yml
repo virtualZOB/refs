@@ -68,6 +68,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.details # Additional features to admonition
   - pymdownx.caret # Formatting Extension
+      smart_insert: true
   - pymdownx.critic # Alternate Formatting Extension
   - pymdownx.mark # Formatting Extension
   - pymdownx.tilde # Formatting Extension
