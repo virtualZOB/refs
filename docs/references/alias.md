@@ -197,7 +197,7 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 |   . (APT ID)  <br> HS  <br> C   |   Launches users browser to the given airports Hot Spots (HS) page.   |   . EDF HS C   |      |
 |   . (APT ID) <br>  LAHSO  <br> C   |   Launches users browser to the given airports Land and Hold Short (LAHSO) page.   |   . BZN LAHSO C   |      |
 |   . (APT ID) <br>  APD   <br>C   |   Launches users browser to the given airports Airport Diagram (APD) page.   |   . DTW APD C   |      |
-|   . (APT ID)  <br> (DP/STAR ID)   <br> ^^Page # if not 1 ^^ <br>  C   |   Launches users browser to the given DP/STAR page.   Reference note #2.   |   . CLE BRWNZ C   . CLE BRWNZ 2 C   . CLE BRWNZ 3 C   |      |
+|   . (APT ID)  <br> (DP/STAR ID)   <br> ^^Page # if not 1^^ <br>  C   |   Launches users browser to the given DP/STAR page.   Reference note #2.   |   . CLE BRWNZ C   . CLE BRWNZ 2 C   . CLE BRWNZ 3 C   |      |
 |   . (APT ID)  <br> (1st 5 CHAR OF DEP/STAR CHART NAME)  <br> ^^Page # if not 1^^ <br> C   |   Launches users browser to the given DP/STAR page.   |   . TNX TUMBE C   . GEG SPOKA C   . CLE SPOKA 2 C   |   These commands are reserved for procedures that do not have a computer code assigned to them.   |
 |   . (APT ID) <br>  (IAP SPad Code) <br>  ^^Page # if not 1^^ <br> C   |   Launches users browser to the given IAP page.   Reference note #3.   |   . DTW I3R C   . CLE IY4L C   . CLE RU4L C   |      |
-|   . (APT ID)  <br> V  <br> (1st CHAR of EACH WORD IN THE VIS APP NAME) <br>  ^^Page # if not 1 ^^ <br>  C   |   Launches users browser to the given Charted Visual Approach page.   |   . SFO V QBC   . ASE V RF C   |      |
+|   . (APT ID)  <br> V  <br> (1st CHAR of EACH WORD IN THE VIS APP NAME) <br>  ^^Page # if not 1^^ <br>  C   |   Launches users browser to the given Charted Visual Approach page.   |   . SFO V QBC   . ASE V RF C   |      |
