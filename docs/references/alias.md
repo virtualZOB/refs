@@ -39,7 +39,7 @@ See "Text to Pilots" section for context.
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   .ICAO   |   Opens the users default browser to the ICAO site to search aircraft codes.   |   .ICAO   |      |
-|    .SEE <br> AC    |   Opens the users default browser to google images to show the selected aircrafts picture.   |   .SEEAC   |      |
+|   .SEE <br> AC    |   Opens the users default browser to google images to show the selected aircrafts picture.   |   .SEEAC   |      |
 |   .N# <br> FORMAT   |   Opens the users default browser to the FAA N-Number format page.   |   .N#FORMAT   |   TTP   |
 |   .ID <br> FORMAT   |   Opens the users default browser to the FAA Air-Carrier telephony page.   |   .IDFORMAT   |   TTP   |
 |   .ROF   |   With the aircraft selected, opens the users default browser to skyvector page and shows a direct routing between the departure and arrival airport. Reference NOTE #1.   |   .ROF   |      |
@@ -48,7 +48,7 @@ See "Text to Pilots" section for context.
 |   .EQUIP   |   Opens the users default browser to the FlightAware FAA equipment suffix code page.   |   .EQUIP   |   TTP   |
 |   .ICAO <br> EQUIP   |   Opens the users default browser to the ForeFlight equipment suffix code page.   |   .ICAOEQUIP   |      |
 |   .65   |   Opens the users default browser to the FAA 7110.65 HTML page.   |   .65   |      |
-|   .CHARTS <br> (space) <br> {== APT ID ==}   |   Opens the users default browser to the AIRNAV page IFR section for the given airport ID.   |   .CHARTS DTW   |      |
+|   .CHARTS <br> (space) <br> {== APT ID ==}   |   Opens the users default browser to the AIRNAV page IFR section for the given airport ID.   |   .CHARTS {==DTW==}   |      |
 |   .TMU <br> MAP   |   Opens the users default browser to the VATUSA TMU page for ZOB.   |   .TMUMAP   |      |
 |   .HOLDING <br> SHEET   |   Opens a hold tracking spreadsheet in google that allows the facility to coordinate simultaneous holding.   |   .HOLDINGSHEET   |      |
 
@@ -84,8 +84,8 @@ See "Text to Pilots" section for context.
 ## AUTO-TRACK CONFIGURATIONS
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .AT  <br> {== FAC ID ==} <br> ^^OFF^^ |   Turns on/off auto-track for all underlying towered fields for the given facility.   |   .AT{==D21==}   .AT{==D21==} ^^OFF^^   |      |
-|   .AT <br>  ZOB  <br> ^^OFF^^  |   Turns on/off auto-track at all towered fields under ZOB which are open during the day/mid.   |   .ATZOB   .ATZO ^^OFF^^   |      |
+|   .AT  <br> {== FAC ID ==} <br> ^^OFF^^ |   Turns on/off auto-track for all underlying towered fields for the given facility.   |   .AT{==D21==}  <br>  .AT{==D21==} ^^OFF^^   |      |
+|   .AT <br>  ZOB  <br> ^^OFF^^  |   Turns on/off auto-track at all towered fields under ZOB which are open during the day/mid.   |   .ATZOB <br>  .ATZO ^^OFF^^   |      |
 
 ## OTHER TOOLS
 
@@ -109,12 +109,12 @@ See "Text to Pilots" section for context.
 | --- | --- | --- | --- |
 |   .T <br>  CME   |   Sends a contact-me message to the selected aircraft.   |   .TCME   |      |
 |   .T <br>  SQ   |   Squawk the assigned squawk code.   |   .TSQ   |      |
-|   .T <br>  CON <br>  {== POS ID ==}      |   Contact the given ATC position.   |   .TCON D1F   |      |
-|   .T  <br> MON  <br> {== POS ID ==}   |   Monitor the given ATC position.   |   .TMON D1F   |      |
+|   .T <br>  CON <br>  {== POS ID ==}      |   Contact the given ATC position.   |   .TCON{==D1F==}   |      |
+|   .T  <br> MON  <br> {== POS ID ==}   |   Monitor the given ATC position.   |   .TMON{==D1F==}   |      |
 |   .T <br>  CLOSING  <br> (space) <br>  (# of min)   |   Announces that you will be closing in the give number of min.   |   .TCLOSING  10   |   Ensure you do not have an aircraft selected prior to sending this command.   |
 |   .T  <br> CLOSED   |   Announces that you are now closed.   |   .TCLOSED   |      |
-|   .T <br>  SWITCH  <br> TO  <br> TWR   |   Private messages the selected aircraft information concerning how they are expected to switch to TWR on their own holding short of the assigned RWY.   |   . TSWITCHTOTWR   |      |
-|   .T  <br> EQUIP   |   Private messages the selected aircraft asking for their FAA equipment suffix code and provides a link to a tutorial showing them how to determine their code.   |   . TEQUIP   |      |
+|   .T <br>  SWITCH  <br> TO  <br> TWR   |   Private messages the selected aircraft information concerning how they are expected to switch to TWR on their own holding short of the assigned RWY.   |   .TSWITCHTOTWR   |      |
+|   .T  <br> EQUIP   |   Private messages the selected aircraft asking for their FAA equipment suffix code and provides a link to a tutorial showing them how to determine their code.   |   .TEQUIP   |      |
 |   .T <br>  N# <br>  FORMAT   |   Private messages the selected aircraft advising them that their N-number format seems to be incorrect and links them to the FAA site to help them figure out how to reconnect with a correctly formatted callsign.   |   .TN#FORMAT   |      |
 |   .T <br>  ID  <br> FORMAT   |   Private messages the selected aircraft advising them that their air-carrier callsign format seems to be incorrect and links them to the FAA site to help them figure out how to reconnect with a correctly formatted callsign.   |   .TIDFORMAT   |      |
 |  
@@ -122,10 +122,10 @@ See "Text to Pilots" section for context.
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   .T  <br> RBC   |   Readback Correct   |   .TRBC   |      |
-|   .T  <br> CRAFT<br>   AF <br>  ^^U^^ <br>  (space)  <br> {== INITIAL ALTITUDE ==} <br>  (space) <br>  (DEP POS ID)   |   Issues a CRAFT clearance “as filed ".   |   .TCRAFTAF  17K D1E      .TCRAFTAF ^^U^^ 17K D1E   |   U = Departure offline/unicom   |
-|   .T  <br> CRAFT <br>  FR <br> ^^U^^ <br> (space) <br>  {== INITIAL ALTITUDE ==} <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a full route..   |   .TCRAFTFR  17K D1E      .TCRAFTFR ^^U^^ 17K D1E   |   U = Departure offline/unicom   |
-|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note #4   |   . TCRAFTCVS   HHOWE4   LNCON  D1E      . TCRAFTCVS^^U^^ HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
-|   .T  <br> CRAFT <br>  CVS <br>  EM <br> ^^U^^ <br>(space)  <br> (DP with ver #)   <br>(space)   <br>(End point of DP) <br> (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note #4   |   .TCRAFTCVSEM  HHOWE4 LNCON 17K D1E      . TCRAFTCVSEM^^U^^ HHOWE4   LNCON  17K D1E   |   U = Departure offline/unicom.   |
+|   .T  <br> CRAFT<br> AF <br> ^^U^^ <br>  (space)  <br> {== INITIAL ALTITUDE ==} <br>  (space) <br>  (DEP POS ID)   |   Issues a CRAFT clearance “as filed ".   |   .TCRAFTAF  17K D1E      .TCRAFTAF\ ^^U^^ {==17K D1E==}   |   U = Departure offline/unicom   |
+|   .T  <br> CRAFT <br>  FR <br> ^^U^^ <br> (space) <br>  {== INITIAL ALTITUDE ==} <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a full route..   |   .TCRAFTFR  17K D1E      .TCRAFTFR\ ^^U^^ {==17K D1E==}   |   U = Departure offline/unicom   |
+|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note #4   |   . TCRAFTCVS   HHOWE4   LNCON  {==D1E==}      .TCRAFTCVS\ ^^U^^ HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
+|   .T  <br> CRAFT <br>  CVS <br>  EM <br>\ ^^U^^ <br>(space)  <br> (DP with ver #)   <br>(space)   <br>(End point of DP) <br> (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note #4   |   .TCRAFTCVSEM  HHOWE4 LNCON 17K D1E      . TCRAFTCVSEM^^U^^ HHOWE4   LNCON  17K D1E   |   U = Departure offline/unicom.   |
 
 ### Ground Control
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
