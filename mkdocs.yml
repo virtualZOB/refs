@@ -1,5 +1,5 @@
 # Project Information
-site_name: VATPAC Standard Operating Procedures
+site_name: vZOB Standard Operating Procedures
 #site_url: https://refs.clevelandcenter.org
 site_url: https://virtualZOB.github.io/refs/
 repo_url: https://github.com/virtualzob/refs
@@ -74,6 +74,7 @@ markdown_extensions:
   - pymdownx.tilde # Formatting Extension
   - pymdownx.keys # Visual keyboard keys extension
   - pymdownx.escapeall # Allows new lines in tables
+      hardbreak: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji: # Allows emoji style inline embeds for icons
