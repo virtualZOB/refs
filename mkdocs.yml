@@ -1,7 +1,8 @@
 # Project Information
 site_name: VATPAC Standard Operating Procedures
-site_url: https://ref.clevelandcenter.org
-repo_url: https://github.com/virtualzob/regs
+#site_url: https://refs.clevelandcenter.org
+site_url: https://virtualZOB.github.io/refs/
+repo_url: https://github.com/virtualzob/refs
 repo_name: virtualzob/refs
 edit_uri: "" #removes edit button and icon
 copyright: ""
