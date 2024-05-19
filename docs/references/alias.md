@@ -124,8 +124,8 @@ See "Text to Pilots" section for context.
 |   .T  <br> RBC   |   Readback Correct   |   .TRBC   |      |
 |   .T  <br> CRAFT<br> AF <br> ^^U^^ <br>  (space)  <br> {== INITIAL ALTITUDE ==} <br>  (space) <br>  (DEP POS ID)   |   Issues a CRAFT clearance “as filed ".   |   .TCRAFTAF  17K D1E      .TCRAFTAF\ ^^U^^ {==17K D1E==}   |   U = Departure offline/unicom   |
 |   .T  <br> CRAFT <br>  FR <br> ^^U^^ <br> (space) <br>  {== INITIAL ALTITUDE ==} <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a full route..   |   .TCRAFTFR  17K D1E      .TCRAFTFR\ ^^U^^ {==17K D1E==}   |   U = Departure offline/unicom   |
-|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note [^4]   |   . TCRAFTCVS   HHOWE4   LNCON  {==D1E==}      .TCRAFTCVS\ ^^U^^ HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
-|   .T  <br> CRAFT <br>  CVS <br>  EM <br>\ ^^U^^ <br>(space)  <br> (DP with ver #)   <br>(space)   <br>(End point of DP) <br> (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note [^4]   |   .TCRAFTCVSEM  HHOWE4 LNCON 17K D1E      . TCRAFTCVSEM^^U^^ HHOWE4   LNCON  17K D1E   |   U = Departure offline/unicom.   |
+|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note[^4]   |   . TCRAFTCVS   HHOWE4   LNCON  {==D1E==}      .TCRAFTCVS\ ^^U^^ HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
+|   .T  <br> CRAFT <br>  CVS <br>  EM <br>\ ^^U^^ <br>(space)  <br> (DP with ver #)   <br>(space)   <br>(End point of DP) <br> (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note[^4]   |   .TCRAFTCVSEM  HHOWE4 LNCON 17K D1E      . TCRAFTCVSEM^^U^^ HHOWE4   LNCON  17K D1E   |   U = Departure offline/unicom.   |
 
 ### Ground Control
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
@@ -206,12 +206,12 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 
 [^1]: Prior to completing this command, it is suggested that you copy the route to the clipboard (CTRL+C). Complete the command and then paste (CTRL+P) into the Skyvector route field.
 [^2]: 
-  Commands like these are useful because they have another command that is similar. For example if you wanted to draw all the fixes for the CLE BRWNZ arrival on your scope and you wanted the chart to be recalled, simply complete one of the commands, then use your keyboards UP arrow to have it display again, use your backspace button to remove the last character and replace it with the appropriate letter for the other command. <br>
-    **Example**:
-    - .CLEBRWNZC
-    - *Up arrow to display .CLEBRWNZC again, Then I just backspace to remove the C*
-    - *Then type F resulting in:*
-    - .CLEBRWNZF
+    Commands like these are useful because they have another command that is similar. For example if you wanted to draw all the fixes for the CLE BRWNZ arrival on your scope and you wanted the chart to be recalled, simply complete one of the commands, then use your keyboards UP arrow to have it display again, use your backspace button to remove the last character and replace it with the appropriate letter for the other command. <br>
+      **Example**:
+      - .CLEBRWNZC
+      - *Up arrow to display .CLEBRWNZC again, Then I just backspace to remove the C*
+      - *Then type F resulting in:*
+      - .CLEBRWNZF
 [^3]: Reference FE-Buddy manual for SPad Code concept and syntax explanations. 
 [^4]:
-  Given this alias is meant to be sent to a text-only pilot, and these situations are dying out, so not every variable will be accounted for with these commands as it would take too long to develop those resources, let alone expect ATC to become moderately familiar with all of the syntaxes that are available
+    Given this alias is meant to be sent to a text-only pilot, and these situations are dying out, so not every variable will be accounted for with these commands as it would take too long to develop those resources, let alone expect ATC to become moderately familiar with all of the syntaxes that are available
