@@ -55,7 +55,7 @@ See "Text to Pilots" section for context.
 ## GENERAL ASSISTANCE
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .EQUIP <br> {== FAA EQUIPMENT SUFFIX LETTER ==}   |   Responds with a description of what capabilities the given equipment suffix has.   |   .EQUIPL   |      |
+|   .EQUIP <br> {== FAA EQUIPMENT SUFFIX LETTER ==}   |   Responds with a description of what capabilities the given equipment suffix has.   |   .EQUIP{== L ==}   |      |
 |   .PRC   |   Displays a script to read to the pilot who is clearly not equipped with the knowledge or skill to complete the flight they are trying to conduct.   |   .PRC   |   TTP   |
 |   .SWITCH <br> TO <br> TWR   |   Displays a script to read to the who has reached the assigned departure runway and is inquiring why they didn ’t get a switch to tower instruction.   |   .SWITCHTOTWR   |   TTP   |
 |   .OVERHEAD   |   Displays a phraseology guide to use for reference when providing instructions for an Overhead Break maneuver.   |   .OVERHEAD   |      |
@@ -65,7 +65,7 @@ See "Text to Pilots" section for context.
 |   .HOLDING   |   Displays script to read to the pilot with the format of a Holding clearance.   |   .HOLDING   |      |
 |   .OTP   |   Displays a script to read to the pilot with the format of a VFR-ON-TOP clearance.   |   .TOP   |      |
 |   .POS <br> CHECK   |   Displays a item list for a position relief checklist.   |   .POSCHECK   |      |
-|   .AC <br> INFO <br> {== ACFT ICAO CODE ==}   |   Returns info concerning the given aircraft.   |   .ACINFOB738   |   This is different than the .ACINFO command native to CRC.   |
+|   .AC <br> INFO <br> {== ACFT ICAO CODE ==}   |   Returns info concerning the given aircraft.   |   .ACINFOB{==738 ==}  |   This is different than the .ACINFO command native to CRC.   |
 
 ## GROUND TO GROUND COMMUNICATION
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
