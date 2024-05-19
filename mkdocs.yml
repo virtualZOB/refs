@@ -1,5 +1,5 @@
 # Project Information
-site_name: vZOB Standard Operating Procedures
+site_name: "vZOB Standard Operating Procedures"
 #site_url: https://refs.clevelandcenter.org
 site_url: https://virtualZOB.github.io/refs/
 repo_url: https://github.com/virtualzob/refs
@@ -57,7 +57,7 @@ extra:
   social:
   - icon: fontawesome/brands/github
     link: https://github.com/virtualzob
-    name: VATPAC on Github
+    name: vZOB on Github
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
@@ -73,7 +73,7 @@ markdown_extensions:
   - pymdownx.mark # Formatting Extension
   - pymdownx.tilde # Formatting Extension
   - pymdownx.keys # Visual keyboard keys extension
-  - pymdownx.escapeall # Allows new lines in tables
+  - pymdownx.escapeall: # Allows new lines in tables
       hardbreak: true
   - pymdownx.tasklist:
       custom_checkbox: true
