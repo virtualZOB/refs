@@ -42,7 +42,7 @@ See "Text to Pilots" section for context.
 |   .SEE <br> AC    |   Opens the users default browser to google images to show the selected aircrafts picture.   |   .SEEAC   |      |
 |   .N# <br> FORMAT   |   Opens the users default browser to the FAA N-Number format page.   |   .N#FORMAT   |   TTP   |
 |   .ID <br> FORMAT   |   Opens the users default browser to the FAA Air-Carrier telephony page.   |   .IDFORMAT   |   TTP   |
-|   .ROF   |   With the aircraft selected, opens the users default browser to skyvector page and shows a direct routing between the departure and arrival airport. Reference NOTE #1.   |   .ROF   |      |
+|   .ROF   |   With the aircraft selected, opens the users default browser to skyvector page and shows a direct routing between the departure and arrival airport. Reference NOTE [^1].   |   .ROF   |      |
 |   .ROF <br> FA   |   With the aircraft selected, opens the users default browser to FlightAware page and depicting routes flown between the departure and arrival airport.   |   .ROFFA   |      |
 |   .SKY   |   Opens the users default browser to the Skyvector site.   |   .SKY   |      |
 |   .EQUIP   |   Opens the users default browser to the FlightAware FAA equipment suffix code page.   |   .EQUIP   |   TTP   |
@@ -124,8 +124,8 @@ See "Text to Pilots" section for context.
 |   .T  <br> RBC   |   Readback Correct   |   .TRBC   |      |
 |   .T  <br> CRAFT<br> AF <br> ^^U^^ <br>  (space)  <br> {== INITIAL ALTITUDE ==} <br>  (space) <br>  (DEP POS ID)   |   Issues a CRAFT clearance “as filed ".   |   .TCRAFTAF  17K D1E      .TCRAFTAF\ ^^U^^ {==17K D1E==}   |   U = Departure offline/unicom   |
 |   .T  <br> CRAFT <br>  FR <br> ^^U^^ <br> (space) <br>  {== INITIAL ALTITUDE ==} <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a full route..   |   .TCRAFTFR  17K D1E      .TCRAFTFR\ ^^U^^ {==17K D1E==}   |   U = Departure offline/unicom   |
-|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note #4   |   . TCRAFTCVS   HHOWE4   LNCON  {==D1E==}      .TCRAFTCVS\ ^^U^^ HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
-|   .T  <br> CRAFT <br>  CVS <br>  EM <br>\ ^^U^^ <br>(space)  <br> (DP with ver #)   <br>(space)   <br>(End point of DP) <br> (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note #4   |   .TCRAFTCVSEM  HHOWE4 LNCON 17K D1E      . TCRAFTCVSEM^^U^^ HHOWE4   LNCON  17K D1E   |   U = Departure offline/unicom.   |
+|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note [^4]   |   . TCRAFTCVS   HHOWE4   LNCON  {==D1E==}      .TCRAFTCVS\ ^^U^^ HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
+|   .T  <br> CRAFT <br>  CVS <br>  EM <br>\ ^^U^^ <br>(space)  <br> (DP with ver #)   <br>(space)   <br>(End point of DP) <br> (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note [^4]   |   .TCRAFTCVSEM  HHOWE4 LNCON 17K D1E      . TCRAFTCVSEM^^U^^ HHOWE4   LNCON  17K D1E   |   U = Departure offline/unicom.   |
 
 ### Ground Control
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
@@ -187,7 +187,7 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   . (AWY ID) <br>  F   |   Displays all the fixes (including NAVAIDs and airports) for the given airway.   |   . J15 F   |   ERAM-Only   |
-|   . (APT ID)  <br> (DP/STAR ID) <br>  F   |   Displays all the fixes (including NAVAIDs) for the given DP/STAR.   Reference note #2.   |   . DTWPAVYL F   |   ERAM-Only   |
+|   . (APT ID)  <br> (DP/STAR ID) <br>  F   |   Displays all the fixes (including NAVAIDs) for the given DP/STAR.   Reference note [^2].   |   . DTWPAVYL F   |   ERAM-Only   |
 
 ### FE-Buddy Chart Recall
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
@@ -199,5 +199,19 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 |   . (APT ID) <br>  APD   <br>C   |   Launches users browser to the given airports Airport Diagram (APD) page.   |   . DTW APD C   |      |
 |   . (APT ID)  <br> (DP/STAR ID)   <br> ^^Page # if not 1^^ <br>  C   |   Launches users browser to the given DP/STAR page.   Reference note #2.   |   . CLE BRWNZ C   . CLE BRWNZ 2 C   . CLE BRWNZ 3 C   |      |
 |   . (APT ID)  <br> (1st 5 CHAR OF DEP/STAR CHART NAME)  <br> ^^Page # if not 1^^ <br> C   |   Launches users browser to the given DP/STAR page.   |   . TNX TUMBE C   . GEG SPOKA C   . CLE SPOKA 2 C   |   These commands are reserved for procedures that do not have a computer code assigned to them.   |
-|   . (APT ID) <br>  (IAP SPad Code) <br>  ^^Page # if not 1^^ <br> C   |   Launches users browser to the given IAP page.   Reference note #3.   |   . DTW I3R C   . CLE IY4L C   . CLE RU4L C   |      |
+|   . (APT ID) <br>  (IAP SPad Code) <br>  ^^Page # if not 1^^ <br> C   |   Launches users browser to the given IAP page.   Reference note [^3].   |   . DTW I3R C   . CLE IY4L C   . CLE RU4L C   |      |
 |   . (APT ID)  <br> V  <br> (1st CHAR of EACH WORD IN THE VIS APP NAME) <br>  ^^Page # if not 1^^ <br>  C   |   Launches users browser to the given Charted Visual Approach page.   |   . SFO V QBC   . ASE V RF C   |      |
+
+## Notes
+
+[^1]: Prior to completing this command, it is suggested that you copy the route to the clipboard (CTRL+C). Complete the command and then paste (CTRL+P) into the Skyvector route field.
+[^2]: 
+  Commands like these are useful because they have another command that is similar. For example if you wanted to draw all the fixes for the CLE BRWNZ arrival on your scope and you wanted the chart to be recalled, simply complete one of the commands, then use your keyboards UP arrow to have it display again, use your backspace button to remove the last character and replace it with the appropriate letter for the other command. <br>
+    **Example**:
+    - .CLEBRWNZC
+    - *Up arrow to display .CLEBRWNZC again, Then I just backspace to remove the C*
+    - *Then type F resulting in:*
+    - .CLEBRWNZF
+[^3]: Reference FE-Buddy manual for SPad Code concept and syntax explanations. 
+[^4]:
+  Given this alias is meant to be sent to a text-only pilot, and these situations are dying out, so not every variable will be accounted for with these commands as it would take too long to develop those resources, let alone expect ATC to become moderately familiar with all of the syntaxes that are available
