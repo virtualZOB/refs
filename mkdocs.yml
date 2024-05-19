@@ -1,5 +1,5 @@
 # Project Information
-site_name: "vZOB Standard Operating Procedures"
+site_name: vZOB Standard Operating Procedures
 #site_url: https://refs.clevelandcenter.org
 site_url: https://virtualZOB.github.io/refs/
 repo_url: https://github.com/virtualzob/refs
@@ -37,14 +37,14 @@ theme:
 # Plugins
 plugins:
   - search:
-    lang: en
+      lang: en
   - awesome-pages
   - git-revision-date-localized:
-    type: date
+      type: date
   - redirects:
-    redirect_maps:
-    'airports/KAGC.md': 'airports/classd/Allegheny.md'
-    'airports/Allegheny.md': 'airports/classd/Allegheny.md'
+      redirect_maps:
+        'airports/KAGC.md': 'airports/classd/Allegheny.md'
+        'airports/Allegheny.md': 'airports/classd/Allegheny.md'
 
 # Styling Front-end
 extra_css:
