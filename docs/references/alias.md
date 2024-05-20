@@ -11,21 +11,21 @@ See "Text to Pilots" section for context.
 ## COLUMNS EXPLANATION
 
 - SYNTAX
-  - How the command is formatted.
-  - Unless otherwise stated, Airport ID’s (APT ID) are the FAA code, not the ICAO.
-  - {== FAC ID ==} = Facility ID code
-  - {== POS ID ==} = Position ID code/The computer ID code assigned to a position/controlling position.
-  - Text that is {== HIGHLIGHTED ==} conveys the info that is required to be typed in that place.
-  - Text that is <ins>UNDERLINED</ins> indicates that it is optional information and is not required.
-  - ``(space)`` indicates when to hit the space-bar at that point.
-  - Unless otherwise indicated, to complete a command, the user must press the ENTER button on their keyboard. If the term ASEL is present after the command, the user is to complete the command by first selecting the aircraft, type the alias command, then pressing their designated “Aircraft Select" key on their keyboard. Choosing an ASEL should have been part of the initial setup of your software; For more info on what the ASEL key is, consult the software manual.
+    - How the command is formatted.
+    - Unless otherwise stated, Airport ID’s (APT ID) are the FAA code, not the ICAO.
+    - {== FAC ID ==} = Facility ID code
+    - {== POS ID ==} = Position ID code/The computer ID code assigned to a position/controlling position.
+    - Text that is {== HIGHLIGHTED ==} conveys the info that is required to be typed in that place.
+    - Text that is <ins>UNDERLINED</ins> indicates that it is optional information and is not required.
+    - ``(space)`` indicates when to hit the space-bar at that point.
+    - Unless otherwise indicated, to complete a command, the user must press the ENTER button on their keyboard. If the term ASEL is present after the command, the user is to complete the command by first selecting the aircraft, type the alias command, then pressing their designated “Aircraft Select" key on their keyboard. Choosing an ASEL should have been part of the initial setup of your software; For more info on what the ASEL key is, consult the software manual.
 - DESCRIPTION
-  - Describes what happens when the command is completed or will provide an example of what is displayed.
-  - If a note with a number is referenced in this box, refer to the NOTES section of this reference document for further information concerning how to effectively utilize this command.
+    - Describes what happens when the command is completed or will provide an example of what is displayed.
+    - If a note with a number is referenced in this box, refer to the NOTES section of this reference document for further information concerning how to effectively utilize this command.
 - EXAMPLE
-  - Displays an example of the command using a procedure or other variables.
+    - Displays an example of the command using a procedure or other variables.
 - NOTES
-  - TTP = This command has a "Text-To-Pilot" equivalent. Generally, all the user has to do is put a T right after the period and before starting the rest of the command and have either the aircraft selected or in a private message to that pilot.
+    - TTP = This command has a "Text-To-Pilot" equivalent. Generally, all the user has to do is put a T right after the period and before starting the rest of the command and have either the aircraft selected or in a private message to that pilot.
 
 ## ZOB WEBSITE REFERENCE
 
