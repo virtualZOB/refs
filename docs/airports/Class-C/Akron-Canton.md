@@ -98,3 +98,7 @@ airspace and 125.5 for aircraft entering E sector airspace, as depicted in CLE
     - LC must coordinate any unplanned missed approach with CLE TRACON
         - Include aircraft callsign and heading issued if other than runway heading
         - Transfer radar identification if necessary
+
+
+## Full SOP
+For more details, refer to the [full SOP](https://clevelandcenter.org/files/downloads/Akron-Canton_ATCT_(CAK)_SOP__6.pdf)

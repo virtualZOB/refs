@@ -42,8 +42,8 @@ plugins:
       type: date
   - redirects:
       redirect_maps:
-        'airports/KAGC.md': 'airports/classd/Allegheny.md'
-        'airports/Allegheny.md': 'airports/classd/Allegheny.md'
+        'airports/KCAK.md': 'airports/Class-C/Akron-Canton.md'
+        'airports/Akron-Canton.md': 'airports/Class-C/Akron-Canton.md'
 
 # Styling Front-end
 extra_css:
