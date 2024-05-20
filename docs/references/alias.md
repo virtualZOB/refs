@@ -63,7 +63,7 @@ See "Text to Pilots" section for context.
 |   .MIL <br> CL   |   Displays specific phraseology for landing clearance for a USA/USN/USAF aircraft.   |   .MILCL   |   No need for TTP because the standard .TCL is formatted this way.   |
 |   .RFD   |   Displays script to read to the pilot with the format for a Release-For-Departure clearance that includes a 10min void time from the current time and an advisory to contact the issuing controller no later than 15min of intentions if not off in time.   |   .RFD   |   TTP   |
 |   .HOLDING   |   Displays script to read to the pilot with the format of a Holding clearance.   |   .HOLDING   |      |
-|   .OTP   |   Displays a script to read to the pilot with the format of a VFR-ON-TOP clearance.   |   .TOP   |      |
+|   .OTP   |   Displays a script to read to the pilot with the format of a VFR-ON-TOP clearance.   |   .OTP   |      |
 |   .POS <br> CHECK   |   Displays a item list for a position relief checklist.   |   .POSCHECK   |      |
 |   .AC <br> INFO <br> {== ACFT ICAO CODE ==}   |   Returns info concerning the given aircraft.   |   .ACINFOB{==738==}  |   This is different than the .ACINFO command native to CRC.   |
 
@@ -75,17 +75,17 @@ See "Text to Pilots" section for context.
 |   .RT  <br> (space) <br>  {== POS ID ==}   |   With the subject aircraft selected, sends a Rejected Takeoff Notification private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .RT {==D1E==}   |      |
 |   .MA <br>  (space) <br>  {== POS ID ==} <br>  (space) <br>  ^^FREE TEXT^^  |   With the subject aircraft selected, sends a Missed Approach Notification private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .MA {==D1E==}  Published   |      |
 |   .DT <br>  (space) <br>  {== POS ID ==}   |   With the subject aircraft selected, sends a Down-Time Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign and current time.   |   .DT {==D1F==}   |      |
-|   .RR <br>  (space) <br>  {== ATPOS ID ==} <br>  (space)  <br>  ^^FREE TEXT up to 8 elements^^  |   With the subject aircraft selected, sends a Release Request private message to the given ATC while automatically inserting the subject aircraft ’s callsign, Departure and Arrival airports, and route of flight.   |   .RR {==D1E==} H120 8K ^^S280^^   |      |
+|   .RR <br>  (space) <br>  {== ATPOS ID ==} <br>  (space)  <br>  ^^FREE TEXT up to 8 elements^^  |   With the subject aircraft selected, sends a Release Request private message to the given ATC while automatically inserting the subject aircraft ’s callsign, Departure and Arrival airports, and route of flight.   |   .RR {==D1E==} ^^H120 8K S280^^   |      |
 |   .RA <br>  (space)  <br> {== POS ID ==}  <br> (space) <br>  ^^# of min from now^^  |   With the subject aircraft selected, sends a Release Approved private message to the given ATC while automatically inserting the subject aircraft ’s callsign and the number of minuets from now that the aircraft is approved for release.   |   .RA {==D2P==}  ^^3^^   |   If the ACFT is released at this current time, do not specify a number of min from now.   |
-|   .PO <br>  (space) <br>  {== POS ID ==} <br>  (space) <br>  (POINT) <br>  (space) <br>  ^^FREE TEXT^^  |   With the subject aircraft selected, sends a Point-Out request private message to the given ATC while automatically inserting the subject aircraft ’s position relative to the given point, callsign and assigned altitude.   |   .PO {==D1F==} ^^WNGNT  to the boundary and then turning northeast bound^^    |      |
-|   .HO <br>  (space) <br>  {== POS ID ==} <br>  (space) <br>  (POINT)  <br> (space)  <br> ^^FREE TEXT^^  |   With the subject aircraft selected, sends a Handoff Notification private message to the given ATC while automatically inserting the subject aircraft ’s position relative to the given point, assigned beacon code, callsign and assigned altitude.   |   .PO {==D1F==} WNGNT   |      |
+|   .PO <br>  (space) <br>  {== POS ID ==} <br>  (space) <br>  {==(POINT)==} <br>  (space) <br>  ^^FREE TEXT^^  |   With the subject aircraft selected, sends a Point-Out request private message to the given ATC while automatically inserting the subject aircraft ’s position relative to the given point, callsign and assigned altitude.   |   .PO {==D1F==} {==WNGNT==} ^^to the boundary and then turning northeast bound^^    |      |
+|   .HO <br>  (space) <br>  {== POS ID ==} <br>  (space) <br>  {==(POINT)==}  <br> (space)  <br> ^^FREE TEXT^^  |   With the subject aircraft selected, sends a Handoff Notification private message to the given ATC while automatically inserting the subject aircraft ’s position relative to the given point, assigned beacon code, callsign and assigned altitude.   |   .PO {==D1F==} {==WNGNT==}   |      |
 |   .APREQ <br>  (space) <br>  {== POS ID ==} <br>  (space) <br>  ^^FREE TEXT^^  |   With the subject aircraft selected, sends a Approval Request (APREQ) private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .M {==77==} ^^Direct STENT^^   |      |
 
 ## AUTO-TRACK CONFIGURATIONS
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .AT  <br> {== FAC ID ==} <br> ^^OFF^^ |   Turns on/off auto-track for all underlying towered fields for the given facility.   |   .AT{==D21==}  <br>  .AT{==D21==} ^^OFF^^   |      |
-|   .AT <br>  ZOB  <br> ^^OFF^^  |   Turns on/off auto-track at all towered fields under ZOB which are open during the day/mid.   |   .ATZOB <br>  .ATZO ^^OFF^^   |      |
+|   .AT  <br> {== FAC ID ==} <br> ^^OFF^^ |   Turns on/off auto-track for all underlying towered fields for the given facility.   |   .AT{==D21==}  <br>  .AT{==D21==}<ins>OFF</ins>   |      |
+|   .AT <br>  ZOB  <br> ^^OFF^^  |   Turns on/off auto-track at all towered fields under ZOB which are open during the day/mid.   |   .ATZOB <br>  .ATZO<ins>OFF</ins>   |      |
 
 ## OTHER TOOLS
 
@@ -112,7 +112,7 @@ See "Text to Pilots" section for context.
 |   .T <br>  SQ   |   Squawk the assigned squawk code.   |   .TSQ   |      |
 |   .T <br>  CON <br>  {== POS ID ==}      |   Contact the given ATC position.   |   .TCON{==D1F==}   |      |
 |   .T  <br> MON  <br> {== POS ID ==}   |   Monitor the given ATC position.   |   .TMON{==D1F==}   |      |
-|   .T <br>  CLOSING  <br> (space) <br>  (# of min)   |   Announces that you will be closing in the give number of min.   |   .TCLOSING  10   |   Ensure you do not have an aircraft selected prior to sending this command.   |
+|   .T <br>  CLOSING  <br> (space) <br>  {==(# of min)==}   |   Announces that you will be closing in the give number of min.   |   .TCLOSING  {==10==}   |   Ensure you do not have an aircraft selected prior to sending this command.   |
 |   .T  <br> CLOSED   |   Announces that you are now closed.   |   .TCLOSED   |      |
 |   .T <br>  SWITCH  <br> TO  <br> TWR   |   Private messages the selected aircraft information concerning how they are expected to switch to TWR on their own holding short of the assigned RWY.   |   .TSWITCHTOTWR   |      |
 |   .T  <br> EQUIP   |   Private messages the selected aircraft asking for their FAA equipment suffix code and provides a link to a tutorial showing them how to determine their code.   |   .TEQUIP   |      |
@@ -165,7 +165,7 @@ See "Text to Pilots" section for context.
 |   .T <br>  PTAC  <br> (space)  <br> {==(POINT)==} <br>  (space) <br>  {==(HEADING)==}  <br> (space)  <br> {==(ALTITUDE)==}  <br> (space)<br> {==(IAP TYPE)==} <br>  (space) <br>  {==(RUNWAY)==}      |   Issues standard PTAC given the relative position to the given point, including heading and altitude to fly until established and then the clearance to fly the given instrument approach type and the given runway.   |   .TPTAC {==DOTTI==} {==250==} {==3K==} {==ILS==} {==27R==}   |      |
 |   .T  <br> PTAC  <br>ILS   <br>(space) <br>  {==(POINT)==}  <br> (space)  <br> {==(HEADING)==} <br>  (space) <br> {==(ALTITUDE)==}  <br> (space) <br>  {==(RUNWAY)==}   |   Completes the same thing as the .TPTAC command except the user does not have to indicate that ILS is the type of approach.   |   .TPTAC {==DOTTI==} {==250==} {==3K==} {==27R==}   |      |
 |   .T   <br>RFIS   |   Advises the selected aircraft of their position relative to their destination and then asks them to report the field in sight.   |   .TRFIS   |      |
-|   .T  <br> CVA  <br> (space)  <br> {==(RWY ID)==}   |   Clears the pilot for a visual approach to the given runway.   |   .TCVA  22L   |      |
+|   .T  <br> CVA  <br> (space)  <br> {==(RWY ID)==}   |   Clears the pilot for a visual approach to the given runway.   |   .TCVA  {==22L==}   |      |
 
 
 ### Enroute
@@ -182,7 +182,7 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 | --- | --- | --- | --- |
 |   .APT  <br> (FAA or ICAO APT ID)   |   Returns the following for the given airport:   FAA & ICAO code   Name   Elevation   Towered status   Responsible ARTCC   ASOS frequency   |   .APTPTK   |      |
 |   .NAV <br>  (NAVAID ID or Name)  |   Returns the following for the given NAVAID:   ID   Frequency   Name   Type   |   .NAVCGT  <br> .NAVCHICAGOHEIGHTS   |   When entering the name, do not include special characters or spaces.   |
-|   .ID <br>  (AIR-CARRIER 3 LETTER ID or TELEPHONY)   |   Returns the 3LID and Telephony of the given air-carrier.   |   .IDDAL <br>  .IDDELTA      .IDNKP   .ID ABAKANAIR   |   When entering the telephony, do not include special characters or spaces.   |
+|   .ID <br>  (AIR-CARRIER 3 LETTER ID or TELEPHONY)   |   Returns the 3LID and Telephony of the given air-carrier.   |   .IDDAL <br>  .IDDELTA   <br>   .IDNKP <br>  .IDABAKANAIR   |   When entering the telephony, do not include special characters or spaces.   |
 
 ### Data Display
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
