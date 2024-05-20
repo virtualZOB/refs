@@ -1,6 +1,6 @@
 # Enroute Crossing Requirements
 
-| Airport | Segment | Altitude | Notes |
+| Airport | Segment/Qualifier  | Altitude | Notes |
 | ------- | ---------- | --------- | ------- |
 | KSYR | Direct SYR or KSYR between SYR-250 and SYR-270 | 30 DME from SYR at 11,000 | SYR TRACON or ZBW has control on contact for turns up to 30 degrees |
 | KALB | | AOB FL290 | |
