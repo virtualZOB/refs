@@ -15,8 +15,8 @@
 | HEF | All Jets | BRNDN AOB FL270 | ZDC has control to FL240 east of a line CKB-IHD and control for turns east of BRNDN from the AIR/CKB sector |
 | HEF | RNAV Props | AOB FL250 | |
 | HEF | Non-RNAV Props | AOB FL210 | |
-| IAD Satellites[^2] | Jets| AOB FL250 | |
-| IAD Satellites[^2] | Props | AOB FL210 | |
+| IAD Satellites[^3] <br> DCA Satellites[^4] | Jets| AOB FL250 | |
+| IAD Satellites[^3] <br> DCA Satellites[^4] | Props | AOB FL210 | |
 | ILG <br> DOV | | AOB FL250 | ZDC has control for descent to FL240 on contact |
 | FDK <br> GAI | | AOB FL190 | ZDC has control for descent to 11,000' within 10 NM of common center boundary|
 | RIC | | AOB FL290 | Enter ZDC no further east than a line MGW-MOL |
