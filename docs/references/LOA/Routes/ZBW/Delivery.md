@@ -2,7 +2,7 @@
 
 ### RNAV Required Routes
 
-| Airport | Conditions | Assigned Altitude Restrictions | Routing |
+| Airport | Conditions | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- |
 | KEWR | If transit ZBW Airspace | | FLOSI# |
 | KEWR Satellites | If transit ZBW Airspace | | WEARD V489 COATE |
@@ -11,13 +11,13 @@
 
 ### Non-RNAV Required Routes
 
-| Airport | Conditions | Altitudes | Routing |
+| Airport | Conditions | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- |
 | KBOS  | Any | Any Altitude  | ALB.GDM# |
 | KEWR | If transit ZBW Airspace | | SHAFF# |
 
 ### Unqualified Routes
-| Airport | Conditions | Assigned Altitude Restrictions | Routing |
+| Airport | Conditions | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- |
 | KBDL | | | AUDIL STELA# <br> MEMMS WILET STELA# |
 | KBED | | | EEGUL ZELKA# |
