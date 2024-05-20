@@ -125,7 +125,7 @@ See "Text to Pilots" section for context.
 |   .T  <br> RBC   |   Readback Correct   |   .TRBC   |      |
 |   .T  <br> CRAFT<br> AF <br> ^^U^^ <br>  (space)  <br> {== INITIAL ALTITUDE ==} <br>  (space) <br>  (DEP POS ID)   |   Issues a CRAFT clearance "as filed".   |   .TCRAFTAF  {==17K D1E==}  <br>    .TCRAFTAF<ins>U</ins> {==17K==} D1E   |   U = Departure offline/unicom   |
 |   .T  <br> CRAFT <br>  FR <br> ^^U^^ <br> (space) <br>  {== INITIAL ALTITUDE ==} <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a full route.   |   .TCRAFTFR {==17K D1E==}    <br>  .TCRAFTFR<ins>U</ins> {==17K==} D1E   |   U = Departure offline/unicom   |
-|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note[^4]   |   . TCRAFTCVS   HHOWE4   LNCON  {==D1E==}      .TCRAFTCVS<ins>U</ins> HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
+|   .T <br>  CRAFT  <br> CVS <br>  ^^U^^ <br> (space)  <br> (DP with ver #)  <br> (space)<br>   (End point of DP) <br>  (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note[^4]   |   .TCRAFTCVS   HHOWE4   LNCON  {==D1E==}  <br>    .TCRAFTCVS<ins>U</ins> HHOWE4   LNCON  D1E   |   U = Departure offline/unicom.   |
 |   .T  <br> CRAFT <br>  CVS <br>  EM <br>^^U^^ <br>(space)  <br> (DP with ver #)   <br>(space)   <br>(End point of DP) <br> (space)  <br> (DEP POS ID)   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note[^4]   |   .TCRAFTCVSEM HHOWE4 LNCON {==17K==} D1E  <br>    .TCRAFTCVSEM<ins>U</ins> HHOWE4 LNCON {==17K==} D1E   |   U = Departure offline/unicom.   |
 
 ### Ground Control
@@ -171,7 +171,7 @@ See "Text to Pilots" section for context.
 ### Enroute
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .T   <br>{==(SUBJECT POINT)==}  <br> {==(E/W/N/S for PIT restrictions)==}   |   Issues a crossing restriction to the pilot for the given subject point.   |   . EMMMA   . SLT   . PSB   . PSBLGA   . CUTTAE   |   The .PSBLGA command is the one command that is different than the rest to set it apart from the base .PSB command.   |
+|   .T   <br>{==(SUBJECT POINT)==}  <br> {==(E/W/N/S for PIT restrictions)==}   |   Issues a crossing restriction to the pilot for the given subject point.   |   .EMMMA <br>  .SLT <br>  .PSB <br>  .PSBLGA  <br> .CUTTAE   |   The .PSBLGA command is the one command that is different than the rest to set it apart from the base .PSB command.   |
 
 
 ## FE-Buddy Commands
@@ -180,15 +180,15 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 ### In-Scope Reference
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .APT  <br> (FAA or ICAO APT ID)   |   Returns the following for the given airport:   FAA &ICAO code   Name   Elevation   Towered status   Responsible ARTCC   ASOS frequency   |   .APT PTK   |      |
-|   .NAV <br>  (NAVAID ID or Name)  |   Returns the following for the given NAVAID:   ID   Frequency   Name   Type   |   .NAV CGT   .NAV CHICAGOHEIGHTS   |   When entering the name, do not include special characters or spaces.   |
-|   .ID <br>  (AIR-CARRIER 3 LETTER ID or TELEPHONY)   |   Returns the 3LID and Telephony of the given air-carrier.   |   .ID DAL   .ID DELTA      .IDNKP   .ID ABAKANAIR   |   When entering the telephony, do not include special characters or spaces.   |
+|   .APT  <br> (FAA or ICAO APT ID)   |   Returns the following for the given airport:   FAA & ICAO code   Name   Elevation   Towered status   Responsible ARTCC   ASOS frequency   |   .APTPTK   |      |
+|   .NAV <br>  (NAVAID ID or Name)  |   Returns the following for the given NAVAID:   ID   Frequency   Name   Type   |   .NAVCGT  <br> .NAVCHICAGOHEIGHTS   |   When entering the name, do not include special characters or spaces.   |
+|   .ID <br>  (AIR-CARRIER 3 LETTER ID or TELEPHONY)   |   Returns the 3LID and Telephony of the given air-carrier.   |   .IDDAL <br>  .IDDELTA      .IDNKP   .ID ABAKANAIR   |   When entering the telephony, do not include special characters or spaces.   |
 
 ### Data Display
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .(AWY ID) <br>  F   |   Displays all the fixes (including NAVAIDs and airports) for the given airway.   |   .J15 F   |   ERAM-Only   |
-|   .(APT ID)  <br> (DP/STAR ID) <br>  F   |   Displays all the fixes (including NAVAIDs) for the given DP/STAR.   Reference note [^2].   |   .DTWPAVYL {==F==}   |   ERAM-Only   |
+|   .(AWY ID) <br>  F   |   Displays all the fixes (including NAVAIDs and airports) for the given airway.   |   .J15F   |   ERAM-Only   |
+|   .(APT ID)  <br> (DP/STAR ID) <br>  F   |   Displays all the fixes (including NAVAIDs) for the given DP/STAR.   Reference note [^2].   |   .DTWPAVYL{==F==}   |   ERAM-Only   |
 
 ### FE-Buddy Chart Recall
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
