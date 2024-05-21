@@ -3,13 +3,13 @@
 ### TRACON Required Routing
 | Airport | Conditions | RNAV | Non-RNAV | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- | ---- | ----- |
-| KIND | D21 TRACON and TOL TRACON | :check-circle: | :check-circle: | AOB FL220 | REEDA SJAAY SNKPT |
-| KMSP | PIT TRACON and CLE TRACON | check-circle: | | AOB FL360 | KAMMA KKILR# <br> OR <br> GSH/YABRO KAMMA KKILR# |
-| KMSP | PIT TRACON and CLE TRACON | | check-circle: | AOB FL360 | BAE EAU# |
-| KORD | D21 TRACON | check-circle: | | AOB FL280 |  SMUUV WYNDE# |
-| KORD | D21 TRACON | | check-circle: | AOB FL220 | JXN AZO ELX V100 DEERE # |
-| KORD | TOL TRACON | check-circle: | | AOB FL220 |  WATSN# |
-| KORD | TOL TRACON | | check-circle: | AOB FL220 |  OXI OXI# |
+| KIND | D21 TRACON and TOL TRACON | :white_check_mark: | :white_check_mark: | AOB FL220 | REEDA SJAAY SNKPT |
+| KMSP | PIT TRACON and CLE TRACON | :white_check_mark: | | AOB FL360 | KAMMA KKILR# <br> OR <br> GSH/YABRO KAMMA KKILR# |
+| KMSP | PIT TRACON and CLE TRACON | | :white_check_mark: | AOB FL360 | BAE EAU# |
+| KORD | D21 TRACON | :white_check_mark: | | AOB FL280 |  SMUUV WYNDE# |
+| KORD | D21 TRACON | | :white_check_mark: | AOB FL220 | JXN AZO ELX V100 DEERE # |
+| KORD | TOL TRACON | :white_check_mark: | | AOB FL220 |  WATSN# |
+| KORD | TOL TRACON | | :white_check_mark: | AOB FL220 |  OXI OXI# |
 
 ### RNAV Required Routes
 
