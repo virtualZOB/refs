@@ -2,7 +2,7 @@
 
 | Airport | Segment/Qualifier | Altitude[^1] | Notes |
 | ------- | ---------- | --------- | ------- |
-| All except DC Metro | | AOB FL320 | ZDC has control for climbs at CKB to FL320 with the AIR sector |
+| All except DC Metro | From PIT TRACON | AOB FL320 | ZDC has control for climbs at CKB to FL320 with the AIR sector |
 | DCA <br> DAA <br> ADW| RNAV Jets | BUCKO AOB FL310 | ZDC has control for descent to FL240 and turns direct PLDGE/DRUZZ east of a line CKB-IHD from the AIR/CKB sectors. <br> ZOB can clear direct no further than HONNR.<br>  Communications transfer must be completed by 5 NM west of BUCKO. |
 | DCA <br> DAA <br> ADW| Non-RNAV Jets | | BUCKO AOB FL310 | ZDC has control for descent to FL240 and turns direct PLDGE/DRUZZ east of a line CKB-IHD from the AIR/CKB sectors. ZOB can clear direct no further than HONNR.<br>  Communications transfer must be completed by 5 NM west of BUCKO. |
 | DCA <br> DAA <br> ADW| Props | | AOB FL210 |  ZDC has control for descent to FL240 and turns direct PLDGE/DRUZZ east of a line CKB-IHD from the AIR/CKB sectors. ZOB can clear direct no further than HONNR.<br>  Communications transfer must be completed by 5 NM west of BUCKO. |
