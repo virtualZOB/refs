@@ -1,4 +1,4 @@
-## Delivery Routing
+## Clearance Routing
 
 | Airport | Conditions | RNAV | Non-RNAV | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- | ---- | ----- |
