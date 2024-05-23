@@ -5,4 +5,4 @@
 *[RNAV]: Area Navigation 
 *[GNSS]: Global Navigation Satellite System 
 *[RNP]: Required Navigation Performance
-*[GSH#]: GSH9
+*[GSH\#]: GSH9
