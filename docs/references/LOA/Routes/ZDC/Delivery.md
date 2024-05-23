@@ -1,6 +1,5 @@
 ## Delivery Routing
 
-### RNAV Required Routes
 | Airport | Conditions | RNAV | Non-RNAV | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- | ---- | ----- |
 | ADW | Jets Via AIR/CKB/MGW/IHD Sectors |   | :white_check_mark: | | NUMMY# |
