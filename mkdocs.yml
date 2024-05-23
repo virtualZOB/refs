@@ -81,7 +81,9 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html #enables the use of image figures
   - abbr
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.arithmatex: # Allows the use of math formulas with proper formatting
       generic: true
   - pymdownx.escapeall: #allows line breaks in tables
