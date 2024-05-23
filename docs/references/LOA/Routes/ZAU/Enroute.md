@@ -18,7 +18,7 @@
 | KIND | | AOB FL280 |
 | KMDW | North of J60 | AOB FL220 | |
 | KMDW | J60 and South | AOB FL300 | |
-| KENW <br> KRAC <br> KUGN <br> | Entering GJI/ELX/LGR | AOB FL320 | |
+| KENW <br> KRAC <br> KUGN <br> | Entering GIJ/ELX/LGR | AOB FL320 | |
 | KENW <br> KRAC <br> KUGN <br> | All other ZAU Sectors | AOB FL340 | |
 | KSBN <br> KBEH <br> KEKM <br> KGSH <br> KVPZ <br> KMGC | LFD Sector | AOB FL220 descending to FL200 | |
 | KSBN <br> KBEH <br> KEKM <br> KGSH <br> KVPZ <br> KMGC | PAN Sector | AOB FL220 | |
