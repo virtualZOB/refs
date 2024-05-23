@@ -1,7 +1,5 @@
 ## Delivery Routing
 
-### RNAV Required Routes
-
 | Airport | Conditions | RNAV | Non-RNAV | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- | ---- | ----- |
 | BDL | |:white_check_mark: |:white_check_mark:  | | AUDIL STELA# <br> MEMMS WILET STELA# |
