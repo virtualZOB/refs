@@ -5,9 +5,9 @@
 | BDL | |:white_check_mark: |:white_check_mark:  | | AUDIL STELA#:material-information-outline:{ title="STELA1" } <br> MEMMS WILET STELA#:material-information-outline:{ title="STELA1" } |
 | BDR | |:white_check_mark: |:white_check_mark:  | | RKA BDR#:material-information-outline:{ title="BDR1" } |
 | BED | |:white_check_mark: |:white_check_mark:  | | EEGUL ZELKA#:material-information-outline:{ title="ZELKA2" } |
-| BOS  | | | :white_check_mark: | |  ALB GDM#:material-information-outline:{ title="GDM4" } |
+| BOS  | | | :white_check_mark: | |  ALB GDM T608 REVER |
 | BOS  | Jet | :white_check_mark: |  |  | PONCT JFUND#:material-information-outline:{ title="JFUND2" } |
-| BOS  | Prop |:white_check_mark: |:white_check_mark:  | | ALB.GDM#:material-information-outline:{ title="GDM4" } |
+| BOS  | Prop |:white_check_mark: |:white_check_mark:  | | ALB GDM T608 REVER |
 | DXR | |:white_check_mark: |:white_check_mark:  | | ITH DNY VALRE#:material-information-outline:{ title="VALRE5" } |
 | EWR | If via ZBW Airspace | :white_check_mark: |  | | FLOSI#:material-information-outline:{ title="FLOSI4" } |
 | EWR | If via ZBW Airspace | | :white_check_mark: | | SHAFF#:material-information-outline:{ title="SHAFF7" } |

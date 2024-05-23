@@ -45,6 +45,9 @@ plugins:
       redirect_maps:
         'airports/KCAK.md': 'airports/Class-C/Akron-Canton.md'
         'airports/Akron-Canton.md': 'airports/Class-C/Akron-Canton.md'
+        'LOA/Routes/ZBW/Delivery.md': 'LOA/Routes/ZBW/Clearance.md'
+        'LOA/Routes/ZAU/Delivery.md': 'LOA/Routes/ZAU/Clearance.md'
+        'LOA/Routes/ZDC/Delivery.md': 'LOA/Routes/ZDC/Clearance.md'
   - open-in-new-tab
 
 # Styling Front-end
