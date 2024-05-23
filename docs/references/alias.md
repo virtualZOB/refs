@@ -70,38 +70,28 @@ See "Text to Pilots" section for context.
 ## GROUND TO GROUND COMMUNICATION
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .M <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Generic private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .M {==D1==} {==F==} <ins>has declared MinFuel</ins> |      |
-|   .RC <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Rolling Call Notification private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .RC {==D1E==}  <ins>RWY 21</ins>   |      |
-|   .RT <br> ``(space)`` <br> ({== POS ID ==})   |   With the subject aircraft selected, sends a Rejected Takeoff Notification private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .RT {== D1E ==}   |      |
-|   .MA <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Missed Approach Notification private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .MA {==D1E==}  <ins>Published</ins>   |      |
-|   .DT <br> ``(space)`` <br> ({== POS ID ==})   |   With the subject aircraft selected, sends a Down-Time Notification private message to the given ATC while automatically inserting the subject aircraft ’s callsign and current time.   |   .DT {== D1F ==}   |      |
-|   .RR <br> ``(space)`` <br> ({== ATPOS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT up to 8 elements</ins>)  |   With the subject aircraft selected, sends a Release Request private message to the given ATC while automatically inserting the subject aircraft ’s callsign, Departure and Arrival airports, and route of flight.   |   .RR {==D1E==} <ins>H120 8K S280</ins>   |      |
-|   .RA <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins># of min from now</ins>)  |   With the subject aircraft selected, sends a Release Approved private message to the given ATC while automatically inserting the subject aircraft ’s callsign and the number of minuets from now that the aircraft is approved for release.   |   .RA {== D2P ==}  <ins>3</ins>   |   If the ACFT is released at this current time, do not specify a number of min from now.   |
-|   .PO <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> ({== POINT ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Point-Out request private message to the given ATC while automatically inserting the subject aircraft ’s position relative to the given point, callsign and assigned altitude.   |   .PO {== D1F ==} {== WNGNT ==} <ins>to the boundary and then turning northeast bound</ins>    |      |
-|   .HO <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> ({== POINT ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Handoff Notification private message to the given ATC while automatically inserting the subject aircraft ’s position relative to the given point, assigned beacon code, callsign and assigned altitude.   |   .HO {== D1F ==} {== WNGNT ==} <ins>Requesting FL230</ins>   |      |
-|   .APREQ <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Approval Request (APREQ) private message to the given ATC while automatically inserting the subject aircraft ’s callsign.   |   .M {== 77 ==} <ins>Direct STENT</ins>   |      |
+|   .M <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Generic private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .M {==D1==} {==F==} <ins>has declared MinFuel</ins> |      |
+|   .RC <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Rolling Call Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .RC {==D1E==}  <ins>RWY 21</ins>   |      |
+|   .RT <br> ``(space)`` <br> ({== POS ID ==})   |   With the subject aircraft selected, sends a Rejected Takeoff Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .RT {== D1E ==}   |      |
+|   .MA <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Missed Approach Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .MA {==D1E==}  <ins>Published</ins>   |      |
+|   .DT <br> ``(space)`` <br> ({== POS ID ==})   |   With the subject aircraft selected, sends a Down-Time Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign and current time.   |   .DT {== D1F ==}   |      |
+|   .RR <br> ``(space)`` <br> ({== ATPOS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT up to 8 elements</ins>)  |   With the subject aircraft selected, sends a Release Request private message to the given ATC while automatically inserting the subject aircraft’s callsign, Departure and Arrival airports, and route of flight.   |   .RR {==D1E==} <ins>H120 8K S280</ins>   |      |
+|   .RA <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins># of min from now</ins>)  |   With the subject aircraft selected, sends a Release Approved private message to the given ATC while automatically inserting the subject aircraft’s callsign and the number of minuets from now that the aircraft is approved for release.   |   .RA {== D2P ==}  <ins>3</ins>   |   If the ACFT is released at this current time, do not specify a number of min from now.   |
+|   .PO <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> ({== POINT ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Point-Out request private message to the given ATC while automatically inserting the subject aircraft’s position relative to the given point, callsign and assigned altitude.   |   .PO {== D1F ==} {== WNGNT ==} <ins>to the boundary and then turning northeast bound</ins>    |      |
+|   .HO <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> ({== POINT ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Handoff Notification private message to the given ATC while automatically inserting the subject aircraft’s position relative to the given point, assigned beacon code, callsign and assigned altitude.   |   .HO {== D1F ==} {== WNGNT ==} <ins>Requesting FL230</ins>   |      |
+|   .APREQ <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Approval Request (APREQ) private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .M {== 77 ==} <ins>Direct STENT</ins>   |      |
 
 ## AUTO-TRACK CONFIGURATIONS
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   .AT <br> ({==FAC ID ==}) <br> <ins>OFF</ins> |   Turns on/off auto-track for all underlying towered fields for the given facility.   |   .AT{==D21==} <br> .AT{==D21==}<ins>OFF</ins>   |      |
-|   .AT <br> ZOB <br> <ins>OFF</ins>  |   Turns on/off auto-track at all towered fields under ZOB which are open during the day/mid.   |   .ATZOB <br> .ATZO<ins>OFF</ins>   |      |
+|   .AT <br> ZOB <br> <ins>OFF</ins>  |   Turns on/off auto-track at all towered fields under ZOB which are open during the day/mid.   |   .ATZOB <br> .ATZOB<ins>OFF</ins>   |      |
 
 ## OTHER TOOLS
 
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .RLS <br> FP   |   With the subject aircraft selected, sends a message to the VATSIM FSD releasing control of the flight plan, allowing the pilot to edit elements in it and resend it.   |   .RLSFP   |   This is not a ZOB specific command but is not a well-documented command in other outlets.   |
-
-## FAA CHART RECALL
-|   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
-| --- | --- | --- | --- |
-|   ???   |      |      |      |
-
-## FAA DATA IN-SCOPE REFERENCE (ISR)
-|   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
-| --- | --- | --- | --- |
-|   ???   |      |      |      |
+|   .RLS <br> FP   |   With the subject aircraft selected, sends a message to the VATSIM FSD releasing control of the flight plan, allowing the pilot to edit elements in it and resend it.   |   .RLSFP   |   This is not a ZOB specific command but is not a well-documented command in external reference materials.   |
 
 ## TEXT TO PILOTS (TTP)
 ### General
@@ -123,7 +113,7 @@ See "Text to Pilots" section for context.
 | --- | --- | --- | --- |
 |   .T <br> RBC   |   Readback Correct   |   .TRBC   |      |
 |   .T <br> CRAFT<br> AF <br> <ins>U</ins> <br> ``(space)`` <br> ({==INITIAL ALTITUDE ==}) <br> ``(space)`` <br> ({==DEP POS ID ==})   |   Issues a CRAFT clearance “as filed ".   |   .TCRAFTAF {== 17K D1E ==} <br> .TCRAFTAF<ins>U</ins> {== 17K D1E ==}   |   U = Departure offline/unicom   |
-|   .T <br> CRAFT <br> FR <br> <ins>U</ins> <br> ``(space)`` <br> ({==INITIAL ALTITUDE ==}) <br> ``(space)`` <br> ({==DEP POS ID ==})   |   Issues a CRAFT clearance with a full route..   |   .TCRAFTFR {== 17K D1E ==} <br> .TCRAFTFR <ins>U</ins> {== 17K D1E ==}   |   U = Departure offline/unicom   |
+|   .T <br> CRAFT <br> FR <br> <ins>U</ins> <br> ``(space)`` <br> ({==INITIAL ALTITUDE ==}) <br> ``(space)`` <br> ({==DEP POS ID ==})   |   Issues a CRAFT clearance with a full route.   |   .TCRAFTFR {== 17K D1E ==} <br> .TCRAFTFR <ins>U</ins> {== 17K D1E ==}   |   U = Departure offline/unicom   |
 |   .T <br> CRAFT <br> CVS <br><ins>U</ins> <br> ``(space)`` <br> ({==DP with ver # ==}) <br> ``(space)`` <br>   ({==DP END POINT ==}) <br> ``(space)`` <br> ({==DEP POS ID ==})   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID.   Reference note[^4]   |   .TCRAFTCVS {== HHOWE4 ==} {== LNCON ==} {== D1E ==} <br> .TCRAFTCVS<ins>U</ins> {== HHOWE4 ==} {== LNCON ==} {== D1E ==}   |   U = Departure offline/unicom.   |
 |   .T <br> CRAFT <br> CVS <br> EM <br> <ins>U</ins> <br>``(space)`` <br> ({==DP with ver # ==}) <br>  ``(space)`` <br> ({==DP END POINT ==}) <br> ``(space)`` <br> ({==INITIAL ALTITUDE ==}) <br> ``(space)`` <br> ({==DEP POS ID ==})   |   Issues a CRAFT clearance with a DP, DP endpoint, and issues Climb Via SID, except  maintain .   Reference note[^4]   |   .TCRAFTCVSEM {==HHOWE4 ==} ({==LNCON ==} {==17K ==} {== D1E ==} <br> .TCRAFTCVSEM<ins>U</ins> {== HHOWE4 ==} {== LNCON ==} {== 17K ==} {== D1E ==}   |   U = Departure offline/unicom.   |
 
@@ -146,7 +136,7 @@ See "Text to Pilots" section for context.
 |   .T <br> RC   |   RADAR Contact   |   .TRC   |      |
 |   .T <br> RC <br> DB <br> ``(space)`` <br> ({== POINT ==})   |   RADAR Contact with their position (distance &bearing) relative to the given point   |   .TRCDB {== DJB ==}   |      |
 |   .T <br> FH <br> ``(space)`` <br> ({==HEADINGD ==})   |   Fly the given heading.   |   .TFH {== 220 ==}   |      |
-|   .T <br> T <br> ({==L/RD ==})   |   Turn left/right, fly the given heading.   |   .TT{== L 220 ==} <br> .TT{== R 220 ==}   |      |
+|   .T <br> T <br> ({==L/RD ==})   |   Turn left/right, fly the given heading.   |   .TT{==L 220 ==} <br> .TT{==R 220 ==}   |      |
 |   .T <br> RST   |   RADAR Services Terminated   |   .TRST   |      |
 |   .T <br> LMA   |   Leaving my airspace, radar services terminated.   |   .TLMA   |      |
 |   .T <br> ({==D/C ==}) <br> M <br> ``(space)`` <br> ({==ALTITUDED ==})   |   Climb/Descend and maintain the given altitude.   |   .T{==D==}M {==8K==} <br> .T{==C==}M {==FL230==}   |      |
