@@ -45,7 +45,7 @@ plugins:
       redirect_maps:
         'airports/KCAK.md': 'airports/Class-C/Akron-Canton.md'
         'airports/Akron-Canton.md': 'airports/Class-C/Akron-Canton.md'
-  - mkdocs-open-in-new-tab
+  - open-in-new-tab
 
 # Styling Front-end
 extra_css:
