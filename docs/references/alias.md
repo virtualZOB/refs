@@ -155,7 +155,7 @@ See "Text to Pilots" section for context.
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   .T <br> HFR   |   Hold for release.   |   .THFR   |      |
-|   .T <br> RFD   |   Issues a Release-For-Departure clearance that includes a 10min void time from the current time and an advisory to contact the issuing controller no later than 15min of intentions if not off in time.   |   .TFRD   |      |
+|   .T <br> RFD   |   Issues a Release-For-Departure clearance that includes a 10min void time from the current time and an advisory to contact the issuing controller no later than 15min of intentions if not off in time.   |   .TRFD   |      |
 
 ### Approach
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
