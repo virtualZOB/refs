@@ -42,7 +42,7 @@
 | ------- | ---------- | --------- | ------- |
 | KGYY | South of [V233](https://skyvector.com/?ll=44.25424901841776,-85.09954834326308&chart=302&zoom=3&fpl=MOP%20V233%20PLN) <br> AND <br> North of [J60](https://skyvector.com/?ll=41.77131168333379,-82.09121704454029&chart=302&zoom=6&fpl=PSB%20J60%20GSH) | BAGEL GSH GSH# |
 | KIGQ | South of [V233](https://skyvector.com/?ll=44.25424901841776,-85.09954834326308&chart=302&zoom=3&fpl=MOP%20V233%20PLN) <br> AND <br> North of [J60](https://skyvector.com/?ll=41.77131168333379,-82.09121704454029&chart=302&zoom=6&fpl=PSB%20J60%20GSH) | BAGEL GSH GSH# |
-| KGYY | South of [J60](https://skyvector.com/?ll=41.77131168333379,-82.09121704454029&chart=302&zoom=6&fpl=PSB%20J60%20GSH) | GSH GSH STAR |
+| KGYY | South of [J60](https://skyvector.com/?ll=41.77131168333379,-82.09121704454029&chart=302&zoom=6&fpl=PSB%20J60%20GSH) | GSH GSH-STAR |
 | KIGQ | South of [J60](https://skyvector.com/?ll=41.77131168333379,-82.09121704454029&chart=302&zoom=6&fpl=PSB%20J60%20GSH) | GSH GSH# |
 | MKE Metro[^4] | | MKG/GETCH LYSTR SUDDS |
 | KENW | | | PMM/SMUUV ZEMEL EXARR |
