@@ -17,8 +17,8 @@ title: Minor Fields SOP
 | Buffalo | [ERI](./Class-D/Erie.md) <br> [IAG](./Class-D/Niagara.md) |
 | Detroit (D21) | [ARB](./Class-D/Ann-Arbor.md) <br> [DET](./Class-D/Coleman-Young.md) <br> [PTK](./Class-D/Oakland-County.md) <br> [YIP](./Class-D/Willow-Run.md) |
 | Great Lake | [FNT](./Class-C/Bishop.md) <br> [JXN](./Class-D/Jackson-County.md) <br> [LAN](./Class-C/Capital-Region.md) <br> [MBS](./Class-C/MBS.md) |
-| Johnstown | [LBE](./Class-D/Arnold-Palmer.md) <br> JST |
-| Pittsburgh | [AGC](./Class-D/Allegheny.md) <br> [BVI](./Class-D/Beaver-County.md[) <br> [HLG](./Class-D/Wheeling-County.md) | 
+| Johnstown | [LBE](./Class-D/Arnold-Palmer.md) <br> [JST](./Class-D/Johnstown.md) |
+| Pittsburgh | [AGC](./Class-D/Allegheny.md) <br> [BVI](./Class-D/Beaver-County.md) <br> [HLG](./Class-D/Wheeling-County.md) | 
 | Rochester | [ROC](./Class-C/Rochester.md) |
 | Selfridge | [MTC](./Class-D/Selfridge.md) | 
 | Toledo | [TOL](./Class-C/Toledo.md) | 
