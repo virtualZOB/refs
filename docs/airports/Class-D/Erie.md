@@ -1,11 +1,16 @@
----
-title: Erie
----
+# Erie (ERI)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
 
-# Minor Field Standard Operating Procedures 7110.2F
-[Authority Section](../../authority-sections/7110.2F-authority.md)
-- Current Revision F
-- Effective Date: 2023/07/01
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 4,000
+- IFR Depature Heading: Runway Heading
+- VFR Altitude: AOB 4,000
+- Pattern Altitude: 1,800
+- Missed Approach: 3,200 and Runway Heading
+
 
 ## 11. ERI
 
@@ -19,10 +24,8 @@ title: Erie
 ### 11.2 Overlying Positions
 The position directly overlying ERI is BUF-X (121.000) or whichever controller has responsibility over the position.
 
-
 ### 11.3 Operational Hours
 0600-0000L
-
 
 ### 11.4 General Operations
 1. The ERI surface area of responsibility is defined as the ERI Class D airspace.

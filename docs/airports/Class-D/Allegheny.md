@@ -1,11 +1,21 @@
 ---
 title: Allegheny
 ---
-# Minor Field Standard Operating Procedures 7110.2F
-[Authority Section](../../authority-sections/7110.2F-authority.md)
-- Current Revision F
-- Effective Date: 2023/07/01
 
+# Allegheny (AGC)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
+
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 3,000
+- IFR Depature Heading:
+    - 28/31: 040, 220, 250
+    - 10/13: 020, 100, 180
+- VFR Altitude: AOB 3,000
+- Pattern Altitude: 2,300
+- Missed Approach: 3,000 and Runway Heading
 ## 3. AGC
 
 ### 3.1 Positions

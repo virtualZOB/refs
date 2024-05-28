@@ -1,10 +1,19 @@
----
-title: Willow Run
----
-# Minor Field Standard Operating Procedures 7126.2F
-[Authority Section](../../authority-sections/7126.2F-authority.md)
-- Current Revision F
-- Effective Date: 2023/07/01
+# Willow Run (YIP)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
+
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 3,000
+- IFR Depature Heading:
+    - 23 - Runway Heading
+    - 5/9/27 - 300 Heading
+- VFR Altitude: AOB 3,000
+- Pattern Altitude: 1,800
+- Missed Approach: 3,000 and... 
+    - 23 - Runway Heading
+    - 5/9/27 - 300 Heading
 
 ## 26. YIP
 

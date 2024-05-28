@@ -12,17 +12,17 @@ title: Minor Fields SOP
 ### 2.1 Airfield Delegation
 | TRACON | Airports |
 | -- | -- | 
-| Cleveland | [BKL](Burke-Lakefront.md) <br> [CGF](Cuyahoga-County.md) <br> [CAK](../Class-C/Akron-Canton.md) <br> [MFD](Mansfield.md) |
-| Clarksburg | [CKB](North-Central-West-Virgina.md) <br> [MGW](Morgantown.md) | 
-| Buffalo | [ERI](Erie.md) <br> [IAG](Niagara.md) |
-| Detroit (D21) | [ARB](Ann-Arbor.md) <br> [DET](Coleman-Young.md) <br> [PTK](Oakland-County.md) <br> [YIP](Willow-Run.md) |
-| Great Lake | [FNT](../Class-C/Bishop.md) <br> [JXN](Jackson-County.md) <br> [LAN](../Class-C/Capital-Region.md) <br> [MBS](../Class-C/MBS.md) |
-| Johnstown | [LBE](Arnold-Palmer.md) <br> JST |
-| Pittsburgh | [AGC](Allegheny.md) <br> [BVI](Beaver-County.md[) <br> [HLG](Wheeling-County.md) | 
-| Rochester | [ROC](../Class-C/Rochester.md) |
-| Selfridge | [MTC](Selfridge.md) | 
-| Toledo | [TOL](../Class-C/Toledo.md) | 
-| Youngstown | [YNG](../Class-C/Youngstown.md) |
+| Cleveland | [BKL](./Class-D/Burke-Lakefront.md) <br> [CGF](./Class-C/Cuyahoga-County.md) <br> [CAK](./Class-C/Akron-Canton.md) <br> [MFD](./Class-D/Mansfield.md) |
+| Clarksburg | [CKB](./Class-D/North-Central-West-Virgina.md) <br> [MGW](./Class-D/Morgantown.md) | 
+| Buffalo | [ERI](./Class-D/Erie.md) <br> [IAG](./Class-D/Niagara.md) |
+| Detroit (D21) | [ARB](./Class-D/Ann-Arbor.md) <br> [DET](./Class-D/Coleman-Young.md) <br> [PTK](./Class-D/Oakland-County.md) <br> [YIP](./Class-D/Willow-Run.md) |
+| Great Lake | [FNT](./Class-C/Bishop.md) <br> [JXN](./Class-D/Jackson-County.md) <br> [LAN](./Class-C/Capital-Region.md) <br> [MBS](./Class-C/MBS.md) |
+| Johnstown | [LBE](./Class-D/Arnold-Palmer.md) <br> JST |
+| Pittsburgh | [AGC](./Class-D/Allegheny.md) <br> [BVI](./Class-D/Beaver-County.md[) <br> [HLG](./Class-D/Wheeling-County.md) | 
+| Rochester | [ROC](./Class-C/Rochester.md) |
+| Selfridge | [MTC](./Class-D/Selfridge.md) | 
+| Toledo | [TOL](./Class-C/Toledo.md) | 
+| Youngstown | [YNG](./Class-C/Youngstown.md) |
 
 ### 2.2 Clearance Delivery 
 

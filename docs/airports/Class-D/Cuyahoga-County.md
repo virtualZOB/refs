@@ -1,11 +1,16 @@
----
-title: Cuyahoga County
----
+# Cuyahoga County (CGF)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
 
-# Minor Field Standard Operating Procedures 7110.2F
-[Authority Section](../../authority-sections/7110.2F-authority.md)
-- Current Revision F
-- Effective Date: 2023/07/01
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 3,000
+- IFR Depature Heading: Runway Heading
+- VFR Altitude: AOB 3,000
+- Pattern Altitude: 1,800
+- Missed Approach: 3,000 and 180 Heading
+
 
 ## 8. CGF
 
@@ -24,8 +29,7 @@ The position directly overlying CGF is CLE-N (125.325) or whichever controller h
 
 ### 8.4 General Operations
 1. CGF is responsible for VFR operations within the CGF Class D Surface Area. 
-2. When verbally coordinated with CLE: CGF may conduct SVFR operations within
-the Class D surface area.
+2. When verbally coordinated with CLE: CGF may conduct SVFR operations within the Class D surface area.
 3. Without prior coordination, CLE may vector aircraft through that portion of the CGF Class D airspace as depicted in [figure 8-1](#figure-8-1---cgf-class-d-airspace-areas-a-illustration). 
     - Area A from 2,400ft and above
     - Area B from 3,000ft and above

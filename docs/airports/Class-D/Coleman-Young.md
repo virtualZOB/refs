@@ -1,11 +1,15 @@
----
-title: Detroit City
----
+# Detroit City (DET)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
 
-# Minor Field Standard Operating Procedures 7110.2F
-[Authority Section](../../authority-sections/7110.2F-authority.md)
-- Current Revision F
-- Effective Date: 2023/07/01
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 3,000
+- IFR Depature Heading: Runway Heading
+- VFR Altitude: AOB 2,500
+- Pattern Altitude: 1,700
+- Missed Approach: 3,000 and Runway Heading
 
 ## 10. DET
 

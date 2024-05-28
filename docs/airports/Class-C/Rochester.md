@@ -1,6 +1,17 @@
----
-title: Rochester
----
+# Rochester (ROC)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
+
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 4,000
+- IFR Depature Heading (Clockwise Direction): 
+    - 22/25/28: 190-280
+    - 4/7/10: 340-120
+- VFR Altitude: AOB 2,500
+- Pattern Altitude: AOB 2,500
+- Missed Approach: 3,000 and Runway Heading
 
 # Minor Field Standard Operating Procedures 7110.2F
 [Authority Section](../../authority-sections/7110.2F-authority.md)
@@ -23,8 +34,8 @@ Continuous
 
 ### 24.3 General Operations
 1. ROC is authorized to conduct local VFR operations at or below 2,500ft within the ROC Class C surface area. Local pattern traffic must not affect the arrival sequence established by approach control.
-2. Except as required to avoid departures in the coordinated departure area, AZO is authorized to conduct operations at or above 3,000ft in the ROC Class C surface area without coordination.
-3. AZO authorizes ROC to utilize a certified TDW that may be utilized to provide radar service as deemed necessary IAW FAAO 7110.65 3-1-9.b. Additionally, LC shall issue radar traffic advisories IAW FAAO 7110.65 2-1-21a.
+2. Except as required to avoid departures in the coordinated departure area, 27. ROC is authorized to conduct operations at or above 3,000ft in the ROC Class C surface area without coordination.
+3. ROC authorizes ROC to utilize a certified TDW that may be utilized to provide radar service as deemed necessary IAW FAAO 7110.65 3-1-9.b. Additionally, LC shall issue radar traffic advisories IAW FAAO 7110.65 2-1-21a.
 
 ### 24.4 Departures
 1. Issue the current XEROX_ Standard Instrument Departure (SID). Aircraft not issued the current XEROX SID must be issued all relevant information contained in the SID.
@@ -32,7 +43,7 @@ Continuous
 3. All VFR outbound aircraft are to be assigned a departure frequency based on direction of flight, beacon code, and may expect at or below 2,500ft, regardless of altitude filed.
 4. Provide initial departure separation by assigning appropriate headings to all aircraft:
     - RWY 22, 25, & 28: 190 clockwise to 280
-    - RWY 04, 07, & 10: 340 clockwise to 12
+    - RWY 04, 07, & 10: 340 clockwise to 120
 
 ### 24.6 Arrivals
 1. Local control assumes control of arriving aircraft sequenced by approach

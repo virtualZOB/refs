@@ -1,11 +1,15 @@
----
-title: Niagra
----
+# Niagara (IAG)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
 
-# Minor Field Standard Operating Procedures 7110.2F
-[Authority Section](../../authority-sections/7110.2F-authority.md)
-- Current Revision F
-- Effective Date: 2023/07/01
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 3,000
+- IFR Depature Heading: 190-230 (Clockwise)
+- VFR Altitude: AOB 3,000
+- Pattern Altitude: 1,600
+- Missed Approach: 3,000 and 190-230 (Clockwise) Heading
 
 ## 14. IAG
 

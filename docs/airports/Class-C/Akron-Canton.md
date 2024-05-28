@@ -1,4 +1,12 @@
-# Akron-Canton (KACK)
+# Akron-Canton (CAK)
+
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 3,000
+- IFR Depature Heading: Runway Heading
+- VFR Altitude: AOB 3,000
+- Pattern Altitude: 2,300
+- Missed Approach: 3,000 and Runway Heading
 
 ## Positions
 

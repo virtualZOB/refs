@@ -1,11 +1,18 @@
----
-title: Burke Lakefront
----
+# Burke Lakefront (BKL)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
 
-# Minor Field Standard Operating Procedures 7110.2F
-[Authority Section](../../authority-sections/7110.2F-authority.md)
-- Current Revision F
-- Effective Date: 2023/07/01
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 2,000
+- IFR Depature Heading:     
+    - SID
+    - 350
+    - 300-050 (DVA)
+- VFR Altitude: AOB 2,000
+- Pattern Altitude: 1,600
+- Missed Approach: 2,000 and 350 Heading
 
 ## 5. BKL
 
@@ -31,8 +38,7 @@ The position directly overlying BKL is CLE-N (125.325) or whichever controller h
 
 ### 5.5 Departures
 1. Hold all aircraft (Hold For Release) until released by CLE.
-2. Coordinate approval requests through CLE for all non-standard departure
-routes and/or altitudes
+2. Coordinate approval requests through CLE for all non-standard departure routes and/or altitudes
 3. Assign all IFR departures one of the following:
     - SID Departure
     - Standard Heading 350

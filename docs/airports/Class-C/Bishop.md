@@ -1,6 +1,20 @@
----
-title: Flint
----
+# Flint (FNT)
+> [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
+
+##### Quick Reference
+!!! abstract
+- IFR Depature Altitude: 3,000
+- IFR Depature Heading (Clockwise Direction):
+    - 9/18: 060-RWY18 HDG
+    - 9/36: RWY36 HDG-120
+    - 18/27: RWY18 HDG-300 
+    - 27/36: 240-RWY36 HDG
+- VFR Altitude: AOB 3,000
+- Pattern Traffic: AOB 2,500
+- Missed Approach: 3,000 and Dispersal Area
+
 
 # Minor Field Standard Operating Procedures 7110.2F
 [Authority Section](../../authority-sections/7110.2F-authority.md)
