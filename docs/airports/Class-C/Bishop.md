@@ -25,8 +25,7 @@ The position directly overlying FNT is AZO-B (118.800) or whichever controller h
 
 
 ### 12.4 General Operations
-1. FNT is authorized to conduct local VFR operations at or below 2,500ft within the FNT Class C surface area. Local pattern traffic must not affect the arrival
-sequence established by approach control.
+1. FNT is authorized to conduct local VFR operations at or below 2,500ft within the FNT Class C surface area. Local pattern traffic must not affect the arrival sequence established by approach control.
 2. Except as required to avoid departures in the coordinated departure area, AZO is authorized to conduct operations at or above 3,000ft in the FNT Class C surface area without coordination.
 3. AZO authorizes FNT to utilize a certified TDW that may be utilized to provide radar service as deemed necessary IAW FAAO 7110.65 3-1-9.b. Additionally, LC shall issue radar traffic advisories IAW FAAO 7110.65 2-1-21a.
 

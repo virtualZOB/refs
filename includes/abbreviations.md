@@ -49,6 +49,21 @@
 *[LENDY_]: LENDY8
 *[BOJID_]: BOJID4
 *[BUNTS_]: BUNTS3
+*[RKCTY_]: RKCTY2
+*[KKISS_]: KKISS2
+*[RRALF_]: RRALF3
+*[PETTE_]: PETTE2
+*[XEROX_]: XEROX7
+*[HANBL_]: HANBL3
+*[VCTRZ_]: VCTRZ2
+*[LECTR_]: LECTR3
+*[HAYLL_]: HAYLL3
+*[CRAKN_]: CRAKN2
+*[HTROD_]: HTROD2
+*[TRYBE_]: TRYBE4
+
+
+
 
 *[STAR]: Standard Terminal Arrival Route 
 *[SID]: Standard Instrument Departure 
