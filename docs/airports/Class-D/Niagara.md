@@ -3,8 +3,7 @@
 > - Current Revision F
 > - Effective Date: 2023/07/01
 
-##### Quick Reference
-!!! abstract
+!!! abstract "Quick Reference"
     - IFR Depature Altitude: 3,000
     - IFR Depature Heading: 190-230 (Clockwise)
     - VFR Altitude: AOB 3,000

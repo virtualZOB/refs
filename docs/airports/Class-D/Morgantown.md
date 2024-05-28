@@ -3,8 +3,7 @@
 > - Current Revision F
 > - Effective Date: 2023/07/01
 
-##### Quick Reference
-!!! abstract
+!!! abstract "Quick Reference"
     - IFR Depature Altitude: 6,000
     - IFR Depature Heading: Runway Heading
     - VFR Altitude: AOB 6,000

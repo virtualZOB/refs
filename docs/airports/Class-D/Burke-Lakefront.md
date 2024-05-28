@@ -3,8 +3,7 @@
 > - Current Revision F
 > - Effective Date: 2023/07/01
 
-##### Quick Reference
-!!! abstract
+!!! abstract "Quick Reference"
     - IFR Depature Altitude: 2,000
     - IFR Depature Heading:     
         - SID

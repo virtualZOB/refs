@@ -3,8 +3,7 @@
 > - Current Revision F
 > - Effective Date: 2023/07/01
 
-##### Quick Reference
-!!! abstract
+!!! abstract "Quick Reference"
     - IFR Depature Altitude (unless filed lower):
         - Area 1: 10,000 
         - Area 2: 8,000
