@@ -1,7 +1,3 @@
----
-title: Allegheny
----
-
 # Allegheny (AGC)
 > [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
 > - Current Revision F
@@ -17,7 +13,7 @@ title: Allegheny
     - Pattern Altitude: 2,300
     - Missed Approach: 3,000 and Runway Heading
 
-    
+
 ## 3. AGC
 
 ### 3.1 Positions
