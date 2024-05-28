@@ -5,13 +5,13 @@
 
 ##### Quick Reference
 !!! abstract
-- IFR Depature Altitude: 4,000
-- IFR Depature Heading (Clockwise Direction): 
-    - 22/25/28: 190-280
-    - 4/7/10: 340-120
-- VFR Altitude: AOB 2,500
-- Pattern Altitude: AOB 2,500
-- Missed Approach: 3,000 and Runway Heading
+    - IFR Depature Altitude: 4,000
+    - IFR Depature Heading (Clockwise Direction): 
+        - 22/25/28: 190-280
+        - 4/7/10: 340-120
+    - VFR Altitude: AOB 2,500
+    - Pattern Altitude: AOB 2,500
+    - Missed Approach: 3,000 and Runway Heading
 
 # Minor Field Standard Operating Procedures 7110.2F
 [Authority Section](../../authority-sections/7110.2F-authority.md)

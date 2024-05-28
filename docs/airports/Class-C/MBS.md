@@ -5,15 +5,15 @@
 
 ##### Quick Reference
 !!! abstract
-- IFR Depature Altitude: 4,000
-- IFR Depature Heading (Clockwise Direction):
-    - 5/14: 020-RWY14 HDG
-    - 5/32: RWY32 HDG-090
-    - 14/23: RWY14 HDG-270
-    - 23/32: 200-RWY32 HDG
-- VFR Altitude: AOB 4,000
-- Pattern Altitude: AOB 2,500
-- Missed Approach: 3,000 and Dispersal Area
+    - IFR Depature Altitude: 4,000
+    - IFR Depature Heading (Clockwise Direction):
+        - 5/14: 020-RWY14 HDG
+        - 5/32: RWY32 HDG-090
+        - 14/23: RWY14 HDG-270
+        - 23/32: 200-RWY32 HDG
+    - VFR Altitude: AOB 4,000
+    - Pattern Altitude: AOB 2,500
+    - Missed Approach: 3,000 and Dispersal Area
 
 ## 19. MBS
 

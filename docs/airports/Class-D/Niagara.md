@@ -5,11 +5,11 @@
 
 ##### Quick Reference
 !!! abstract
-- IFR Depature Altitude: 3,000
-- IFR Depature Heading: 190-230 (Clockwise)
-- VFR Altitude: AOB 3,000
-- Pattern Altitude: 1,600
-- Missed Approach: 3,000 and 190-230 (Clockwise) Heading
+    - IFR Depature Altitude: 3,000
+    - IFR Depature Heading: 190-230 (Clockwise)
+    - VFR Altitude: AOB 3,000
+    - Pattern Altitude: 1,600
+    - Missed Approach: 3,000 and 190-230 (Clockwise) Heading
 
 ## 14. IAG
 

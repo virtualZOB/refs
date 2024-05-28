@@ -5,15 +5,15 @@
 
 ##### Quick Reference
 !!! abstract
-- IFR Depature Altitude: 3,000
-- IFR Depature Heading:
-    - 23 - Runway Heading
-    - 5/9/27 - 300 Heading
-- VFR Altitude: AOB 3,000
-- Pattern Altitude: 1,800
-- Missed Approach: 3,000 and... 
-    - 23 - Runway Heading
-    - 5/9/27 - 300 Heading
+    - IFR Depature Altitude: 3,000
+    - IFR Depature Heading:
+        - 23 - Runway Heading
+        - 5/9/27 - 300 Heading
+    - VFR Altitude: AOB 3,000
+    - Pattern Altitude: 1,800
+    - Missed Approach: 3,000 and... 
+        - 23 - Runway Heading
+        - 5/9/27 - 300 Heading
 
 ## 26. YIP
 

@@ -5,14 +5,14 @@
 
 ##### Quick Reference
 !!! abstract
-- IFR Depature Altitude: 2,000
-- IFR Depature Heading:     
-    - SID
-    - 350
-    - 300-050 (DVA)
-- VFR Altitude: AOB 2,000
-- Pattern Altitude: 1,600
-- Missed Approach: 2,000 and 350 Heading
+    - IFR Depature Altitude: 2,000
+    - IFR Depature Heading:     
+        - SID
+        - 350
+        - 300-050 (DVA)
+    - VFR Altitude: AOB 2,000
+    - Pattern Altitude: 1,600
+    - Missed Approach: 2,000 and 350 Heading
 
 ## 5. BKL
 

@@ -5,11 +5,11 @@
 
 ##### Quick Reference
 !!! abstract
-- IFR Depature Altitude: 4,000
-- IFR Depature Heading: Runway Heading
-- VFR Altitude: AOB 4,000
-- Pattern Altitude: 1,800
-- Missed Approach: 3,200 and Runway Heading
+    - IFR Depature Altitude: 4,000
+    - IFR Depature Heading: Runway Heading
+    - VFR Altitude: AOB 4,000
+    - Pattern Altitude: 1,800
+    - Missed Approach: 3,200 and Runway Heading
 
 
 ## 11. ERI
