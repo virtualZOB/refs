@@ -3,8 +3,7 @@
 > - Current Revision F
 > - Effective Date: 2023/07/01
 
-##### Quick Reference
-!!! abstract
+!!! abstract "Quick Reference"
     - IFR Depature Altitude: 4,000
     - IFR Depature Heading (Clockwise Direction): 
         - 22/25/28: 190-280

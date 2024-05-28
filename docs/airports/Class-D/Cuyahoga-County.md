@@ -1,10 +1,9 @@
 # Cuyahoga County (CGF)
 > [Minor Field Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
-> - Current Revision F
-> - Effective Date: 2023/07/01
+>   - Current Revision F
+>   - Effective Date: 2023/07/01
 
-##### Quick Reference
-!!! abstract
+!!! abstract "Quick Reference"
     - IFR Depature Altitude: 3,000
     - IFR Depature Heading: Runway Heading
     - VFR Altitude: AOB 3,000
