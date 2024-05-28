@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 4,000
-    - IFR Depature Heading: Runway Heading
+    - IFR Departure Altitude: 4,000
+    - IFR Departure Heading: Runway Heading
     - VFR Altitude: AOB 3,000
     - Pattern Altitude: 2,500
     - Missed Approach: 3,000 and Runway Heading
@@ -39,7 +39,7 @@ Continuous
     - SVFR at or below 2,500ft
 2. Adhere to routings and altitudes with all DTW and D21 satellite departures. ([Figure 17-1](#figure-17-1-lan-to-dtw-and-d21-satellites))
 3. Coordinate releases for any aircraft that will depart outside of the departure area or on a non-active runway with AZO. All departures, with the exception of SVFR, are served as automatic rolling boundary notification (no release required).
-4. Assign headings or courses that fall within the departure area for the runway configuration. The departure area extends from the intersection of runway 10R/28L and runway 6/24 and encompasses the headings  described below and depicted in [Figure 17-2](#figure-17-2-lan-depature-area).
+4. Assign headings or courses that fall within the departure area for the runway configuration. The departure area extends from the intersection of runway 10R/28L and runway 6/24 and encompasses the headings  described below and depicted in [Figure 17-2](#figure-17-2-lan-Departure-area).
 (a) RWY 6 & 10: RY HDG of RY 6 clockwise to 130
 (b) RWY 24 & 28s: RY HDG of RY 24 clockwise to 310
 
@@ -64,4 +64,4 @@ Continuous
 | D21 Sats | | Non-RNAV | AOA 5000 & AOB 9000 | DIRECT | 
 
 
-### Figure 17-2 LAN Depature Area
+### Figure 17-2 LAN Departure Area

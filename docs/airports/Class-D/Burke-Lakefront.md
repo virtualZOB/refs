@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 2,000
-    - IFR Depature Heading:     
+    - IFR Departure Altitude: 2,000
+    - IFR Departure Heading:     
         - SID
         - 350
         - 300-050 (DVA)

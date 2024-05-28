@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 8,000
-    - IFR Depature Heading: Runway Heading
+    - IFR Departure Altitude: 8,000
+    - IFR Departure Heading: Runway Heading
     - VFR Altitude: AOB 8,000
     - Pattern Altitude: 2,300
     - Missed Approach: 5,000 and Runway Heading

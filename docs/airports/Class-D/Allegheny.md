@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 3,000
-    - IFR Depature Heading:
+    - IFR Departure Altitude: 3,000
+    - IFR Departure Heading:
         - 28/31: 040, 220, 250
         - 10/13: 020, 100, 180
     - VFR Altitude: AOB 3,000

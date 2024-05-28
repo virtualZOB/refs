@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 3,000
-    - IFR Depature Heading: 190-230 (Clockwise)
+    - IFR Departure Altitude: 3,000
+    - IFR Departure Heading: 190-230 (Clockwise)
     - VFR Altitude: AOB 3,000
     - Pattern Altitude: 1,600
     - Missed Approach: 3,000 and 190-230 (Clockwise) Heading

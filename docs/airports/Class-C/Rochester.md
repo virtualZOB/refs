@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 4,000
-    - IFR Depature Heading (Clockwise Direction): 
+    - IFR Departure Altitude: 4,000
+    - IFR Departure Heading (Clockwise Direction): 
         - 22/25/28: 190-280
         - 4/7/10: 340-120
     - VFR Altitude: AOB 2,500

@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 3,000
-    - IFR Depature Heading (Clockwise Direction):
+    - IFR Departure Altitude: 3,000
+    - IFR Departure Heading (Clockwise Direction):
         - 9/18: 060-RWY18 HDG
         - 9/36: RWY36 HDG-120
         - 18/27: RWY18 HDG-300 
@@ -50,7 +50,7 @@ The position directly overlying FNT is AZO-B (118.800) or whichever controller h
     - VFR-on-top VFR-on-top, not to exceed 3,000ft
     - SVFR at or below 2,500ft
 2. Coordinate releases for any aircraft that will depart outside of the departure area or on a non-active runway with AZO. All departures, with the exception of SVFR, are served as automatic rolling boundary notification (no release required).
-3. Assign headings or courses that fall within the departure area for the runway configuration [Figure 12-1](#figure-12-1-fnt-depature-area)
+3. Assign headings or courses that fall within the departure area for the runway configuration [Figure 12-1](#figure-12-1-fnt-Departure-area)
     - RWY 9 & 18: 060 clockwise to RWY HDG of RY18
     - RWY 9 & 36: RWY HDG of RWY 36 clockwise to 120
     - RWY 18 & 27: RWY HDG of RWY 18 clockwise to 300
@@ -62,4 +62,4 @@ The position directly overlying FNT is AZO-B (118.800) or whichever controller h
 3. Unless only one runway is designated as active, when visual approaches are being conducted, tower must state on the ATIS that approaches are being conducted to multiple runways.
 
 
-### Figure 12-1 FNT Depature Area
+### Figure 12-1 FNT Departure Area

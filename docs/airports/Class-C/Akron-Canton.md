@@ -1,8 +1,8 @@
 # Akron-Canton (CAK)
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 3,000
-    - IFR Depature Heading: Runway Heading
+    - IFR Departure Altitude: 3,000
+    - IFR Departure Heading: Runway Heading
     - VFR Altitude: AOB 3,000
     - Pattern Altitude: 2,300
     - Missed Approach: 3,000 and Runway Heading
@@ -57,7 +57,7 @@ airspace and 125.5 for aircraft entering E sector airspace, as depicted in CLE
         - Requests at or below 3000 will be issued
             - "Maintain at or below 3000"
         - Requests higher than 3000 will be issued:
-            - "Maintain 3000, expect higher with depature"
+            - "Maintain 3000, expect higher with Departure"
 
 ## Ground Control
 
@@ -71,7 +71,7 @@ airspace and 125.5 for aircraft entering E sector airspace, as depicted in CLE
 1. Operational requests
     - Prior to coordination, scan for traffic to ensure a request can be approved
     - Coordinate with the LC when an aircraft/vehicle is requesting to cross an active runway by stating the request and position; for example, “CROSS RUNWAY (number) AT (position)”. Report completion of the runway crossing to the appropriate LC in a timely manner
-    - Coordinate all intersection depatures with LC
+    - Coordinate all intersection Departures with LC
 
 ### Taxiway Routes and Restrictions
 1. GC must protect the intersection of taxiways C and E for all aircraft that may use these movement areas to exit active runways.
@@ -89,7 +89,7 @@ airspace and 125.5 for aircraft entering E sector airspace, as depicted in CLE
 4. LC must monitor and use the frequency 134.75.
 5. LC will provide visual separation between aircraft when applicable.
 
-### Depatures
+### Departures
 1. General
     - CAK shall issue “runway heading” and 3000 ft to all departures, unless otherwise coordinated
     - CAK delegates to CLE control for turns on departing aircraft.

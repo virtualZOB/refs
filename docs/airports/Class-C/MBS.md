@@ -4,8 +4,8 @@
 > - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
-    - IFR Depature Altitude: 4,000
-    - IFR Depature Heading (Clockwise Direction):
+    - IFR Departure Altitude: 4,000
+    - IFR Departure Heading (Clockwise Direction):
         - 5/14: 020-RWY14 HDG
         - 5/32: RWY32 HDG-090
         - 14/23: RWY14 HDG-270
@@ -41,7 +41,7 @@ The position directly overlying MBS is AZO-H (126.450) or whichever controller h
     - VFR-on-top VFR-on-top, not to exceed 4,000ft
     - SVFR at or below 2,500ft
 2. Coordinate releases for any aircraft that will depart outside of the departure area or on a non-active runway with AZO. All departures, with the exception of SVFR, are served as automatic rolling boundary notification (no release required).
-3. Assign headings or courses that fall within the departure area for the runway configuration [Figure 12-1](#figure-12-1-MBS-depature-area)
+3. Assign headings or courses that fall within the departure area for the runway configuration [Figure 12-1](#figure-12-1-MBS-Departure-area)
     - RWY 5 & 14: 020 clockwise to RWY HDG of RWY 14
     - RWY 5 & 32: RWY HDG of RWY 32 clockwise to 090
     - RWY 14 & 23: RWY HDG of RWY 14 clockwise to 270
@@ -54,4 +54,4 @@ The position directly overlying MBS is AZO-H (126.450) or whichever controller h
 3. Unless only one runway is designated as active, when visual approaches are being conducted, tower must state on the ATIS that approaches are being conducted to multiple runways.
 
 
-### Figure 19-1 MBS Depature Area
+### Figure 19-1 MBS Departure Area

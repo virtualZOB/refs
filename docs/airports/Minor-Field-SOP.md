@@ -92,7 +92,7 @@ D21-Y: "LL."
 
 ### 2.5 Radar Control
 
-#### 2.5.1 Depatures
+#### 2.5.1 Departures
 1. Departure releases shall be handled IAW 2.4.2.
 2. Radar shall ensure that all traffic remains on tower assigned heading until leaving 3,000ft MSL before proceeding on course.
 
