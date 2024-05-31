@@ -53,8 +53,8 @@
 | SDF |  | :white_check_mark: | |  | DLAMP_ |
 | SDF |  | | :white_check_mark: | |  | APE V5 IIU <br> OR <br> ROD V47 CVG V5 IIU |
 | SDF | From CLE TRACON | :white_check_mark: | | AOB FL280 | DLAMP_ |
-| SDF | From CLE TRACON | | :white_check_mark: | | AOB FL280 | APE V5 IIU  |
-| SDF | From CLE TRACON | | :white_check_mark: | | AOB FL280 | ROD V47 CVG V5 IIU   |
+| SDF | From CLE TRACON | | :white_check_mark: | AOB FL280 | APE V5 IIU  |
+| SDF | From CLE TRACON | | :white_check_mark: | AOB FL280 | ROD V47 CVG V5 IIU   |
 | SDF | From D21 TRACON | :white_check_mark: | | AOB FL280 | DLAMP_ |
 
 [^1]: CVG Area: HAO, LUK, I69
