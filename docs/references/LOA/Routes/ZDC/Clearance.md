@@ -8,7 +8,7 @@
 | ADW | Props Via AIR/CKB/MGW/IHD Sectors | :white_check_mark: |  | | ESL TIKEE_ |
 | All airports outside of DC Metro | From PIT TRACON Area  <br> via EKN/BLR/MOR Sectors |  :white_check_mark:  | :white_check_mark: | AOB FL320 | CKB COBBE |
 | BWI and Satellites[^1] | Jets Via AIR/CKB/MGW/IHD Sectors | :white_check_mark: |  | | ANTHM_ |
-| BWI and Satellites[^1] | Jets Via AIR/CKB/MGW/IHD Sectors | | EMI_ |
+| BWI and Satellites[^1] | Jets Via AIR/CKB/MGW/IHD Sectors | | | | EMI_ |
 | BWI and Satellites[^1] | Props Via AIR/CKB/MGW/IHD Sectors | :white_check_mark:  | :white_check_mark: | | MRB |
 | DAA | Jets Via AIR/CKB/MGW/IHD Sectors |   | :white_check_mark: | | NUMMY_ |
 | DAA | Jets Via AIR/CKB/MGW/IHD Sectors | :white_check_mark: |  | | FRDMM_ |
