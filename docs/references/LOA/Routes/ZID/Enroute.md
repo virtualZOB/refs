@@ -1,6 +1,7 @@
 # Enroute Crossing Requirements
 
 | Airport | Segment/Qualifier | Altitude | Notes |
+| ------- | ---------- | --------- | ------- |
 | All other airports | From CLE TRACON via APE | AOB FL270 | ZID has control for turns up to 15° left of course |
 | All other airports | From CLE TRACON via PUDDL | AOB FL220 | |
 | All other airports | From CLE TRACON <br> via SNOOH or SINKR  | |ZID has control for turns up to 20° left of course AOA FL240, south of J64 |
