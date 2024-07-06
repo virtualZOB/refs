@@ -47,7 +47,7 @@ See "Text to Pilots" section for context.
 |   .SKY   |   Opens the users default browser to the Skyvector site.   |   .SKY   |      |
 |   .EQUIP   |   Opens the users default browser to the FlightAware FAA equipment suffix code page.   |   .EQUIP   |   TTP   |
 |   .ICAO <br> EQUIP   |   Opens the users default browser to the ForeFlight equipment suffix code page.   |   .ICAOEQUIP   |      |
-|   .65   |   Opens the users default browser to the FAA 7110.65 HTML page.   |   .65   |      |
+|   .POINT <br> 65   |   Opens the users default browser to the FAA 7110.65 HTML page.   |   .POINT65   |      |
 |   .CHARTS <br> ``(space)`` <br> ({== APT ID ==})   |   Opens the users default browser to the AIRNAV page IFR section for the given airport ID.   |   .CHARTS {== DTW ==}   |      |
 |   .TMU <br> MAP   |   Opens the users default browser to the VATUSA TMU page for ZOB.   |   .TMUMAP   |      |
 |   .HOLDING <br> SHEET   |   Opens a hold tracking spreadsheet in google that allows the facility to coordinate simultaneous holding.   |   .HOLDINGSHEET   |      |
