@@ -151,7 +151,7 @@ See "Text to Pilots" section for context.
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   .T <br> PTAC <br> ``(space)`` <br> ({==POINT ==}) <br> ``(space)`` <br> ({==HEADING ==}) <br> ``(space)`` <br> ({==ALTITUDE ==}) <br> ``(space)``<br> ({==IAP TYPE ==}) <br> ``(space)`` <br> ({==RUNWAY ==})      |   Issues standard PTAC given the relative position to the given point, including heading and altitude to fly until established and then the clearance to fly the given instrument approach type and the given runway.   |   .TPTAC {== DOTTI ==} {== 250 ==} {== 3K ==} {== ILS ==} {== 27R ==}   |      |
-|   .T <br> PTAC <br> ILS <br>  ``(space)`` <br> ({==POINT ==}) <br> ``(space)`` <br> ({==HEADING ==}) <br> ``(space)`` <br> ({==ALTITUDE ==}) <br> ``(space)`` <br> ({==RUNWAY ==})   |   Completes the same thing as the .TPTAC command except the user does not have to indicate that ILS is the type of approach.   |   .TPTAC {== DOTTI ==} {== 250 ==} {== 3K ==} {== 27R ==}  |      |
+|   .T <br> PTAC <br> ILS <br>  ``(space)`` <br> ({==POINT ==}) <br> ``(space)`` <br> ({==HEADING ==}) <br> ``(space)`` <br> ({==ALTITUDE ==}) <br> ``(space)`` <br> ({==RUNWAY ==})   |   Completes the same thing as the .TPTAC command except the user does not have to indicate that ILS is the type of approach.   |   .TPTACILS {== DOTTI ==} {== 250 ==} {== 3K ==} {== 27R ==}  |      |
 |   .T <br>  RFIS   |   Advises the selected aircraft of their position relative to their destination and then asks them to report the field in sight.   |   .TRFIS   |      |
 |   .T <br> CVA <br> ``(space)`` <br> ({==RWY ID ==})   |   Clears the pilot for a visual approach to the given runway.   |   .TCVA {== 22L ==}   |      |
 
