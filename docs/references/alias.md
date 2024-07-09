@@ -166,7 +166,7 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 ### In-Scope Reference
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .APT <br> ({==FAA or ICAO APT ID ==})   |   Returns the following for the given airport:   FAA &ICAO code   Name   Elevation   Towered status   Responsible ARTCC   ASOS frequency   |   .APT{==PTK==}   |      |
+|   .APT <br> ({==FAA or ICAO APT ID ==})   |   Returns the following for the given airport:   FAA & ICAO code   Name   Elevation   Towered status   Responsible ARTCC   ASOS frequency   |   .APT{==PTK==}   |      |
 |   .NAV <br> ({==NAVAID ID or Name ==})   |   Returns the following for the given NAVAID:   ID   Frequency   Name   Type   |   .NAV{==CGT==} <br> .NAV{==CHICAGOHEIGHTS==}   |   When entering the name, do not include special characters or spaces.   |
 |   .ID <br> ({==AIR-CARRIER 3 LETTER ID or TELEPHONY ==})   |   Returns the 3LID and Telephony of the given air-carrier.   |   .ID{==DAL==} <br> .ID{==NKP==} <br> .ID{==ABAKANAIR==}   |   When entering the telephony, do not include special characters or spaces.   |
 
