@@ -160,7 +160,7 @@ See "Text to Pilots" section for context.
 | --- | --- | --- | --- |
 |   .T <br>  ({==SUBJECT POINT ==}) <br> ({==E/W/N/S for PIT restrictions ==})   |   Issues a crossing restriction to the pilot for the given subject point.   |   .{==EMMMA==} <br> .{==SLT==} <br> .{==PSB==} <br> .{==PSB==}<ins>LGA</ins> <br> .{==CUTTA==}{==E==}   |   The .PSBLGA command is the one command that is different than the rest to set it apart from the base .PSB command.   |
 
-## FE-Buddy Commands
+## FE-BUDDY COMMANDS
 The following aliases are generated every AIRAC cycle by FE-Buddy and merged into the ZOB alias file.
 
 ### In-Scope Reference
@@ -176,7 +176,7 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 |   . ({==AWY ID ==}) <br> F   |   Displays all the fixes, including NAVAIDs and airports, for the given airway.   |   .{==J15==}F   |   ERAM-Only   |
 |   . ({==APT ID ==}) <br> ({==DP/STAR ID ==}) <br> F   |   Displays all the fixes, including NAVAIDs, for the given DP/STAR.   Reference note [^2].   |   .{==DTW==}{==PAVYL==}F   |   ERAM-Only   |
 
-### FE-Buddy Chart Recall
+### Chart Recall
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   . ({==APT ID ==}) <br> TM <br>  C   |   Launches users browser to the given airports Takeoff Minimums, ODP, and DVA (TM) page.   |   .{==D98==}TMC   |      |
