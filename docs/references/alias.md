@@ -70,7 +70,7 @@ See "Text to Pilots" section for context.
 ## GROUND TO GROUND COMMUNICATION
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .M <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Generic private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .M {==D1==} {==F==} <ins>has declared MinFuel</ins> |      |
+|   .M <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Generic private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .M {==D1F==} <ins>has declared MinFuel</ins> |      |
 |   .RC <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Rolling Call Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .RC {==D1E==}  <ins>RWY 21</ins>   |      |
 |   .RT <br> ``(space)`` <br> ({== POS ID ==})   |   With the subject aircraft selected, sends a Rejected Takeoff Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .RT {== D1E ==}   |      |
 |   .MA <br> ``(space)`` <br> ({== POS ID ==}) <br> ``(space)`` <br> (<ins>FREE TEXT</ins>)  |   With the subject aircraft selected, sends a Missed Approach Notification private message to the given ATC while automatically inserting the subject aircraft’s callsign.   |   .MA {==D1E==}  <ins>Published</ins>   |      |
