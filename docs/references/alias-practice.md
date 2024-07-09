@@ -4,7 +4,7 @@ title: Alias Reference Practice
 
 ## vZOB ARTCC Alias Commands Practice
 
-!!! info "Alias Test Instructions"
+!!! info "Alias Practice Instructions"
     - Read the question.
     - Type your answer in the input box; Case does not matter.
     - Press ENTER or click "Check Answer" to submit your answer.
