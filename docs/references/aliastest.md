@@ -1,3 +1,7 @@
+---
+title: Alias Reference Practice
+---
+
 ## vZOB ARTCC Alias Commands Practice
 
 !!! info "Alias Test Instructions"
