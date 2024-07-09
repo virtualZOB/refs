@@ -187,7 +187,7 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 |   . ({==APT ID ==}) <br> ({==DP/STAR ID ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given DP/STAR page.   Reference note #2.   |   .{==CLE==}{==BRWNZ==}C <br> .{==CLE ==}{==BRWNZ==}<ins>2</ins>C <br> .{==CLE==}{==BRWNZ==}<ins>3</ins>C   |      |
 |   . ({==APT ID ==}) <br> ({==1st 5 CHAR OF DEP/STAR CHART NAME ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given DP/STAR page.   |   .{==TNX==}{==TUMBE==}C <br> .{==GEG ==}{==SPOKA==}C <br> .{==GEG==}{==SPOKA==}<ins>2</ins>C   |   These commands are reserved for procedures that do not have a computer code assigned to them.   |
 |   . ({==APT ID==}) <br> ({==IAP SPad Code==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given IAP page.   Reference note [^3].   |   .{==DTW==}{==I3R==}C <br> .{==CLE==}{==IY4L==}C <br> .{==CLE==}{==RU4L==}C   |      |
-|   . ({==APT ID ==}) <br> V <br> ({==1st CHAR of EACH WORD IN THE VIS APP NAME ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given Charted Visual Approach page.   |   .{==SFO==}V{==QBC==}C <br> .{==ASE==}V{==RF==}C   |      |
+|   . ({==APT ID ==}) <br> V <br> ({==1st CHAR of EACH WORD IN THE VIS APP NAME ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given Charted Visual Approach page.   |   .{==SFO==}V{==QB==}C <br> .{==ASE==}V{==RF==}C   |      |
 
 ## Notes
 
