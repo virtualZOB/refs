@@ -10,6 +10,7 @@ title: Alias Reference Practice
     - Press ENTER or click "Check Answer" to submit your answer.
     - Feedback will be provided for each answer, along with a list of possible correct answers.
     - Use the "Previous" and "Next" buttons to navigate through the questions.
+    - Reference the Alias Command Reference page [HERE](https://refs.clevelandcenter.org/references/alias_cmd_ref/)
 
 <div id="quiz">
     <div class="question-container" data-correct=".COMMANDS" data-type="ZOB WEBSITE REFERENCE">
