@@ -1,6 +1,8 @@
 # Alias Command Reference  
 The following is a description of vZOB Alias commands available.
 
+You may practice the use of these commands [HERE](https://refs.clevelandcenter.org/references/alias-practice/).
+
 
 These commands are specific to the vZOB facility and this document will not cover alias commands that are built-in to the CRC software; For CRC-Specific commands, please reference the CRC manual found [HERE](https://crc.virtualnas.net/docs/#/). vZOB only supports the use of CRC; All other programs will not be explained via this document.
 
