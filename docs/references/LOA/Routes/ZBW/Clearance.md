@@ -5,9 +5,9 @@
 | BDL | |:white_check_mark: |:white_check_mark:  | | AUDIL STELA_ <br> MEMMS WILET STELA_ |
 | BDR | |:white_check_mark: |:white_check_mark:  | | RKA BDR_ |
 | BED | |:white_check_mark: |:white_check_mark:  | | EEGUL ZELKA_ |
-| BOS  | | | :white_check_mark: | |  ALB GDM T608 REVER |
+| BOS  | Jet | | :white_check_mark: | |  ALB GDM T608/V431 REVER |
 | BOS  | Jet | :white_check_mark: |  |  | PONCT JFUND_ |
-| BOS  | Prop |:white_check_mark: |:white_check_mark:  | | ALB GDM T608 REVER |
+| BOS  | Prop |:white_check_mark: |:white_check_mark:  | | ALB GDM T608/V431 REVER |
 | DXR | |:white_check_mark: |:white_check_mark:  | | ITH DNY VALRE_ |
 | EWR | If via ZBW Airspace | :white_check_mark: |  | | FLOSI_ |
 | EWR | If via ZBW Airspace | | :white_check_mark: | | SHAFF_ |
