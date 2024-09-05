@@ -12,9 +12,9 @@
     - Pattern Altitude: 2,200
     - Missed Approach: 4,000 and Runway Heading
 
-## 27. YNG
+## YNG
 
-### 27.1 Positions
+### Positions
 | Callsign | Position | Radio Name | ID | Frequency |
 | -- | -- | -- | -- | -- |
 | YNG_DEL | Delivery |  Youngstown Delivery | DC | 118.250 |
@@ -22,30 +22,30 @@
 | YNG_TWR | Local |  Youngstown Tower | LC | 119.500 |
 | YNG_APP | Approach |  Youngstown Approach | E | 133.950 |
 
-### 27.2 Operational Hours
+### Operational Hours
 Continuous (Tower)
 0600-0000L (Approach)
 
-### 27.3 General Operations
+### General Operations
 1. ZOB assumes control responsibility of the approach control airspace between the hours of 0000-0600 local.
 2. When ZOB has control of CLE ATCT delegated airspace, YNG must coordinate all traffic to the CUTTA intersection with ZOB.
 
-### 27.4 Departures
-1. Comply with routes in [Figure 27-2](#figure-27-2---yng-routes).
-2. Assign an altitude of 10,000 to aircraft requesting 11,000ft or higher, when route of flight is through section A ([Figure-27-1](#figure-27-1---youngstown-tracon-delegated-airspace))
-3. Assign an altitude of 8,000ft to aircraft requesting 9,000ft or higher, when route of flight is through section B ([Figure-27-1](#figure-27-1---youngstown-tracon-delegated-airspace))
+### Departures
+1. Comply with routes in [Figure 27-2](#yng-routes).
+2. Assign an altitude of 10,000 to aircraft requesting 11,000ft or higher, when route of flight is through section A ([Figure-27-1](#youngstown-tracon-delegated-airspace))
+3. Assign an altitude of 8,000ft to aircraft requesting 9,000ft or higher, when route of flight is through section B ([Figure-27-1](#youngstown-tracon-delegated-airspace))
 4. Release aircraft on runway heading.
 
 
-### 27.5 Arrivals
+### Arrivals
 1. ZOB gives YNG control for turns and descent for aircraft inbound to Franklin Venango Airport (FKL) from ZOB50 subsequent to radar handoff and frequency change.
 2. Assign missed approach aircraft 4,000ft and runway heading
 
 
-### Figure 27-1 - Youngstown TRACON Delegated Airspace
+### Youngstown TRACON Delegated Airspace
 
 
-### Figure 27-2 - YNG Routes
+### YNG Routes
 | Destination | Plane Type | Altitude(s) | Route |
 | -- | -- | -- | -- |
 | CLE TRACON[^1] | Jets | 6,000 | TRYBE_ |

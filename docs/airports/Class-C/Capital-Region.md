@@ -10,46 +10,46 @@
     - Pattern Altitude: 2,500
     - Missed Approach: 3,000 and Runway Heading
 
-## 17. LAN
+## LAN
 
-### 17.1 Positions
+### Positions
 | Callsign | Position | Radio Name | ID | Frequency |
 | -- | -- | -- | -- | -- |
 | LAN_DEL | Delivery |  Lansing Delivery | CD | 123.675 |
 | LAN_GND | Ground |  Lansing Ground | GC | 121.900 |
 | LAN_TWR | Local |  Lansing Tower | LC | 119.900 |
 
-### 17.2 Overlying Positions
+### Overlying Positions
 The position directly overlying LAN is AZO-L (118.650) or whichever controller has responsibility over the position.
 
-### 17.3 Operational Hours
+### Operational Hours
 Continuous
 
-### 17.4 General Operations
+### General Operations
 1. LAN is authorized to conduct local VFR operations at or below 2,500ft within the LAN Class C surface area. Local pattern traffic must not affect the arrival sequence established by approach control.
 2. Except as required to avoid departures in the coordinated departure area, AZO is authorized to conduct operations at or above 3,000ft in the LAN Class C surface area without coordination.
 3. AZO authorizes LAN to utilize a certified TDW that may be utilized to provide radar service as deemed necessary IAW FAAO 7110.65 3-1-9.b. Additionally, LC shall issue radar traffic advisories IAW FAAO 7110.65 2-1-21a.
 
 
-### 17.5 Departures
+### Departures
 1. Assign an expect further clearance of filed altitude 10 minutes after departure and the following initial altitudes:
     - IFR 4,000ft or requested lower altitude
     - VFR at or below 4,000ft
     - VFR-on-top VFR-on-top, not to exceed 4,000ft
     - SVFR at or below 2,500ft
-2. Adhere to routings and altitudes with all DTW and D21 satellite departures. ([Figure 17-1](#figure-17-1-lan-to-dtw-and-d21-satellites))
+2. Adhere to routings and altitudes with all DTW and D21 satellite departures. ([Figure 17-1](#lan-departure-area))
 3. Coordinate releases for any aircraft that will depart outside of the departure area or on a non-active runway with AZO. All departures, with the exception of SVFR, are served as automatic rolling boundary notification (no release required).
-4. Assign headings or courses that fall within the departure area for the runway configuration. The departure area extends from the intersection of runway 10R/28L and runway 6/24 and encompasses the headings  described below and depicted in [Figure 17-2](#figure-17-2-lan-Departure-area).
+4. Assign headings or courses that fall within the departure area for the runway configuration. The departure area extends from the intersection of runway 10R/28L and runway 6/24 and encompasses the headings  described below and depicted in [Figure 17-2](#lan-to-dtw-and-d21-satellites).
 (a) RWY 6 & 10: RY HDG of RY 6 clockwise to 130
 (b) RWY 24 & 28s: RY HDG of RY 24 clockwise to 310
 
 
-### 17.6 Arrivals
+### Arrivals
 1. Assign missed approach aircraft 3,000ft and a heading in the departure area.
 2. Inform AZO of an unplanned missed approach prior to the aircraft reaching one (1) NM from the runway departure end.
 3. Unless only one runway is designated as active, when visual approaches are being conducted, tower must state on the ATIS that approaches are being conducted to multiple runways.
 
-### Figure 17-1 LAN to DTW and D21 Satellites
+### LAN to DTW and D21 Satellites
 | Destination | Flow | Plane Type | Altitude(s) | Route |
 | -- | -- | -- | -- | -- |
 | DTW | South | Jet | 7000 | RKCTY_ |
@@ -64,4 +64,4 @@ Continuous
 | D21 Sats | | Non-RNAV | AOA 5000 & AOB 9000 | DIRECT | 
 
 
-### Figure 17-2 LAN Departure Area
+### LAN Departure Area

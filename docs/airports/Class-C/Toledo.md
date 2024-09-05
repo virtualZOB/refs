@@ -10,9 +10,9 @@
     - Pattern Altitude: 1,700
     - Missed Approach: 5,000 and Runway Heading
 
-## 24. TOL
+## TOL
 
-### 24.1 Positions
+### Positions
 | Callsign | Position | Radio Name | ID | Frequency |
 | -- | -- | -- | -- | -- |
 | TOL_DEL | Delivery |  Toledo Delivery | CD | 121.750 |
@@ -21,18 +21,18 @@
 | **TOL_W_APP**[^1] | **West Radar** | **Toledo Approach** | **W** | **134.350** |
 | TOL_E_APP[^1] | East Radar | Toledo Approach | E | 126.100 |
 
-### 24.2 Operational Hours
+### Operational Hours
 Continuous
 
-### 24.3 General Operations
+### General Operations
 1. TOL must coordinate all IFR arrivals and departures to and from Erie-Ottawa International Airport (PCW) with CLE TRACON
 
-### 24.4 Departures
+### Departures
 1. Assign departure aircraft 5,000ft and advise them to expect requested altitude ten (10) minutes after departure.
 2. Release aircraft on runway heading.
-3. Adhere to routings and altitudes with all DTW and S21 satellite departures. ([Figure 25-2](#figure-25-1-toledo-tracon-delegated-airspace))
+3. Adhere to routings and altitudes with all DTW and S21 satellite departures. ([Figure 25-2](#tol-to-dtw-and-d21-satellites))
 
-### 24.6 Arrivals
+### Arrivals
 1. Local control assumes control of arriving aircraft sequenced by approach control:
     - ILS approaches - at the final approach fix (FAF)
     - Visual Approaches - from the final approach fix (FAF).
@@ -40,11 +40,11 @@ Continuous
 
 
 
-### Figure 25-1 Toledo TRACON Delegated Airspace
+### Toledo TRACON Delegated Airspace
 - TOL West Radar is depicted by the “Yellow” shading.
 - TOL East Radar is depicted by the “Orange” shading.
 
-### Figure 25-2 TOL to DTW and D21 Satellites
+### TOL to DTW and D21 Satellites
 | Destination | Flow | Plane Type | Altitude(s) | Route |
 | -- | -- | -- | -- | -- |
 | DTW | South | Jet | 9000 | HANBL_ |

@@ -10,21 +10,21 @@
     - Pattern Altitude: 1,900
     - Missed Approach: 3,000 and Runway Heading
 
-## 4. ARB
+## ARB
 
-### 4.1 Positions
+### Positions
 | Callsign | Position | Radio Name | ID | Frequency |
 | -- | -- | -- | -- | -- |
 | ARB_GND | Ground | Ann Arbor Ground | GC | 121.600 |
 | ARB_TWR | Local | Ann Arbor Tower | LC | 120.300 |
 
-### 4.2 Overlying Positions
+### Overlying Positions
 The position directly overlying ARB is D21-Y (118.950) or whichever controller has responsibility over the position.
 
-### 4.3 Operational Hours
+### Operational Hours
 0800-2000L Daily
 
-### 4.4 General Operations
+### General Operations
 1. D21 delegates to ARB the authority and responsibility to provide the following services within the Ann Arbor Class D surface area:
     - Visual separation between arriving and departing IFR aircraft.
     - Special VFR Operations at or below 2,500ft.
@@ -33,13 +33,13 @@ The position directly overlying ARB is D21-Y (118.950) or whichever controller h
 4. ARB delegates to D21 control for turns.
 5. D21 authorizes ARB to utilize a certified TDW that may be utilized to provide radar service as deemed necessary IAW FAAO 7110.65 3-1-9.b. Additionally, LC shall issue radar traffic advisories IAW FAAO 7110.65 2-1-21a.
 
-### 4.5 Departures
+### Departures
 1. Hold all IFR aircraft (Hold For Release) until released by D21.
 2. Release aircraft on runway heading unless directed otherwise by D21.
 3. Assign departure aircraft 3,000ft and advise them to expect requested altitude ten (10) minutes after departure unless directed otherwise by D21.
 
 
-### 4.6 Arrivals
+### Arrivals
 ARB Must:
 1. Advise D21 of the primary runway in use.
 2. Ensure that aircraft have the most current weather information for at least 10 minutes following the issuance of any SPECI weather report.
