@@ -22,7 +22,9 @@
 | PIT_N_DEP | Departure North | Pittsburgh Departure | A | 124.750 |
 
 ## Position Combination
+
 Positions should be opened and combined:
+
 1. PIT_D_APP
     - D/B/S/A combined. May use simplified PIT_APP callsign.
 2. PIT_S_TWR
@@ -41,7 +43,9 @@ Other positions may only be opened during events or with the permission of the A
 # Clearance Delivery
 
 ## Issue Clearances / Amendments / Instructions
+
 CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
+
 1. IFR Departures (Jet): Assign PIT SID and 5,000ft or requested altitude if lower, and inform the aircraft to expect (requested altitude) 10 minutes after departure.
 2. IFR Departures (Turboprop/Piston): Assign PIT SID and 4,000ft or requested altitude if lower, and inform the aircraft to expect (requested altitude) 10 minutes after departure.
 3. VFR Class B Departures: Determine destination/direction of flight, clear aircraft “out” of PIT Class B, and assign: 
@@ -58,9 +62,11 @@ CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
     - Ensure that all aircraft requesting clearance have current ATIS code.
 
 ## Weather Information/ATIS
+
 #### Receiving
 1. PIT weather should be received via the ATC client or the Aviation Weather Center.
 2. CWAs, SIGMETs, AIRMETs, and NOTAMs should be received from the Aviation Weather Center and/or the FAA.
+
 #### Disseminating
 1. CD shall ensure that all Tower control positions and TRACON receive the new ATIS code.
 2. CD shall notify CIC when weather changes from VFR to IFR or from IFR to VFR
@@ -68,7 +74,9 @@ CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
 # Ground Control
 
 ##  Scanning Movement Area
+
 GC shall be aware of and operationally scan the work environment and following problem/restricted areas:
+
 1. Two 747-400 aircraft cannot pass on the midfield perimeter TWYS (i.e., TWYS B and C; TWYS D and E; and, TWYS T and V).
 2. All helicopter movements under control of LC shall be monitored carefully and subsequent aircraft movements shall be planned around these  helicopter movements by GC.
 
@@ -103,7 +111,7 @@ G2 must issue clearances and instructions for aircraft and vehicles operating on
 ## Jurisdiction of Airspace
 LC is responsible to ensure separation within a 7nm radius up to 5,000ft. MSL. DN/DS may utilize this airspace for turns IAW 6.4c/d.
 
-##Departure Procedures
+## Departure Procedures
 LC is responsible for ensuring initial separation between departures and other aircraft (i.e. successive departure, missed approach, VFR), and is permitted by DN/DS to automatically release aircraft except when AGC is landing on east flow. The following headings shall be assigned
 
 |Runway|Routing|Depature Sector|Headings|
@@ -127,6 +135,7 @@ LC is responsible for ensuring initial separation between departures and other a
 [^1]: If 28R/L or 10L/R are closed, then 28C/10C may assume full range from RWY to the respective runway heading range
 
 ## Line Up and Wait (LUAW) Procedures
+
 LUAW is authorized at PIT IAW FAA directives and under the following criteria:
 - During daylight hours: LUAW is authorized for all runways.
 - During night time hours: LUAW is authorized between sunset and sunrise only on RWY28L at TWY P so long as RWY 28L is only used for departures.
@@ -140,6 +149,7 @@ LUAW is authorized at PIT IAW FAA directives and under the following criteria:
 - When an arrival aircraft exits the runway, issue an initial taxi clearance that permits the aircraft to keep moving, clearing runway exits, without infringing on GC operation.
 
 ##  Reduced Separation Procedures
+
 Reduced longitudinal separation of 2.5NM between aircraft established on the final approach course within 10NM of the landing runway is authorized for all runways except RWY 14. The following conditions must be met:
 - The weight class of the leading aircraft is the same as or less than the trailing aircraft.
 - Heavy aircraft and B757 are permitted to participate as the trailing aircraft only.
@@ -169,6 +179,7 @@ L2 exercises control jurisdiction of RWY 10L/28R. L2 shall release aircraft IAW 
 Jurisdiction for the radar airspace is graphically defined in Appendices 1 and 2
 
 ## Pre-Arranged Coordination Procedures (P-ACP)
+
 DN/DS may permit only departures to penetrate AN/AS airspace, and are subject to the following limitations:
 - DN/DS must quicklook the appropriate arrival position (AN/AS).
 - DN/DS is responsible for lateral separation from all traffic.
@@ -176,7 +187,9 @@ DN/DS may permit only departures to penetrate AN/AS airspace, and are subject to
 - Aircraft under AN/AS jurisdiction must not re-occupy an altitude once vacated (descended through) without coordination with DN/DS.
 
 ## Diverse Vector Area (DVA)
+
 Within the DVA, random vectors may be assigned to IFR aircraft below the Minimum Vectoring Altitude (MVA) IAW DVA procedure and facility directive. The PIT/AGC SID establishes DVAs. For obstruction clearance purposes, the following procedures must be used when applicable:
+
 1. Aircraft departing any runway at PIT or AGC and in a climb at 200ft/NM may be vectored in any direction at or above 1,700ft MSL.
 2. A SID does not apply to arrival aircraft. DVA and obstruction clearance methods must be applied to IFR aircraft on a go-around, break-out, or missed approach as follows:
     - Aircraft executing a go-around at or beyond the runway threshold and climbing to an assigned altitude at or above the MVA may be randomly vectored once at or above 1,700ft MSL.
@@ -208,7 +221,9 @@ Within the DVA, random vectors may be assigned to IFR aircraft below the Minimum
 Any aircraft landing a satellite field shall be controlled by either DN/DS. IFR traffic landing at HLG shall be informed “radar service terminated” prior to switching the aircraft to the local control/tower frequency
 
 ## Vectors for Visual Approach
+
 The following reported weather criteria are required in order to initiate vectors for visual approaches at these controlled airports:
+
 1. PIT/BVI/AGC: minimum ceiling 2,300ft./visibility of 3sm.
 2. HLG: minimum ceiling 2,400ft./visibility of 3sm
 
