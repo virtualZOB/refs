@@ -137,6 +137,7 @@ LC is responsible for ensuring initial separation between departures and other a
 ## Line Up and Wait (LUAW) Procedures
 
 LUAW is authorized at PIT IAW FAA directives and under the following criteria:
+
 - During daylight hours: LUAW is authorized for all runways.
 - During night time hours: LUAW is authorized between sunset and sunrise only on RWY28L at TWY P so long as RWY 28L is only used for departures.
 - If the reported weather ceiling is less than 800ft or the visibility less than 2sm then two separate aircraft shall not be both holding in position or cleared to land at the same time.
@@ -151,6 +152,7 @@ LUAW is authorized at PIT IAW FAA directives and under the following criteria:
 ##  Reduced Separation Procedures
 
 Reduced longitudinal separation of 2.5NM between aircraft established on the final approach course within 10NM of the landing runway is authorized for all runways except RWY 14. The following conditions must be met:
+
 - The weight class of the leading aircraft is the same as or less than the trailing aircraft.
 - Heavy aircraft and B757 are permitted to participate as the trailing aircraft only.
 
@@ -171,7 +173,7 @@ PIT LC/radar shall NOT conduct LAHSO
 ###  Local 1 (L1)
 L1 exercises control jurisdiction on RWYs 28L/10R, 28C/10C, and 14/32. L1 shall release aircraft IAW 5.2.
 
-### : Local 2 (L2)
+### Local 2 (L2)
 L2 exercises control jurisdiction of RWY 10L/28R. L2 shall release aircraft IAW 5.2, and is required to coordinate with L1 prior to releasing any departure when on *east* flow
 
 # Radar
@@ -181,6 +183,7 @@ Jurisdiction for the radar airspace is graphically defined in Appendices 1 and 2
 ## Pre-Arranged Coordination Procedures (P-ACP)
 
 DN/DS may permit only departures to penetrate AN/AS airspace, and are subject to the following limitations:
+
 - DN/DS must quicklook the appropriate arrival position (AN/AS).
 - DN/DS is responsible for lateral separation from all traffic.
 - AN/AS must point out all primary targets, unassociated tracks, and associated tracks in coast status within their airspace to DN/DS. DN/DS must do the same with AN/AS.
