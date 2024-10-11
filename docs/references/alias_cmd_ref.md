@@ -69,6 +69,7 @@ See "Text to Pilots" section for context.
 |   .OTP   |   Displays a script to read to the pilot with the format of a VFR-ON-TOP clearance.   |   .TOP   |      |
 |   .POS <br> CHECK   |   Displays a item list for a position relief checklist.   |   .POSCHECK   |      |
 |   .AC <br> INFO <br> ({== ACFT ICAO CODE ==})   |   Returns info concerning the given aircraft.   |   .ACINFO{==B738==}  |   This is different than the .ACINFO command native to CRC.   |
+| .L | Shows which callsigns are currently transmitting or were recently transmitting on voice | .L | | 
 
 ## GROUND TO GROUND COMMUNICATION
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
