@@ -39,8 +39,6 @@
 | LCK | via MGW Sector | :white_check_mark: | | | CLPPR_ |
 | LCK | via MGW Sector | | :white_check_mark: | | AIR BREMN APE |
 | LCK | via MNN Sector | :white_check_mark: | | |  DUBLIN_ <br> OR <br> CBUSS_|
-| LEX | From CLE TRACON | :white_check_mark: | :white_check_mark:  | AOB FL280 | SINKR CVG WARSA NERVE RDSTN | 
-| LEX | From D21 TRACON | :white_check_mark: | :white_check_mark:  | AOB FL280 | SINKR CVG WARSA NERVE RDSTN | 
 | OSU | via BSV Sector | :white_check_mark:| :white_check_mark: | | TVTRN |
 | OSU | via MFD Sector | :white_check_mark: | | |  DUBLIN_ <br> OR <br> CBUSS_|
 | OSU | via MGW Sector | :white_check_mark: | | | CLPPR_ |
