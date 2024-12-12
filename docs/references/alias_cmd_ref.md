@@ -103,8 +103,8 @@ See "Text to Pilots" section for context.
 | --- | --- | --- | --- |
 |   .T <br> CME   |   Sends a contact-me message to the selected aircraft.   |   .TCME   |      |
 |   .T <br> SQ   |   Squawk the assigned squawk code.   |   .TSQ   |      |
-|   .T <br> CON <br> ({==POS ID ==})      |   Contact the given ATC position.   |   .TCON{==D1F==}   |      |
-|   .T <br> MON <br> ({==POS ID ==})   |   Monitor the given ATC position.   |   .TMON{==D1F==}   |      |
+|   .T <br> CON <br> ``(space)`` <br> ({==POS ID ==})      |   Contact the given ATC position.   |   .TCON {==D1F==}   |      |
+|   .T <br> MON <br> ``(space)`` <br> ({==POS ID ==})   |   Monitor the given ATC position.   |   .TMON {==D1F==}   |      |
 |   .T <br> CLOSING <br> ``(space)`` <br> ({==# of min ==})   |   Announces that you will be closing in the give number of min.   |   .TCLOSING  {==10==}   |   Ensure you do not have an aircraft selected prior to sending this command.   |
 |   .T <br> CLOSED   |   Announces that you are now closed.   |   .TCLOSED   |      |
 |   .T <br> SWITCH <br> TO <br> TWR   |   Private messages the selected aircraft information concerning how they are expected to switch to TWR on their own holding short of the assigned RWY.   |   .TSWITCHTOTWR   |      |
