@@ -1,5 +1,5 @@
 # Arnold-Palmer Regional (LBE)
-> [Arnold Palmer Standard Operating Procedures 7110.2E](../../authority-sections/7110.2E-authority.md)
+> [Arnold Palmer Standard Operating Procedures 7110.2A](../../authority-sections/7110.2A-authority.md)
 > - Current Revision A
 > - Effective Date: 2025/01/14
 
