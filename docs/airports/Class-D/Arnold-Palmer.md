@@ -1,7 +1,7 @@
 # Arnold-Palmer (LBE)
-> [Arnold Palmer Standard Operating Procedures 7110.2A](../../authority-sections/7110.2A-authority.md)
-> - Current Revision A
-> - Effective Date: 2025/01/14
+> [Arnold Palmer Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> - Current Revision F
+> - Effective Date: 2023/07/01
 
 !!! abstract "Quick Reference"
     - IFR Departure Altitude: 5,000
@@ -28,7 +28,7 @@ All controllers shall adhere to the following standard when signing onto a LBE p
 
 ### Operational Hours
 
-0615-2200L
+Continuous
 
 ### Required Facility Procedures
 
