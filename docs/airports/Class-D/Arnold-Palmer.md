@@ -1,5 +1,5 @@
 # Arnold-Palmer (LBE)
-> [Arnold Palmer Standard Operating Procedures 7110.2F](../../authority-sections/7110.2F-authority.md)
+> [Minor Fields SOP 7110.2F](../../authority-sections/7110.2F-authority.md)
 > - Current Revision F
 > - Effective Date: 2023/07/01
 
