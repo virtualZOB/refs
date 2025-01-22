@@ -3,7 +3,7 @@ title: Minor Fields SOP
 ---
 
 # Minor Field Standard Operating Procedures 7110.2F
-[Authority Section](../../authority-sections/7110.2F-authority.md)
+[Authority Section](../authority-sections/7110.2F-authority.md)
 - Current Revision F
 - Effective Date: 2023/07/01
 
