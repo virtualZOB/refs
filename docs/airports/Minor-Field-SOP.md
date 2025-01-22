@@ -145,12 +145,14 @@ IFR/VFR operations conducted to the same or parallel runway where an aircraft is
 
 #### 2.6.5 ODO for Arrival/Departure
 This section also covers aircraft performing a touch-and-go, stop-and-go, low approach, or missed/abandoned approach.
+
 1. LC is responsible for applying the cutoff point, described above, between IFR arriving and departing aircraft. The departing ODO aircraft must be airborne, turned to avoid conflict, and communication transferred to the radar controller prior to an ODO arrival reaching the cutoff point.
 2. Radar must not allow the ODO arrival to pass the cutoff point until communication is established with the opposite direction departure.
 3. If the opposite direction arrival is established in the traffic pattern, the departing aircraft must be airborne and issued a turn to avoid conflict and communication transferred to radar prior to the ODO arrival turning base leg.
 4. If the above conditions are not met: action must be taken to ensure control instructions are issued to protect the integrity of the cutoff points.
 
 #### 2.6.6 ODO for Arrival/Arrival
+
 1. With successive IFR opposite direction arrivals, LC must verbally coordinate "landing complete" on the preceding ODO arrival prior to the succeeding ODO arrival reaching the cutoff point.
 2. Radar must not allow the succeeding ODO arrival to pass the cutoff point until the preceding ODO "landing complete" coordination is accomplished.
 3. An arriving aircraft must cross the runway threshold prior to another arriving aircraft established in the traffic pattern turning base leg.
