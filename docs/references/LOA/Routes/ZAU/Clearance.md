@@ -28,13 +28,13 @@
 | MSP | PIT TRACON | :white_check_mark: | | AOB FL360 | KAMMA KKILR_ <br> OR <br> GSH/YABRO KAMMA KKILR_ |
 | MSP | PIT TRACON | | :white_check_mark: | AOB FL360 | BAE EAU_ |
 | ORD | CLE TRACON | :white_check_mark: | :white_check_mark: | |  WATSN_ |
-| ORD | D21 TRACON | :white_check_mark: | | AOB FL280 |  SMUUV WYNDE |
+| ORD | D21 TRACON | :white_check_mark: | | AOB FL280 |  SMUUV WYNDE_ |
 | ORD | D21 TRACON | | :white_check_mark: | AOB FL220 | JXN AZO ELX V100 DEERE |
 | ORD | Jets |  :white_check_mark: | | | WATSN_ |
-| ORD | Jets | | :white_check_mark: | |  OXI OXI_ |
-| ORD | Props | :white_check_mark: | :white_check_mark: | AOB FL240 | GSH GIJ V526 DEERE <br> OR <br> WYNDE |
+| ORD | Jets | | :white_check_mark: | |  FWA PRIGE |
+| ORD | Props | :white_check_mark: | :white_check_mark: | AOB FL240 | GSH GIJ V526 DEERE <br> OR <br> WYNDE_ |
 | ORD | TOL TRACON | :white_check_mark: | | AOB FL220 |  WATSN_ |
-| ORD | TOL TRACON | | :white_check_mark: | AOB FL220 |  OXI OXI_ |
+| ORD | TOL TRACON | | :white_check_mark: | AOB FL220 |  FWA PRIGE |
 | ORD Metro North[^2]<br> ORD Metro West[^1] | | :white_check_mark: | :white_check_mark: | | |  | PMM/SMUUV FIYER OBK <br> ELX V100 DEERE |
 | ORD Metro West[^1]<br> ORD Metro South[^3] |  [J146](https://skyvector.com/?ll=41.88121790284157,-82.00881958360567&chart=302&zoom=6&fpl=JOT%20J146%20MIP) or South | :white_check_mark: | :white_check_mark: | | AOB FL300 | OXI EON JOT  |
 | RAC | |:white_check_mark: | :white_check_mark: | | | | PMM/SMUUV ZEMEL EXARR |

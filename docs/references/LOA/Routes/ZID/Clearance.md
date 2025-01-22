@@ -35,15 +35,15 @@
 | IND | From D21 TRACON | :white_check_mark: | | AOB FL220 | TORRR SNKPT SNKPT_ |
 | IND | From D21 TRACON | | :white_check_mark: | AOB FL220 | TORRR MIE CLANG_ |
 | LCK | via BSV Sector | :white_check_mark:| :white_check_mark: | | TVTRN |
-| LCK | via MFD Sector | :white_check_mark: | | |  DUBLIN_ <br> OR <br> CBUSS_|
+| LCK | via MFD Sector | :white_check_mark: | | |  DUBLN_ <br> OR <br> CBUSS_|
 | LCK | via MGW Sector | :white_check_mark: | | | CLPPR_ |
 | LCK | via MGW Sector | | :white_check_mark: | | AIR BREMN APE |
-| LCK | via MNN Sector | :white_check_mark: | | |  DUBLIN_ <br> OR <br> CBUSS_|
+| LCK | via MNN Sector | :white_check_mark: | | |  DUBLN_ <br> OR <br> CBUSS_|
 | OSU | via BSV Sector | :white_check_mark:| :white_check_mark: | | TVTRN |
-| OSU | via MFD Sector | :white_check_mark: | | |  DUBLIN_ <br> OR <br> CBUSS_|
+| OSU | via MFD Sector | :white_check_mark: | | |  DUBLN_ <br> OR <br> CBUSS_|
 | OSU | via MGW Sector | :white_check_mark: | | | CLPPR_ |
 | OSU | via MGW Sector | | :white_check_mark: | | AIR BREMN APE |
-| OSU | via MNN Sector | :white_check_mark: | | |  DUBLIN_ <br> OR <br> CBUSS_|
+| OSU | via MNN Sector | :white_check_mark: | | |  DUBLN_ <br> OR <br> CBUSS_|
 | SDF |  | :white_check_mark: | |  | UKATS/RINTE DLAMP_ |
 | SDF |  | | :white_check_mark: | |  | APE V5 IIU <br> OR <br> ROD V47 CVG V5 IIU |
 | SDF | From CLE TRACON | :white_check_mark: | | AOB FL280 | UKATS DLAMP_ |
