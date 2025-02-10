@@ -7,35 +7,64 @@
 
 | Airport | Segment/Qualifier  | Altitude | Notes |
 | ------- | ---------- | --------- | ------- |
-| KASW | | AOB 16,000 | |
-| KAZO <br> KBTL <br> KIRS | North of V6 | via approach | |
-| KAZO <br> KBTL <br> KIRS | on or South of V6 | AOB FL220 | |
-| KGRR | North of V170 | via Great Lakes TRACON | |
-| KGRR | Jets <br> Between V170 and east west line trhough LFD VOR/DME | AOB FL190 descending to 11,000 | |
-| KGRR | Props <br> Between V170 and east west line trhough LFD VOR/DME | via Great Lakes TRACON | |
-| KGYY <br> KIGQ  | North of J60  | AOB FL220 | |
-| KGYY <br> KIGQ  | J60 and south | AOB FL280 | |
-| KIND | | AOB FL280 |
-| KMDW | North of J60 | AOB FL220 | |
-| KMDW | J60 and South | AOB FL300 | |
-| KENW <br> KRAC <br> KUGN <br> | Entering GIJ/ELX/LGR | AOB FL320 | |
-| KENW <br> KRAC <br> KUGN <br> | All other ZAU Sectors | AOB FL340 | |
-| KSBN <br> KBEH <br> KEKM <br> KGSH <br> KVPZ <br> KMGC | LFD Sector | AOB FL220 descending to FL200 | |
-| KSBN <br> KBEH <br> KEKM <br> KGSH <br> KVPZ <br> KMGC | PAN Sector | AOB FL220 | |
-| Airports East of 87°W[^1] | | AOB FL220 | |
-| ORD Metro North[^2]<br> ORH Metro West[^3] | | AOB FL220 | |
-| ORD Metro West[^3]<br> ORH Metro South[^4] | J146 or South | AOB FL320 | |
-| KORD | Non-RNAV D21 Depatures | AOB FL220 | |
-| KORD | RNAV D21 Depatures | AOB FL280 | |
-| KORD | RNAV D21 Depatures via WATSN# | AOB FL340 | ZAU has control for turns direct WATSN or DAIFE[^6] |
-| KORD | TOL Depatures | AOB FL220 | ZAU has control for turns direct WATSN or DAIFE or OXI[^6] |
-| KORD | Props via DEERE or WYNDE# | AOB FL240 | |
-| KORD | Jets via DEERS or WYNDE# | AOB FL320 | Must enter ZAU via ECK sector. ZAU has control for turns and descent on contact |
-| KORD | Jets via WATSN# <br> May not be cleared further than direct WATSN <br> Must enter ZAU south of GIJ Sector | AOB FL340 | ZAU has control for turns direct WATSN or DAIFE or OXI[^6] |
-| KORD | Props via OXI# | AOB FL340 | ZAU has control for turns direct WATSN or DAIFE or OXI[^6] |
-| KORD | via KLG Sector <br> on ZEGBI# or CCOBB# | AOB FL220 | ZAU has control for keft turns AOA FL200[^6] |
-| KORD | via PMM or EPM Sectors <br> on KAYLN#  | | Aircraft must not exit SID prior to SMUUV |
-| KORD | South of J60<br>Filed AOA FL240 <br> on SNDRS# | | May not ber cleared further direc than REEDA <br>ZAU has control for turns up to 30°[^6]  
+| ASW | | AOB 16,000 | |
+| AZO | Via ZAU Northeast or East Areas | | Via Approach Control | 
+| BTL | Via ZAU Northeast or East Areas | | Via Approach Control | 
+| IRS | Via ZAU Northeast or East Areas | | Via Approach Control | 
+| FWA | If via ZAU | Cross 30 DME Arc of FWA VORTAC at 11,000 | |
+| GRR | Entering ZAU Northeast Area | | Via Great Lakes TRACON |
+| GRR | Entering ZAU East Area <br> Jets | AOB FL190, descending to 11,000 | When ZAU assumes control of Great Lakes TRACON, they have control for turns and descent |
+| GRR | Entering ZAU East Area <br> Props| | Via Great Lakes TRACON |
+| GYY | Entering ZAU East area north of LLTCH | AOB FL220 | ZAU has control for turns direct BAGEL |
+| GYY | Entering ZAU East area south of LLTCH | AOB FL220 | |
+| GYY | Entering ZAU Southeast area RNAV | AOB FL280 | |
+| GYY | Entering ZAU Southeast area Non-RNAV | AOB FL220 | |
+| IGQ | Entering ZAU East area north of LLTCH | AOB FL220 | ZAU has control for turns direct BAGEL |
+| IGQ | Entering ZAU East area south of LLTCH | AOB FL220 | |
+| IGQ | Entering ZAU Southeast area RNAV | AOB FL280 | |
+| IGQ | Entering ZAU Southeast area Non-RNAV | AOB FL220 | |
+| IND | | AOB FL280 | |
+| MDW |  Entering ZAU East area north of LLTCH | AOB FL220 | ZAU has control for left turns AOA FL200 |
+| MDW |  Entering ZAU East area south of LLTCH | AOB FL220 | |
+| MDW | Entering ZAU Southeast area | AOB FL300 | |
+| MKE Metro | | | ZAU has control for turns direct GETCH AOA FL240 north of KORD arrival route |
+| ENW | Entering ZAU East Area | AOB FL320 | |
+| ENW | Entering ZAU other Areas | AOB FL340 | | 
+| RAC | Entering ZAU East Area | AOB FL320 | |
+| RAC | Entering ZAU other Areas | AOB FL340 | |  
+| UGN | Entering ZAU East Area | AOB FL320 | |
+| UGN | Entering ZAU other Areas | AOB FL340 | |
+| MSP | Via KKILR_ | |  Aircraft can be cleared no further than direct KAMMA  |
+| MSP | Via EAU_ | | Aircraft can be cleared no further than direct BAE |
+| RFD | Entering ZAU Northeast Area and ZAU East Area north of SVM | AOB FL340 | | 
+| SBN | Entering ZAU East and Southeast Areas | AOB FL220 | ZAU has control for descent | 
+| BEH | Entering ZAU East and Southeast Areas | AOB FL220 | ZAU has control for descent | 
+| EKM | Entering ZAU East and Southeast Areas | AOB FL220 | ZAU has control for descent | 
+| GSH | Entering ZAU East and Southeast Areas | AOB FL220 | ZAU has control for descent | 
+| VPZ | Entering ZAU East and Southeast Areas | AOB FL220 | ZAU has control for descent | 
+| MGC | Entering ZAU East and Southeast Areas | AOB FL220 | ZAU has control for descent | 
+| ORD | Entering ZAU Northeast Area | AOB FL320 | Must Enter ZAU via ECK Sector or below ZAU has control for turns, descent, and speed increases on contact | 
+| ORD | Entering ZAU Southeast Area <br> Jets | AOB FL340 | Arrivals must enter ZAU directly into the ZAU Southeast Area established on routing that will join the STAR no later than WATSN. <br> <br> ZAU has control for turns direct WATSN or DAIFE | 
+| ORD | Entering ZAU Southeast Area <br> Props | AOB FL240 | | 
+| All Execept ORD and IND | From D21 TRACON <br> Entering ZAU Northeast Area | | If requested altitude as passed by the transferring controller is higher than FL320, ZAU has control to climb to FL310 <br> <br> WAY approval of an automated point out on an aircraft climbing to FL330, constitutes release of control from WAY to EMP for climb to FL340 | 
+| All Execept ORD and IND | From D21 TRACON <br> Entering ZAU East Area | | ZAU has control for left turns AOA FL200 | 
+| All Execept ORD and IND | From D21 TRACON <br> Entering ZAU Southeast Area | | Aircraft that cross the boundary AOA FL300 may be cleared no further than BGHRT. <br> <br> ZAU has control for turns up to 30° | 
+| Airports east of 87°W [^1] | | AOB FL220 | |
+| Chicago Metro North Satellites [^2] | RNAV | AOB FL300 | |
+| Chicago Metro North Satellites [^2] | Non-RNAV | AOB FL220 | |
+| Chicago Metro West Satellites [^3] | RNAV | AOB FL300 | |
+| Chicago Metro West Satellites [^3] | Non-RNAV | AOB FL320 | |
+| Chicago Metro North Satellites [^4] | | AOB FL320 | |
+
+
+
+### ZAU Areas
+
+| Area Name | Sector 1 | Sector 2 |
+| :-- | :-: | :-: |
+| **Northeast Area** | 25 <br> PMM | 26 <BR> KUBBS |
+| **East Area** | 81 <br> CRIBB | 89 <br> GIJ |
+| **Southeast Area** | 35 <br> BEARZ | 36 <br> FWA |
 
 
 [^1]: ZAU Airports East of 87°W: 35D, KGWB, KFFX, 3GM, KHLM, KMKG, KLWA[^5], KBIV
