@@ -1,3 +1,9 @@
+!!! abstract "Quick Reference"
+     - Neighboring Areas: 7
+     - Primary High: GEE
+     - Primary Low: BUF
+     - Low Max Altitude: FL270
+
 Airport or Subject | Qualifier | Areas | Rule  
 ------------------ | ---------- | ------ | ----  
 CLE Satellites | Arrivals | 3, 7 | RNAV arrivals from NE of JHW must cross the common boundary AOB FL340 and be routed JOSSY THOME TRYBE STAR or CLERI direct destination.  

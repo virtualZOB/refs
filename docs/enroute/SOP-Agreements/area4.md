@@ -1,3 +1,9 @@
+!!! abstract "Quick Reference"
+     - Neighboring Areas: 1, 2, 5, 7
+     - Primary High: RAV
+     - Primary Low: NONE
+     - Low Max Altitude: FL230
+
 | Airport or Subject    | Qualifier     | Areas       | Rule |
 |-----------------------|---------------|-------------|-----------------------------------------------------------------------|
 | ABE                   | Arrivals      | 4, 5        | KABE arrivals departing KDTW and KDTW satellites must enter BKI sector at or below FL310. |

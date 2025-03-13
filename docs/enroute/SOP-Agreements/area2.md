@@ -1,3 +1,9 @@
+!!! abstract "Quick Reference"
+     - Neighboring Areas: 1, 2, 4
+     - Primary High: DET
+     - Primary Low: YQG
+     - Low Max Altitude: FL230
+
 | Airport or Subject      | Qualifier        | Areas             | Rule |
 |-------------------------|------------------|-------------------|----------------------------------------------------------------------|
 | AVP                     | Arrivals         | 2, 7              | KAVP arrivals must be routed DMACK LACIE KAVP and must not be routed past DMACK. |
