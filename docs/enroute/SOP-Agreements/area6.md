@@ -1,3 +1,9 @@
+!!! abstract "Quick Reference"
+     - Neighboring Areas: 4, 7
+     - Primary High: AIR
+     - Primary Low: NONE
+     - Low Max Altitude: FL230
+
 | Airport or Subject         | Qualifier | Areas         | Rule |
 |----------------------------|-----------|---------------|--------------------------------|
 | ABE, AVP                   | Departures | 5, 6          | Area 6 has control for left turns up to 20°.                                                                                                                                   |

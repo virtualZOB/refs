@@ -1,3 +1,9 @@
+!!! abstract "Quick Reference"
+     - Neighboring Areas: 1, 2, 5, 7
+     - Primary High: NONE
+     - Primary Low: PAN
+     - Low Max Altitude: FL230
+
 | Airport or Subject          | Qualifier      | Areas         | Rule |
 |-----------------------------|----------------|---------------|----------------------|
 | CAK, CLE, CLE sats          | Arrivals       | 1, 2, 4, 8    | Aircraft must be assigned the BRWNZ arrival. Aircraft must not be cleared further direct than FRYYE. YQG sector may issue “descend via” clearance on contact.   |
