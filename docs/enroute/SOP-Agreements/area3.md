@@ -1,3 +1,8 @@
+---
+search:
+  boost: 0.5
+---
+
 !!! abstract "Quick Reference"
      - Neighboring Areas: 7
      - Primary High: GEE

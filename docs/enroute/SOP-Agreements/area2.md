@@ -1,3 +1,8 @@
+---
+search:
+  boost: 0.5
+---
+
 !!! abstract "Quick Reference"
      - Neighboring Areas: 1, 2, 4
      - Primary High: DET
