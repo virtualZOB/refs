@@ -20,8 +20,6 @@ All controllers shall adhere to the following standard when signing onto a LBE p
 | LBE\_GND | Ground | Palmer Ground | GC | 121.800 |
 | LBE\_TWR | Local | Palmer Tower | T | 125.000 |
 
-**(CLE\_66 or any position overlying is to be used as a replacement for JST RAPCON).**
-
 ### Area of Responsibility
 
 1. LBE surface area of responsibility is defined as a 5 NM radius around LBE from surface up to and including 3700ft MSL.
