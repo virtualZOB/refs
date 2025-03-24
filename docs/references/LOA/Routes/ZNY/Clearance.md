@@ -36,8 +36,8 @@
 | RDG | Jets via MIP Sector |  :white_check_mark:| :white_check_mark: | | RAV |
 | RDG | Via PSB Sector |  :white_check_mark:| :white_check_mark: | | RAV |
 | RDG | via MDT Sector |  :white_check_mark:| :white_check_mark: | | HAR BOYER |
-| SWF |  | :white_check_mark:| :white_check_mark: | | HNK DNY V483 FLIPS | 
-| SWF Sats[^5] |  | :white_check_mark:| :white_check_mark: | | HNK DNY V483 FLIPS | 
+| SWF |  | :white_check_mark:| :white_check_mark: | | HNK DNY V483 FILPS | 
+| SWF Sats[^5] |  | :white_check_mark:| :white_check_mark: | | HNK DNY V483 FILPS | 
 | SYR | Via ZNY | :white_check_mark:| :white_check_mark: | | PSB |
 
 [^1]: DCA Satellite Fields: ADW, NSF, CGS, NDY, W00, W32, VKX, 2W5
