@@ -23,8 +23,7 @@ search:
 | DTW, DTW sats           | Departures       | 2, 3, 7           | Departures routed via JHW must remain on course until level at requested altitude. |
 | DTW, DTW sats           | Jet Departures   | 1, 2, 3, 4, 5, 7, 8 | The first ZOB sector to work a D21 jet departure must delete or amend, via ATC clearance, any “SID assigned” speed restriction. |
 | DTW, DTW sats           | Departures via GRIVY | 2, 4           | Area 4 has control for right turns AOA FL220. Area 4 is responsible for any resulting coordination. |
-| DTW                     | Departures via   | 2, 4, 5           | Area 4 is responsible for pointouts to Area 5 on D21. |
-| DTW sats                | ESSBE            |                   | ESSBE departures. |
+| DTW, DTW sats           | Departures via  ESSBE | 2, 4, 5           | Area 4 is responsible for pointouts to Area 5 on D21. |
 | DTW, DTW sats           | Departures via HHOWE | 2, 7          | Area 2 must ensure that KDTW and KDTW satellites departures requesting AOA FL280 via the HHOWE SID are issued the LNCON transition. |
 | ERI                     | Arrivals         | 2, 7              | KERI arrivals are descended to 11,000 feet and handed off to DKK sector. |
 | EWR                     | Arrivals         | 2, 4, 5, 7        | KEWR arrivals must be routed via SLT FQM STAR. KEWR arrivals enter Area 7 routed via J584 SLT or Q29 DORET J584 SLT or EWC050 J584 SLT (PIT depts. only) with SLT being the furthest direct routing allowed. KEWR arrivals should not be cleared direct SLT if the new route will take the aircraft south of YNG VORTAC. |
