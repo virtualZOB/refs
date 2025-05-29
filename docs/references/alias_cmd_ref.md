@@ -111,7 +111,7 @@ See "Text to Pilots" section for context.
 |   .T <br> EQUIP   |   Private messages the selected aircraft asking for their FAA equipment suffix code and provides a link to a tutorial showing them how to determine their code.   |   .TEQUIP   |      |
 |   .T <br> N# <br> FORMAT   |   Private messages the selected aircraft advising them that their N-number format seems to be incorrect and links them to the FAA site to help them figure out how to reconnect with a correctly formatted callsign.   |   .TN#FORMAT   |      |
 |   .T <br> ID <br> FORMAT   |   Private messages the selected aircraft advising them that their air-carrier callsign format seems to be incorrect and links them to the FAA site to help them figure out how to reconnect with a correctly formatted callsign.   |   .TIDFORMAT   |      |
-|   .T <br> VRT?   |   Private messages the selected aircraft asking the pilot to respond with V, R, or T to tell ATC what voice capabilities they have while also encouraging the use of Full Voice (V).   |   .TVRT?   |      |
+|   .T <br> VRT   |   Private messages the selected aircraft asking the pilot to respond with V, R, or T to tell ATC what voice capabilities they have while also encouraging the use of Full Voice (V).   |   .TVRT   |      |
 
 ### Clearance Delivery
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
