@@ -7,7 +7,7 @@
 | Any others | From PIT TRACON via MGW Sector |  :white_check_mark: |:white_check_mark: | | BURGS HVQ <br> OR <br> BURGS HNN |
 | CMH and CMH Area [^2] |  | :white_check_mark: | :white_check_mark: | | CBUSS_ <br> OR <br> GUNNE <br> OR <br> FMC DUBLN_ |
 | CVG | From CLE TRACON |  | :white_check_mark: | AOB FL220 | CLPRR DAYVE |
-| CVG | From CLE TRACON | :white_check_mark: | | AOB FL220 | UKATS TIGGR_ |
+| CVG | From CLE TRACON | :white_check_mark: | | AOB FL220 | UKATS TIGRR_ |
 | CVG | From D21 TRACON | :white_check_mark: | | AOB FL200 | TORRR DEBAR ARBAS RID MEEKR |
 | CVG | From FNT | :white_check_mark: | :white_check_mark: |  | FWA DEBAR ARBAS RID MEEKR |
 | CVG | From LAN | :white_check_mark: |:white_check_mark: |  | FWA DEBAR ARBAS RID MEEKR |
