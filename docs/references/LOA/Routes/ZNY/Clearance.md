@@ -20,7 +20,7 @@
 | EWR Sats[^2] | Props unable LVZ_ |  :white_check_mark: |  :white_check_mark: |  | PENNS STW |
 | HPN | From PIT TRACON with speed 250Kt or higher |  :white_check_mark: |  :white_check_mark: |  | DNY VALRE_ |
 | HPN | From PIT TRACON with speed under 250Kt |  :white_check_mark: |  :white_check_mark: |  | DNY NOBBI_ |
-| IAD | Jets Via ZNY |  :white_check_mark: |  :white_check_mark:   | J59 PSB PRIVO_ | 
+| IAD | Jets Via ZNY |  :white_check_mark: |  :white_check_mark: |  | J59 PSB PRIVO_ | 
 | IAD | Props Via ZNY|  :white_check_mark: |  :white_check_mark:  | | SEG SEG_ | 
 | ISP | | :white_check_mark: |  :white_check_mark: | | HNK NELIE_ |
 | ISP Sats[^6]| | :white_check_mark: |  :white_check_mark: | | HNK NELIE_ |
