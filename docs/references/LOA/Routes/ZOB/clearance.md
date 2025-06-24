@@ -12,7 +12,7 @@
 | CLE | From D21 TRACON | | :white_check_mark:  | AOB 10000 | METRO_ MAARS DJB | 
 | PIT | From the west | :white_check_mark: | | | JESEY_ | 
 | PIT | From the north | :white_check_mark: | | | HAYNZ_ | 
-| BUF | From the west | :white_check_mark: | :white_check_mark | | DKK | 
+| BUF | From the west | :white_check_mark: | :white_check_mark: | | DKK | 
 
 
 
