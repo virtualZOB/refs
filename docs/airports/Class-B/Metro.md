@@ -1,7 +1,7 @@
 !!! abstract "Quick Reference"
     - IFR Departure Altitude: 6,000(Jet)/4,000(Prop)
     - IFR Departure Heading: 
-    - VFR Altitude: ABO 4,000
+    - VFR Altitude: AOB 4,000
     - Pattern Altitude: 1,800
     - Missed Approach: 4,000
 
