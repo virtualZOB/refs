@@ -30,7 +30,7 @@
 | JFK | Props with speed under 250kt | :white_check_mark: |  :white_check_mark: | | PSB V6 FJC ARD V276 ZIGGI |
 | LGA | Jets From PIT TRACON |:white_check_mark: |  :white_check_mark: | AOB FL290 | ETG MIP_ <br> OR <br> PSB MIP_ <br> OR <br> MIP MIP_ |
 | LGA | Jets |:white_check_mark: |  :white_check_mark: | | ETG MIP_ <br> OR <br> PSB MIP_ <br> OR <br> MIP MIP_ |
-| PHL | Jets | :white_check_mark: | | | HAR BOIJD_ | 
+| PHL | Jets | :white_check_mark: | | | HAR BOJID_ | 
 | PHL | Jets |  | :white_check_mark: | | HAR BUNTS_ | 
 | PHL | Props | :white_check_mark: | :white_check_mark: | | HAR V210 BUNTS |
 | RDG | Jets via MIP Sector |  :white_check_mark:| :white_check_mark: | | RAV |
