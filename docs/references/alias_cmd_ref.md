@@ -45,7 +45,7 @@ See "Text to Pilots" section for context.
 |   .SEE <br> AC    |   Opens the users default browser to google images to show the selected aircrafts picture.   |   .SEEAC   |      |
 |   .N# <br> FORMAT   |   Opens the users default browser to the FAA N-Number format page.   |   .N#FORMAT   |   TTP   |
 |   .ID <br> FORMAT   |   Opens the users default browser to the FAA Air-Carrier telephony page.   |   .IDFORMAT   |   TTP   |
-|   .ROF   |   With the aircraft selected, opens the users default browser to skyvector page and shows a direct routing between the departure and arrival airport. Reference NOTE [^1].   |   .ROF   |      |
+|   .ROF   |   With the aircraft selected, opens the users default browser to skyvector page and shows the currently assigned routing. Reference NOTE [^1].   |   .ROF   |      |
 |   .ROF <br> FA   |   With the aircraft selected, opens the users default browser to FlightAware page and depicting routes flown between the departure and arrival airport.   |   .ROFFA   |      |
 |   .SKY   |   Opens the users default browser to the Skyvector site.   |   .SKY   |      |
 |   .EQUIP   |   Opens the users default browser to the FlightAware FAA equipment suffix code page.   |   .EQUIP   |   TTP   |
@@ -69,6 +69,7 @@ See "Text to Pilots" section for context.
 |   .OTP   |   Displays a script to read to the pilot with the format of a VFR-ON-TOP clearance.   |   .TOP   |      |
 |   .POS <br> CHECK   |   Displays a item list for a position relief checklist.   |   .POSCHECK   |      |
 |   .AC <br> INFO <br> ({== ACFT ICAO CODE ==})   |   Returns info concerning the given aircraft.   |   .ACINFO{==B738==}  |   This is different than the .ACINFO command native to CRC.   |
+|   .CWT <br> ({== 1st CWT Letter ==}) <br> ({== 2nd CWT Letter ==})   |   Returns Consolidated Wake Turbulence (CWT) separation standards for the given sequence per FAA Order JO 7110.126   |   .CWT{==AC==}   |      |
 | .L | Shows which callsigns are currently transmitting or were recently transmitting on voice | .L | | 
 
 ## GROUND TO GROUND COMMUNICATION
@@ -196,7 +197,7 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 
 ## Notes
 
-[^1]: Prior to completing this command, it is suggested that you copy the route to the clipboard (CTRL+C). Complete the command and then paste (CTRL+P) into the Skyvector route field.
+[^1]: This command speaks to the VATSIM API every 3min so there may be a delay when an aircraft initially logs on to the command working.
 [^2]: 
     Commands like these are useful because they have another command that is similar. For example if you wanted to draw all the fixes for the CLE BRWNZ arrival on your scope and you wanted the chart to be recalled, simply complete one of the commands, then use your keyboards UP arrow to have it display again, use your backspace button to remove the last character and replace it with the appropriate letter for the other command. <br>
       **Example**:

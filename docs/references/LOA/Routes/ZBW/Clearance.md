@@ -15,7 +15,7 @@
 | GTB | |:white_check_mark: |:white_check_mark:  | | SYR DCT |
 | HPN | |:white_check_mark: |:white_check_mark:  | | ITH DNY VALRE_ | 
 | ISP | |:white_check_mark: |:white_check_mark:  | | NELIE_ |
-| JFK | If transit ZBW Airspace | :white_check_mark: |:white_check_mark:  | | | MEMMS PUCKY_ |
+| JFK | If transit ZBW Airspace | :white_check_mark: |:white_check_mark:  | | MEMMS PUCKY_ |
 | LGA | If transit ZBW Airspace | :white_check_mark: |:white_check_mark:  | | ALB HAARP_ <br> RKA HAARP_|
 | MHT | Jet | :white_check_mark: |  | | PONCT ROZZE_ |
 | MSV | |:white_check_mark: |:white_check_mark:  | | ITH DNY V483 FILPS |
