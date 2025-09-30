@@ -24,9 +24,9 @@
 | IAD | Props Via ZNY|  :white_check_mark: |  :white_check_mark:  | | SEG SEG_ | 
 | ISP | | :white_check_mark: |  :white_check_mark: | | HNK NELIE_ |
 | ISP Sats[^6]| | :white_check_mark: |  :white_check_mark: | | HNK NELIE_ |
-| JFK | Jets From East of PIT | :white_check_mark: |  :white_check_mark: | | PSB MAGIO LVZ LENDY_ |
-| JFK | Jets | :white_check_mark: |  :white_check_mark: | | HOXIE J70 LVZ LENDY_ |
-| JFK | Props with speed 250kt or higher at FL190+ | :white_check_mark: |  :white_check_mark: | | HOXIE J70 LVZ LENDY_ |
+| JFK | Jets From East of PIT | :white_check_mark: |  :white_check_mark: | | PSB MAGIO WLKES PUCKY_ |
+| JFK | Jets | :white_check_mark: |  :white_check_mark: | | HOXIE J70 WLKES PUCKY_ |
+| JFK | Props with speed 250kt or higher at FL190+ | :white_check_mark: |  :white_check_mark: | | HOXIE J70 WLKES PUCKY_ |
 | JFK | Props with speed under 250kt | :white_check_mark: |  :white_check_mark: | | PSB V6 FJC ARD V276 ZIGGI |
 | LGA | Jets From PIT TRACON |:white_check_mark: |  :white_check_mark: | AOB FL290 | ETG MIP_ <br> OR <br> PSB MIP_ <br> OR <br> MIP MIP_ |
 | LGA | Jets |:white_check_mark: |  :white_check_mark: | | ETG MIP_ <br> OR <br> PSB MIP_ <br> OR <br> MIP MIP_ |
