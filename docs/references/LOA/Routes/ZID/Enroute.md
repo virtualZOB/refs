@@ -1,5 +1,4 @@
 # Enroute Crossing Requirements
-
 | Airport | Segment/Qualifier | Altitude | Notes |
 | ------- | ---------- | --------- | ------- |
 | All other airports | From CLE TRACON via APE | AOB FL270 | ZID has control for turns up to 15° left of course |

@@ -1,5 +1,4 @@
 ## Clearance Routing
-
 | Airport | Conditions | RNAV | Non-RNAV | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- | ---- | ----- |
 | YHM | From the east | | :white_check_mark: | | DKK | 

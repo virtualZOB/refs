@@ -1,5 +1,4 @@
 ## Clearance Routing
-
 | Airport | Conditions | RNAV | Non-RNAV | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- | ---- | ----- |
 | BDL | |:white_check_mark: |:white_check_mark:  | | AUDIL STELA_ <br> MEMMS WILET STELA_ |

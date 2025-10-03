@@ -1,4 +1,3 @@
-
 # Enroute Crossing Requirements
 | Airport | Segment/Qualifier | Altitude | Notes |
 | --- | --- | --- | --- |

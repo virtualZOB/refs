@@ -1,5 +1,4 @@
 # Enroute Crossing Requirements
-
 | Airport | Segment/Qualifier | Altitude[^1] | Notes |
 | ------- | ---------- | --------- | ------- |
 | All except DC Metro | From PIT TRACON | AOB FL320 | ZDC has control for climbs at CKB to FL320 with the AIR sector |
