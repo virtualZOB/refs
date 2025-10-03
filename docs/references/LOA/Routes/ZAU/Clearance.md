@@ -1,5 +1,4 @@
 ## Clearance Routing
-
 | Airport | Conditions | RNAV | Non-RNAV | Assigned Altitude <br> Restrictions | Routing |
 | ------- | ---------- | --------- | ------- | ---- | ----- |
 | CVG | From KLAN, KFNT | :white_check_mark: | | | FWA ZEKUS ARBAS RID MEEKR |
@@ -11,12 +10,12 @@
 | IGQ | Entering ZAU East area south of LLTCH | :white_check_mark: | | | BAGEL GSH GSH_ |
 | IGQ | Entering ZAU Southeast Area | :white_check_mark: | | | BAGEL GSH GSH_ |
 | IGQ | | | :white_check_mark: | | AZO GIJ CGT direct destination |
-| IND | |  :white_check_mark: | | | SJAAY SNKPT_  |
-| IND | | |  :white_check_mark: | | FWA CLANG_ |
-| IND | D21 TRACON | :white_check_mark: |  | AOB FL280 | REEDA SJAAY SNKPT_ |
-| IND | TOL TRACON | :white_check_mark: |  | AOB FL280 | REEDA SJAAY SNKPT_ |
-| IND | D21 TRACON | | :white_check_mark:  | AOB FL220 | KEEDA/ILLIE FWA CLANG_ |
-| IND | TOL TRACON | | :white_check_mark:  | AOB FL220 | KEEDA/ILLIE FWA CLANG_ |
+| IND | Via ZAU |  :white_check_mark: | | | SJAAY SNKPT_  |
+| IND | Via ZAU | |  :white_check_mark: | | FWA CLANG_ |
+| IND | Via ZAU from D21 TRACON | :white_check_mark: |  | AOB FL280 | REEDA SJAAY SNKPT_ |
+| IND | Via ZAU from TOL TRACON | :white_check_mark: |  | AOB FL280 | REEDA SJAAY SNKPT_ |
+| IND | Via ZAU from D21 TRACON | | :white_check_mark:  | AOB FL220 | KEEDA/ILLIE FWA CLANG_ |
+| IND | Via ZAU from TOL TRACON | | :white_check_mark:  | AOB FL220 | KEEDA/ILLIE FWA CLANG_ |
 | MDW | Entering ZAU East Area north of LLTCH | :white_check_mark: | | | ZEGBI LEROY BAGEL PANGG_ |
 | MDW | Entering ZAU East Area north of LLTCH | | :white_check_mark: | | AZO GSH GSH_|
 | MDW | Entering ZAU East Area south of LLTCH| :white_check_mark: | | | BAGEL PANGG_ |
