@@ -51,7 +51,9 @@ See "Text to Pilots" section for context.
 |   .EQUIP   |   Opens the users default browser to the FlightAware FAA equipment suffix code page.   |   .EQUIP   |   TTP   |
 |   .ICAO <br> EQUIP   |   Opens the users default browser to the ForeFlight equipment suffix code page.   |   .ICAOEQUIP   |      |
 |   .POINT <br> 65   |   Opens the users default browser to the FAA 7110.65 HTML page.   |   .POINT65   |      |
-|   .CHARTS <br> ``(space)`` <br> ({== APT ID ==})   |   Opens the users default browser to the AIRNAV page IFR section for the given airport ID.   |   .CHARTS {== DTW ==}   |      |
+|   .CHARTS <br> ``(space)`` <br> ({== FAA or ICAO APT ID ==})   |   Opens the users default browser to the AIRNAV page IFR section for the given airport ID.   |   .CHARTS {== DTW ==}   |      |
+|   .CHARTS <br> CF <br> ``(space)`` <br> ({== ICAO APT ID ==})   |   Opens the users default browser to the ChartFox page for the given airport ID.   |   .CHARTSCF {== KDTW ==}   |      |
+|   .CHARTS <br> FAA   |   Opens the users default browser to the FAA Terminal Procedures and Airport Diagrams page.   |   .CHARTSFAA   |      |
 |   .TMU <br> MAP   |   Opens the users default browser to the VATUSA TMU page for ZOB.   |   .TMUMAP   |      |
 |   .HOLDING <br> SHEET   |   Opens a hold tracking spreadsheet in google that allows the facility to coordinate simultaneous holding.   |   .HOLDINGSHEET   |      |
 
