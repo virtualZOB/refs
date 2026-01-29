@@ -58,21 +58,50 @@ See "Text to Pilots" section for context.
 |   .HOLDING <br> SHEET   |   Opens a hold tracking spreadsheet in google that allows the facility to coordinate simultaneous holding.   |   .HOLDINGSHEET   |      |
 
 ## GENERAL ASSISTANCE
+
+### General
+|   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
+| --- | --- | --- | --- |
+|   .RFD   |   ISR of script to read to the pilot with the format for a Release-For-Departure clearance that includes a 10min void time from the current time and an advisory to contact the issuing controller no later than 15min of intentions if not off in time.   |   .RFD   |   TTP   |
+|   .NO <br> TWR <br> APP   |   ISR of specific phraseology and rules associated with IFR arrivals into a non-towered field.   |   .NOTWRAPP   |      |
+|   .HOLDING   |   ISR of script to read to the pilot with the format of a Holding clearance.   |   .HOLDING   |      |
+|   .TAA   |   ISR of specific phraseology and rules associated with utilizing the TAA on RNAV approaches.   |   .TAA   |      |
+|   .HELI <br> CT   |   ISR of specific phraseology and rules associated with helicopter takeoffs.   |   .HELICT   |      |
+|   .HELI <br> CL   |   ISR of specific phraseology and rules associated with helicopter landings.   |   .HELICL   |      |
+
+### Special Operations
+|   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
+| --- | --- | --- | --- |
+|   .FUEL <br> DUMP   |   ISR of specific phraseology and rules associated with fuel dumping operations.   |   .FUELDUMP   |      |
+|   .OTP   |   ISR of specific phraseology and rules associated with a VFR-ON-TOP clearance.   |   .TOP   |      |
+|   .CRUISE   |   ISR of specific phraseology and rules associated with a Cruise clearance.   |   .CRUISE   |      |
+
+### Military Operations
+|   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
+| --- | --- | --- | --- |
+|   .MIL <br> REFUEL <br> START   |   ISR of specific phraseology and rules associated with the start of Ariel Refueling operations.   |   .MILREFUELSTART   |      |
+|   .MIL <br> REFUEL <br> END   |   ISR of specific phraseology and rules associated with the end of Ariel Refueling operations.   |   .MILREFUELEND   |      |
+|   .MIL <br> MARSA   |   ISR of specific phraseology and rules associated with Military Assumes Resonsibility for Separation of Aircraft (MARSA) operations.   |   .MILMARSA   |      |
+|   .OVERHEAD   |   ISR of specific phraseology and rules associated with an Overhead Break maneuver.   |   .OVERHEAD   |      |
+|   .MIL <br> MOA   |   ISR of specific phraseology and rules associated with a Military Operations Area (MOA).   |   .MILMOA   |      |
+|   .MIL <br> MTR   |   ISR of specific phraseology and rules associated with a Military Training Route (MTR).   |   .MILMTR   |      |
+|   .MIL <br> CT   |   ISR of specific phraseology and rules associated with a military takeoff clearances.   |   .MILCT   |   No need for TTP because the standard .TCT is formatted this way.   |
+|   .MIL <br> CL   |   ISR of specific phraseology and rules associated with a military landing clearances.   |   .MILCL   |   No need for TTP because the standard .TCL is formatted this way.   |
+
+### Help A Pilot In Need
+|   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
+| --- | --- | --- | --- |
+|   .BAD <br> PILOT   |   ISR of a script to read to the pilot who is clearly not equipped with the knowledge or skill to complete the flight they are trying to conduct. This script is for a pilot that you are considering calling a supervisor for.   |   .BADPILOT   |   TTP   |
+|   .SWITCH <br> TO <br> TWR   |   ISR of a script to read to the who has reached the assigned departure runway and is inquiring why they didn ’t get a switch to tower instruction.   |   .SWITCHTOTWR   |   TTP   |
+
+### TOOLS
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
 |   .EQUIP <br> ({== FAA EQUIPMENT SUFFIX LETTER ==})   |   Responds with a description of what capabilities the given equipment suffix has.   | .EQUIP{==L==}   |      |
-|   .PRC   |   Displays a script to read to the pilot who is clearly not equipped with the knowledge or skill to complete the flight they are trying to conduct.   |   .PRC   |   TTP   |
-|   .SWITCH <br> TO <br> TWR   |   Displays a script to read to the who has reached the assigned departure runway and is inquiring why they didn ’t get a switch to tower instruction.   |   .SWITCHTOTWR   |   TTP   |
-|   .OVERHEAD   |   Displays a phraseology guide to use for reference when providing instructions for an Overhead Break maneuver.   |   .OVERHEAD   |      |
-|   .MIL <br> CT   |   Displays specific phraseology for takeoff clearance for a USA/USN/USAF aircraft.   |   .MILCT   |   No need for TTP because the standard .TCT is formatted this way.   |
-|   .MIL <br> CL   |   Displays specific phraseology for landing clearance for a USA/USN/USAF aircraft.   |   .MILCL   |   No need for TTP because the standard .TCL is formatted this way.   |
-|   .RFD   |   Displays script to read to the pilot with the format for a Release-For-Departure clearance that includes a 10min void time from the current time and an advisory to contact the issuing controller no later than 15min of intentions if not off in time.   |   .RFD   |   TTP   |
-|   .HOLDING   |   Displays script to read to the pilot with the format of a Holding clearance.   |   .HOLDING   |      |
-|   .OTP   |   Displays a script to read to the pilot with the format of a VFR-ON-TOP clearance.   |   .TOP   |      |
-|   .POS <br> CHECK   |   Displays a item list for a position relief checklist.   |   .POSCHECK   |      |
-|   .AC <br> INFO <br> ({== ACFT ICAO CODE ==})   |   Returns info concerning the given aircraft.   |   .ACINFO{==B738==}  |   This is different than the .ACINFO command native to CRC.   |
+|   .POS <br> CHECK   |   ISR of a item list for a position relief checklist.   |   .POSCHECK   |      |
+|   .L   |   Shows which callsigns are currently transmitting or were recently transmitting on voice   |   .L   |      | 
 |   .CWT <br> ({== 1st CWT Letter ==}) <br> ({== 2nd CWT Letter ==})   |   Returns Consolidated Wake Turbulence (CWT) separation standards for the given sequence per FAA Order JO 7110.126   |   .CWT{==AC==}   |      |
-| .L | Shows which callsigns are currently transmitting or were recently transmitting on voice | .L | | 
+|   .AC <br> INFO <br> ({== ACFT ICAO CODE ==})   |   Returns info concerning the given aircraft.   |   .ACINFO{==B738==}  |   This is different than the .ACINFO command native to CRC.   |
 
 ## GROUND TO GROUND COMMUNICATION
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
