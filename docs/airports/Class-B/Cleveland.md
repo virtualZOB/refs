@@ -26,7 +26,9 @@
 
 
 ## Position Combination
+
 TRACON positions should be opened and combined:
+
 1. CLE_A_APP
     - A/F/D/R/N combined. May use simplified CLE_APP callsign
     - Solo certified controllers may connect as CLE_S_APP on 124.000.
@@ -35,8 +37,8 @@ TRACON positions should be opened and combined:
     - E/S combined. May use simplified CAK_APP callsign.
     - W may be combined with E/S when the position is not separated staffed by another controller.
 4. MFD_W_APP
-Other positions may only be opened during events or with the permission of the ATM/DATM/TA/EC/CIC.
-
+Other positions may only be opened during events or with the permission of the ATM/DATM/TA/EC/CIC. 
+    
 ## Transfer of Position Responsibility
 1. All personnel shall review authorized sources of information prior to beginning the monitor, including the following:
     - Information Display System (IDS) found on the vZOB Site
