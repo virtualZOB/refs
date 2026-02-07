@@ -1,34 +1,34 @@
 # Alias Command Reference  
-The following is a description of vZOB Alias commands available.
+The following describes Alias commands avialable to vZOB controllers.
 
 You may practice the use of these commands [HERE](https://refs.clevelandcenter.org/references/alias-practice/).
 
 
-These commands are specific to the vZOB facility and this document will not cover alias commands that are built-in to the CRC software; For CRC-Specific commands, please reference the CRC manual found [HERE](https://crc.virtualnas.net/docs/#/). vZOB only supports the use of CRC; All other programs will not be explained via this document.
+The CRC software has native (built-in) alias commands that will not be covered in this document, but you may learn about the native commands via the CRC Manual found [HERE](https://crc.virtualnas.net/docs/#/). Commands contained in this document are vZOB custom commands. 
 
 
-Alias commands were once primarily used for text-to-pilot communications but these days they are used in a much more powerful manner such as the in-scope reference system. Also, with more pilots using voice capabilities, one should consider the alias command system more as a tool rather than a communication method. Therefore, to avoid confusion between tools and communication, if information is going to be sent to a pilot in any manner, the command will be prefixed with a “T" for “text" after the initial period.
-See "Text to Pilots" section for context.
+Alias commands were originally used mainly for text-to-pilot communications. Today, they support more powerful functions, such as the In-Scope Reference (ISR) system. And as more pilots use voice capabilities, the alias command system should be viewed as a tool rather than a primary communication method. To avoid confusion between tools and communications, any command intended to send information to a pilot will be prefixed with “T” (for “text”) immediately after the initial period. (ex: .Tcommand)
+See the "Text to Pilots" section for more context.
 
 
 ## COLUMNS EXPLANATION
 
 - SYNTAX
-    - How the command is formatted.
-    - Unless otherwise stated, Airport ID’s (APT ID) are the FAA code, not the ICAO.
-    - {== FAC ID ==} = Facility ID code
-    - {== POS ID ==} = Position ID code/The computer ID code assigned to a position/controlling position.
+    - Meaning: "How the command is formatted"
+    - Unless otherwise indicated, Airport ID’s (APT ID) are the FAA code, not the ICAO.
+    - {== FAC ID ==} = Facility ID code. Ex: "D21" = Detroit Metro TRACON facility.
+    - {== POS ID ==} = Position ID code. Ex: "D1F" = Detroit Metro TRACON Northeast Feeder Sector. AKA "The handoff code".
     - Text that is {== HIGHLIGHTED ==} conveys the info that is required to be typed in that place.
-    - Text that is <ins>UNDERLINED</ins> indicates that it is optional information and is not required.
-    - ``(space)`` indicates when to hit the space-bar at that point.
-    - Unless otherwise indicated, to complete a command, the user must press the ENTER button on their keyboard. If the term ASEL is present after the command, the user is to complete the command by first selecting the aircraft, type the alias command, then pressing their designated “Aircraft Select" key on their keyboard. Choosing an ASEL should have been part of the initial setup of your software; For more info on what the ASEL key is, consult the software manual.
+    - Text that is <ins>UNDERLINED</ins> indicates optional information.
+    - ``(space)`` indicates when to hit the space-bar.
+    - Unless otherwise indicated, the user completes a command by pressing the keyboard "ENTER" button. If "ASEL" appears after a command, the user must complete it by first selecting the aircraft in the Text-Communication Window, then typing the alias command, and finally pressing their designated Aircraft Select (ASEL) key (defined in CRC settings menu).
 - DESCRIPTION
     - Describes what happens when the command is completed or will provide an example of what is displayed.
     - If a note with a number is referenced in this box, refer to the NOTES section of this reference document for further information concerning how to effectively utilize this command.
 - EXAMPLE
-    - Displays an example of the command using a procedure or other variables.
+    - Displays one or more examples of the command.
 - NOTES
-    - TTP = This command has a "Text-To-Pilot" equivalent. Generally, all the user has to do is put a T right after the period and before starting the rest of the command and have either the aircraft selected or in a private message to that pilot.
+    - TTP = indicates that a command has a "Text-To-Pilot" equivalent. For example, if the command is “.test” and "TTP" appears in the Notes column, the user can typically add “T” immediately after the initial period to send it as text-to-pilot: “.Ttest”. Consult the Text-To-Pilots section.
 
 ## ZOB WEBSITE REFERENCE
 
@@ -41,21 +41,21 @@ See "Text to Pilots" section for context.
 ## EXTERNAL SITE COMMANDS
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .ICAO   |   Opens the users default browser to the ICAO site to search aircraft codes.   |   .ICAO   |      |
-|   .SEE <br> AC    |   Opens the users default browser to google images to show the selected aircrafts picture.   |   .SEEAC   |      |
-|   .N# <br> FORMAT   |   Opens the users default browser to the FAA N-Number format page.   |   .N#FORMAT   |   TTP   |
-|   .ID <br> FORMAT   |   Opens the users default browser to the FAA Air-Carrier telephony page.   |   .IDFORMAT   |   TTP   |
-|   .ROF   |   With the aircraft selected, opens the users default browser to skyvector page and shows the currently assigned routing. Reference NOTE [^1].   |   .ROF   |      |
-|   .ROF <br> FA   |   With the aircraft selected, opens the users default browser to FlightAware page and depicting routes flown between the departure and arrival airport.   |   .ROFFA   |      |
-|   .SKY   |   Opens the users default browser to the Skyvector site.   |   .SKY   |      |
-|   .EQUIP   |   Opens the users default browser to the FlightAware FAA equipment suffix code page.   |   .EQUIP   |   TTP   |
-|   .ICAO <br> EQUIP   |   Opens the users default browser to the ForeFlight equipment suffix code page.   |   .ICAOEQUIP   |      |
-|   .POINT <br> 65   |   Opens the users default browser to the FAA 7110.65 HTML page.   |   .POINT65   |      |
-|   .CHARTS <br> ``(space)`` <br> ({== FAA or ICAO APT ID ==})   |   Opens the users default browser to the AIRNAV page IFR section for the given airport ID.   |   .CHARTS {== DTW ==}   |      |
-|   .CHARTS <br> CF <br> ``(space)`` <br> ({== ICAO APT ID ==})   |   Opens the users default browser to the ChartFox page for the given airport ID.   |   .CHARTSCF {== KDTW ==}   |      |
-|   .CHARTS <br> FAA   |   Opens the users default browser to the FAA Terminal Procedures and Airport Diagrams page.   |   .CHARTSFAA   |      |
-|   .TMU <br> MAP   |   Opens the users default browser to the VATUSA TMU page for ZOB.   |   .TMUMAP   |      |
-|   .HOLDING <br> SHEET   |   Opens a hold tracking spreadsheet in google that allows the facility to coordinate simultaneous holding.   |   .HOLDINGSHEET   |      |
+|   .ICAO   |   Opens users webbrowser to the ICAO site to search aircraft codes.   |   .ICAO   |      |
+|   .SEE <br> AC    |   Opens users webbrowser to google images to show the selected aircrafts picture.   |   .SEEAC   |      |
+|   .N# <br> FORMAT   |   Opens users webbrowser to the FAA N-Number format page.   |   .N#FORMAT   |   TTP   |
+|   .ID <br> FORMAT   |   Opens users webbrowser to the FAA Air-Carrier telephony page.   |   .IDFORMAT   |   TTP   |
+|   .ROF   |   Opens users webbrowser to skyvector and displays the assigned routing of the selected aircraft. Reference NOTE [^1].   |   .ROF   |      |
+|   .ROF <br> FA   |   Opens users webbrowser to FlightAware and displays the routes flown between the selected aircrafts departure and arrival airport.   |   .ROFFA   |      |
+|   .SKY   |   Opens users webbrowser to Skyvector.   |   .SKY   |      |
+|   .EQUIP   |   Opens users webbrowser to FlightAware FAA equipment suffix code page.   |   .EQUIP   |   TTP   |
+|   .ICAO <br> EQUIP   |   Opens users webbrowser to ForeFlight equipment suffix code page.   |   .ICAOEQUIP   |      |
+|   .POINT <br> 65   |   Opens users webbrowser to FAA 7110.65 HTML page.   |   .POINT65   |      |
+|   .CHARTS <br> ``(space)`` <br> ({== FAA or ICAO APT ID ==})   |   Opens users webbrowser to AIRNAV IFR section for the given airport ID.   |   .CHARTS {== DTW ==}   |      |
+|   .CHARTS <br> CF <br> ``(space)`` <br> ({== ICAO APT ID ==})   |   Opens users webbrowser to ChartFox for the given airport ID.   |   .CHARTSCF {== KDTW ==}   |      |
+|   .CHARTS <br> FAA   |   Opens users webbrowser to FAA Terminal Procedures and Airport Diagrams page.   |   .CHARTSFAA   |      |
+|   .TMU <br> MAP   |   Opens users webbrowser to VATUSA TMU page for ZOB.   |   .TMUMAP   |      |
+|   .HOLDING <br> SHEET   |   Opens a hold tracking spreadsheet that allows the facility to coordinate simultaneous holding.   |   .HOLDINGSHEET   |      |
 
 ## GENERAL ASSISTANCE
 
@@ -94,14 +94,14 @@ See "Text to Pilots" section for context.
 |   .BAD <br> PILOT   |   ISR of a script to read to the pilot who is clearly not equipped with the knowledge or skill to complete the flight they are trying to conduct. This script is for a pilot that you are considering calling a supervisor for.   |   .BADPILOT   |   TTP   |
 |   .SWITCH <br> TO <br> TWR   |   ISR of a script to read to the who has reached the assigned departure runway and is inquiring why they didn ’t get a switch to tower instruction.   |   .SWITCHTOTWR   |   TTP   |
 
-### TOOLS
+### Tools
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .EQUIP <br> ({== FAA EQUIPMENT SUFFIX LETTER ==})   |   Responds with a description of what capabilities the given equipment suffix has.   | .EQUIP{==L==}   |      |
+|   .EQUIP <br> ({== FAA EQUIPMENT SUFFIX LETTER ==})   |   Responds with a description of what capabilities the given equipment suffix indicates.   | .EQUIP{==L==}   |      |
 |   .POS <br> CHECK   |   ISR of a item list for a position relief checklist.   |   .POSCHECK   |      |
 |   .L   |   Shows which callsigns are currently transmitting or were recently transmitting on voice   |   .L   |      | 
-|   .CWT <br> ({== 1st CWT Letter ==}) <br> ({== 2nd CWT Letter ==})   |   Returns Consolidated Wake Turbulence (CWT) separation standards for the given sequence per FAA Order JO 7110.126   |   .CWT{==AC==}   |      |
-|   .AC <br> INFO <br> ({== ACFT ICAO CODE ==})   |   Returns info concerning the given aircraft.   |   .ACINFO{==B738==}  |   This is different than the .ACINFO command native to CRC.   |
+|   .CWT <br> ({== 1st CWT Letter ==}) <br> ({== 2nd CWT Letter ==})   |   Returns Consolidated Wake Turbulence (CWT) separation standards for the given sequence per FAA Order JO 7110.126   |   .CWT{==AC==}   |   In the given example, a "C" aircraft follows an "A" aircraft.   |
+|   .AC <br> INFO <br> ({== ACFT ICAO CODE ==})   |   Returns details about the given aircraft type.   |   .ACINFO{==B738==}  |   This is different than the .ACINFO command native to CRC.   |
 
 ## GROUND TO GROUND COMMUNICATION
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
@@ -137,13 +137,14 @@ See "Text to Pilots" section for context.
 |   .T <br> SQ   |   Squawk the assigned squawk code.   |   .TSQ   |      |
 |   .T <br> CON <br> ``(space)`` <br> ({==POS ID ==})      |   Contact the given ATC position.   |   .TCON {==D1F==}   |      |
 |   .T <br> MON <br> ``(space)`` <br> ({==POS ID ==})   |   Monitor the given ATC position.   |   .TMON {==D1F==}   |      |
-|   .T <br> CLOSING <br> ``(space)`` <br> ({==# of min ==})   |   Announces that you will be closing in the give number of min.   |   .TCLOSING  {==10==}   |   Ensure you do not have an aircraft selected prior to sending this command.   |
+|   .T <br> CLOSING <br> ``(space)`` <br> ({==# of min ==})   |   Announces that you will be closing in the given number of min.   |   .TCLOSING  {==10==}   |   Ensure you do not have an aircraft selected prior to sending this command.   |
 |   .T <br> CLOSED   |   Announces that you are now closed.   |   .TCLOSED   |      |
-|   .T <br> SWITCH <br> TO <br> TWR   |   Private messages the selected aircraft information concerning how they are expected to switch to TWR on their own holding short of the assigned RWY.   |   .TSWITCHTOTWR   |      |
+|   .T <br> SWITCH <br> TO <br> TWR   |   Private messages the selected aircraft informing them that they do not need an instruction to contact Tower when approaching the assigned runway for departure. Also provides relevant AIM reference.   |   .TSWITCHTOTWR   |      |
 |   .T <br> EQUIP   |   Private messages the selected aircraft asking for their FAA equipment suffix code and provides a link to a tutorial showing them how to determine their code.   |   .TEQUIP   |      |
-|   .T <br> N# <br> FORMAT   |   Private messages the selected aircraft advising them that their N-number format seems to be incorrect and links them to the FAA site to help them figure out how to reconnect with a correctly formatted callsign.   |   .TN#FORMAT   |      |
-|   .T <br> ID <br> FORMAT   |   Private messages the selected aircraft advising them that their air-carrier callsign format seems to be incorrect and links them to the FAA site to help them figure out how to reconnect with a correctly formatted callsign.   |   .TIDFORMAT   |      |
-|   .T <br> VRT   |   Private messages the selected aircraft asking the pilot to respond with V, R, or T to tell ATC what voice capabilities they have while also encouraging the use of Full Voice (V).   |   .TVRT   |      |
+|   .T <br> N# <br> FORMAT   |   Private messages the selected aircraft advising them that their N-number format seems to be incorrect and links them to the FAA site to help them correctly format their callsign in the future.   |   .TN#FORMAT   |      |
+|   .T <br> ID <br> FORMAT   |   Private messages the selected aircraft advising them that their air-carrier callsign format seems to be incorrect and links them to the FAA site to help them correctly format their callsign in the future.   |   .TIDFORMAT   |      |
+|   .T <br> BAD <br> PILOT   |   Private messages the selected aircraft/pilot who is clearly not equipped with the knowledge or skill to complete the flight they are trying to conduct. To be used for a pilot that you are considering calling a supervisor for.   |   .TVRT   |      |
+|   .T <br> VRT   |   Private messages the selected aircraft asking the pilot to respond with their voice capabilities (V, R, or T) while encouraging the use of Full Voice (V).   |   .TVRT   |      |
 
 ### Clearance Delivery
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
@@ -203,9 +204,9 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 ### In-Scope Reference
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   .APT <br> ({==FAA or ICAO APT ID ==})   |   Returns the following for the given airport:   FAA & ICAO code   Name   Elevation   Towered status   Responsible ARTCC   ASOS frequency   |   .APT{==PTK==}   |      |
-|   .NAV <br> ({==NAVAID ID or Name ==})   |   Returns the following for the given NAVAID:   ID   Frequency   Name   Type   |   .NAV{==CGT==} <br> .NAV{==CHICAGOHEIGHTS==}   |   When entering the name, do not include special characters or spaces.   |
-|   .ID <br> ({==AIR-CARRIER 3 LETTER ID or TELEPHONY ==})   |   Returns the 3LID and Telephony of the given air-carrier.   |   .ID{==DAL==} <br> .ID{==NKP==} <br> .ID{==ABAKANAIR==}   |   When entering the telephony, do not include special characters or spaces.   |
+|   .APT <br> ({==FAA or ICAO APT ID ==})   |   Returns the following for the given airport: FAA & ICAO code, Name, Elevation, Towered status, Responsible ARTCC, & ASOS frequency.  |   .APT{==PTK==}   |      |
+|   .NAV <br> ({==NAVAID ID or Name ==})   |   Returns the following for the given NAVAID: ID, Frequency, Name, Type.   |   .NAV{==CGT==} <br> .NAV{==CHICAGOHEIGHTS==}   |   When entering the name, do not include special characters or spaces.   |
+|   .ID <br> ({==AIR-CARRIER 3LID or TELEPHONY ==})   |   Returns the 3-Letter-ID (3LID) and Telephony of the given air-carrier.   |   .ID{==DAL==} <br> .ID{==NKP==} <br> .ID{==ABAKANAIR==}   |   When entering the telephony, do not include special characters or spaces.   |
 
 ### Data Display
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
@@ -216,21 +217,21 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
 ### Chart Recall
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
 | --- | --- | --- | --- |
-|   . ({==APT ID ==}) <br> TM <br>  C   |   Launches users browser to the given airports Takeoff Minimums, ODP, and DVA (TM) page.   |   .{==D98==}TMC   |      |
-|   . ({==APT ID ==}) <br> DVA <br> C   |   Launches users browser to the given airports Diverse Vector Area page.   |   .{==SDL==}DVAC   |      |
-|   . ({==APT ID ==}) <br> HS <br> C   |   Launches users browser to the given airports Hot Spots (HS) page.   |   .{==EDF==}HSC   |      |
-|   . ({==APT ID ==}) <br> LAHSO <br> C   |   Launches users browser to the given airports Land and Hold Short (LAHSO) page.   |   .{==BZN==}LAHSOC   |      |
-|   . ({==APT ID ==}) <br> APD <br>  C   |   Launches users browser to the given airports Airport Diagram (APD) page.   |   .{==DTW==}APDC   |      |
-|   . ({==APT ID ==}) <br> ({==DP/STAR ID ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given DP/STAR page.   Reference note #2.   |   .{==CLE==}{==BRWNZ==}C <br> .{==CLE ==}{==BRWNZ==}<ins>2</ins>C <br> .{==CLE==}{==BRWNZ==}<ins>3</ins>C   |      |
-|   . ({==APT ID ==}) <br> ({==1st 5 CHAR OF DEP/STAR CHART NAME ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given DP/STAR page.   |   .{==TNX==}{==TUMBE==}C <br> .{==GEG ==}{==SPOKA==}C <br> .{==GEG==}{==SPOKA==}<ins>2</ins>C   |   These commands are reserved for procedures that do not have a computer code assigned to them.   |
-|   . ({==APT ID==}) <br> ({==IAP SPad Code==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given IAP page.   Reference note [^3].   |   .{==DTW==}{==I3R==}C <br> .{==CLE==}{==IY4L==}C <br> .{==CLE==}{==RU4L==}C   |      |
-|   . ({==APT ID ==}) <br> V <br> ({==1st CHAR of EACH WORD IN THE VIS APP NAME ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Launches users browser to the given Charted Visual Approach page.   |   .{==SFO==}V{==QB==}C <br> .{==ASE==}V{==RF==}C   |      |
+|   . ({==APT ID ==}) <br> TM <br>  C   |   Opens users webbrowser to the given airports Takeoff Minimums, ODP, and DVA (TM) page.   |   .{==D98==}TMC   |      |
+|   . ({==APT ID ==}) <br> DVA <br> C   |   Opens users webbrowser to the given airports Diverse Vector Area page.   |   .{==SDL==}DVAC   |      |
+|   . ({==APT ID ==}) <br> HS <br> C   |   Opens users webbrowser to the given airports Hot Spots (HS) page.   |   .{==EDF==}HSC   |      |
+|   . ({==APT ID ==}) <br> LAHSO <br> C   |   Opens users webbrowser to the given airports Land and Hold Short (LAHSO) page.   |   .{==BZN==}LAHSOC   |      |
+|   . ({==APT ID ==}) <br> APD <br>  C   |   Opens users webbrowser to the given airports Airport Diagram (APD) page.   |   .{==DTW==}APDC   |      |
+|   . ({==APT ID ==}) <br> ({==DP/STAR ID ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Opens users webbrowser to the given DP/STAR page.   Reference note #2.   |   .{==CLE==}{==BRWNZ==}C <br> .{==CLE ==}{==BRWNZ==}<ins>2</ins>C <br> .{==CLE==}{==BRWNZ==}<ins>3</ins>C   |      |
+|   . ({==APT ID ==}) <br> ({==1st 5 CHAR OF DEP/STAR CHART NAME ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Opens users webbrowser to the given DP/STAR page.   |   .{==TNX==}{==TUMBE==}C <br> .{==GEG ==}{==SPOKA==}C <br> .{==GEG==}{==SPOKA==}<ins>2</ins>C   |   These commands are reserved for procedures that do not have a computer code assigned to them.   |
+|   . ({==APT ID==}) <br> ({==IAP SPad Code==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Opens users webbrowser to the given IAP page.   Reference note [^3].   |   .{==DTW==}{==I3R==}C <br> .{==CLE==}{==IY4L==}C <br> .{==CLE==}{==RU4L==}C   |      |
+|   . ({==APT ID ==}) <br> V <br> ({==1st CHAR of EACH WORD IN THE VIS APP NAME ==}) <br> (<ins>Page # if not 1</ins>) <br> C   |   Opens users webbrowser to the given Charted Visual Approach page.   |   .{==SFO==}V{==QB==}C <br> .{==ASE==}V{==RF==}C   |      |
 
 ## Notes
 
-[^1]: This command speaks to the VATSIM API every 3min so there may be a delay when an aircraft initially logs on to the command working.
+[^1]: This command pulls data from the VATSIM API every 3 minutes, so it may not work for newly logged-on aircraft or for recently amended routes right away.
 [^2]: 
-    Commands like these are useful because they have another command that is similar. For example if you wanted to draw all the fixes for the CLE BRWNZ arrival on your scope and you wanted the chart to be recalled, simply complete one of the commands, then use your keyboards UP arrow to have it display again, use your backspace button to remove the last character and replace it with the appropriate letter for the other command. <br>
+    These commands are handy because many have similar variants. Example: to draw all fixes for the CLE BRWNZ arrival and also recall the chart, run one command, then press the Up Arrow to re-display it, Backspace to delete the last character, and type the letter for the other command. <br>
       **Example**:
       - .CLEBRWNZC
       - *Up arrow to display .CLEBRWNZC again, Then I just backspace to remove the C*
@@ -238,4 +239,4 @@ The following aliases are generated every AIRAC cycle by FE-Buddy and merged int
       - .CLEBRWNZF
 [^3]: Reference the [FE-Buddy manual](https://docs.google.com/presentation/d/e/2PACX-1vRMd6PIRrj0lPb4sAi9KB7iM3u5zn0dyUVLqEcD9m2e71nf0UPyEmkOs4ZwYsQdl7smopjdvw_iWEyP/embed?slide=id.p) for SPad Code concept and syntax explanations. 
 [^4]:
-    Given this alias is meant to be sent to a text-only pilot, and these situations are dying out, so not every variable will be accounted for with these commands as it would take too long to develop those resources, let alone expect ATC to become moderately familiar with all of the syntaxes that are available
+    Since this alias is intended for text-only pilots, and those situations are becoming rare, these commands won’t cover every possible scenario. Building out every variation would take too long, and it’s not reasonable to expect ATC to learn all the available syntax.
