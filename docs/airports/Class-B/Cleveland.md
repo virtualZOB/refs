@@ -28,7 +28,7 @@
 TRACON positions should be opened and combined:
 
 1. CLE_A_APP
-    - A/F/D/R/N combined. May use simplified CLE_APP callsign
+    - A/F/D/R/N combined. May use simplified CLE_APP callsign.
     - Solo certified controllers may connect as CLE_S_APP on 124.000.
     - E/S/W may be combined when the positions are not separately staffed by another controller.
 2. CAK_E_APP
@@ -81,13 +81,13 @@ CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
 #### Disseminating
 
 1. CD shall ensure that all Tower control positions and TRACON receive the new ATIS code.
-2. CD shall notify CIC when weather changes from VFR to IFR or from IFR to VFR
+2. CD shall notify CIC when weather changes from VFR to IFR or from IFR to VFR.
 
 # Ground Control
 
 ## Jurisdiction of Movement Area
 
-GC has jurisdiction of the movement area north of runway 06L/24R extended centerline and south of runway 06R/24L extended centerline. Areas shaded red in Figure 4-1 are owned by LC unless otherwise coordinated
+GC has jurisdiction of the movement area north of runway 06L/24R extended centerline and south of runway 06R/24L extended centerline. Areas shaded red in Figure 4-1 are owned by LC unless otherwise coordinated.
 
 ## Scanning Movement Area
 
@@ -98,8 +98,8 @@ GC shall be aware of and operationally scan the work environment and following p
 
 ## Plan Ground Movement
 
-1. IAW the usage of the CLE ASSC, GC shall ensure all aircraft are squawking mode normal/C prior to being issued further ground movement clearance
-2. GC shall ensure to not allow aircraft to proceed on to a runway without transfer of control or approval from LC
+1. IAW the usage of the CLE ASSC, GC shall ensure all aircraft are squawking mode normal/C prior to being issued further ground movement clearance.
+2. GC shall ensure to not allow aircraft to proceed on to a runway without transfer of control or approval from LC.
 3. GC shall coordinate with LC all requests for intersection departures or secondary runway usage.
 4. If non-standard runway departure is requested, GC shall coordinate with LC prior to taxi clearance.
 5. GC shall give way to aircraft exiting runways unless otherwise coordinated.
@@ -110,7 +110,7 @@ GC shall be aware of and operationally scan the work environment and following p
 1. Usage of active runway shall remain the responsibility of LC. GC shall NOT cross runways designated as active, unless coordinated and approved by LC.
 2. When coordinating runway crossings, GC shall request by providing the runway number and intersection for which the aircraft shall be crossed.
     - If the request is approved, LC shall explicitly state “cross” followed by the runway designation and intersection.
-    - If the request is unable to be approved, LC shall NOT state “cross” but instead shall explicitly state “hold short of runway (designation)”
+    - If the request is unable to be approved, LC shall NOT state “cross” but instead shall explicitly state “hold short of runway (designation)”.
     - Upon crossing completion, GC shall advise LC by stating “crossing complete” followed by the controller’s operational initials (OIs).
 
 # Local Control
@@ -140,7 +140,7 @@ LC has jurisdiction of airspace as follows, and has control of aircraft when tal
     - CAVVS# and KKIDS# aircraft and non-SID aircraft with its route parallel to those SIDs shall be issued a heading in the range of RWY counter-clockwise to 180°.
     - LC shall enter the assigned heading in the scratchpad accordingly.
 5. LC is responsible for ensuring 3NM separation or greater between subsequent departures on the *same* RNAV SID.
-    - **NOTE**: GTLKE# and ZAAPA# in NORTH FLOW are considered the same RNAV SID and require 3 miles or greater from LC to radar
+    - **NOTE**: GTLKE# and ZAAPA# in NORTH FLOW are considered the same RNAV SID and require 3 miles or greater from LC to radar.
 
 ## Intersection Departures
 
@@ -187,14 +187,14 @@ LUAW is authorized at CLE IAW FAA directives and under the following criteria:
 
 - During daylight hours: LUAW is authorized for all runways.
 - During night time hours: LUAW is NOT authorized between sunset and sunrise.
-- If the reported weather ceiling is less than 800ft or the visibility less than 2sm then two separate aircraft shall not be both holding in position or cleared to land at the same time
+- If the reported weather ceiling is less than 800ft or the visibility less than 2sm then two separate aircraft shall not be both holding in position or cleared to land at the same time.
 
 ## Arrival Procedures
 
 1. Arrival is not responsible for notifying LC of arriving aircraft unless the aircraft is bound for a secondary arrival runway.
 2. LC shall confirm radar identification of aircraft of each arrival and scan scratchpad information to correlate type of approach and runway assignment.
 3. LC shall ensure separation between all arriving aircraft and participating Class B aircraft, and is responsible for the final sequence of aircraft into the airport.
-4. When an arrival aircraft exits the runway, issue an initial taxi clearance that permits the aircraft to keep moving, clearing runway exits, without infringing on GC’s operation or designated control area
+4. When an arrival aircraft exits the runway, issue an initial taxi clearance that permits the aircraft to keep moving, clearing runway exits, without infringing on GC’s operation or designated control area.
 
 ## Reduced Separation Procedures
 
@@ -234,9 +234,9 @@ DN (D)/DS (R) may permit only departures to penetrate arrival airspace, and are 
 
 ### Diverse Vector Area (DVA)
 
-Within the DVA, random vectors may be assigned to IFR aircraft below the Minimum Vectoring Altitude (MVA) IAW DVA procedure and facility directive. The following DVAs are defined for BKL departures assigned 2,000ft.
+Within the DVA, random vectors may be assigned to IFR aircraft below the Minimum Vectoring Altitude (MVA) IAW DVA procedure and facility directive. The following DVAs are defined for BKL departures assigned 2,000ft:
 
-1. BKL RWY 24R/06L/06R: 300° clockwise to 050° within 9nm
+1. BKL RWY 24R/06L/06R: 300° clockwise to 050° within 9nm.
 2. BKL RWY 24L: does NOT have a defined DVA. Aircraft must be assigned the RWY 24L ODP.
 
 ### Cleveland (CLE) Departures
@@ -282,17 +282,17 @@ As necessary, DN/DS handoff aircraft to CLE Satellite (N/S/E/W) with approval fo
 5. CLE N is not responsible for notifying LC of arriving aircraft unless the aircraft is bound for a runway not designated as an “arrival” runway. This request should be coordinated prior to issuance of approach clearance.
 6. CLE N shall verbally coordinate any non-tagged aircraft with CGF/BKL prior to 10nm from BKL or CGF airport.
 7. CLE N has authorization to vector aircraft through the areas defined in Appendix 2 with BKL and CGF so long as vertical and lateral separation are maintained between participating and non-participating traffic.
-8. CLE N shall transfer communication of arriving aircraft between 5-10 flying miles from BKL and CGF
+8. CLE N shall transfer communication of arriving aircraft between 5-10 flying miles from BKL and CGF.
 
 ### Approach Scratchpad Usage
 
-See [Scratchpad Usage](../../reference_tables/scratchpads.md)
+See [Scratchpad Usage](../../reference_tables/scratchpads.md).
 
 ## CAK ("South") Sector
 
 ### Jurisdiction of Airspace
 
-Jurisdiction for the radar airspace is graphically defined in Appendices 6 and 7. Two configuration (config) plans are available. The following are available to assist in planning the use of configs when splitting CLE E/CLE S.
+Jurisdiction for the radar airspace is graphically defined in Appendices 6 and 7. Two configuration (config) plans are available. The following are available to assist in planning the use of configs when splitting CLE E/CLE S:
 
 1. Config 1 is primarily used when arriving RWYs 05 and 01.
 2. Config 2 is primarily used when arriving RWYs 23 and 19.
@@ -318,19 +318,19 @@ Jurisdiction for the radar airspace is graphically defined in Appendices 6 and 7
     - CLE S assumes the AKR RWY 23 approach course, and points out aircraft to CLE E when necessary.
     - CLE E assumes the CAK RWY 01 approach course.
     - CLE E assumes the CAK RWY 23 approach course and assumes the approval authority of the sequence.
-    - LAHSO is regularly in use at CAK. Coordinate any aircraft NOT capable or willing to participate in LAHSO
+    - LAHSO is regularly in use at CAK. Coordinate any aircraft NOT capable or willing to participate in LAHSO.
 4. CLE E/S authorizes CAK LC to utilize their Tower Display Workstation equipped at their tower facility IAW FAAO 7110.65 3-1-9.b.
 5. CLE E/S are not responsible for notifying LC of arriving aircraft unless the aircraft is bound for a runway not designated as an “arrival” runway. This request should be coordinated prior to issuance of approach clearance.
 6. CLE E/S shall verbally coordinate any non-tagged aircraft with LC prior to 10nm from CAK airport.
-7. CLE E/S shall transfer communication of arriving aircraft between 5-10 flying miles from CAK airport
+7. CLE E/S shall transfer communication of arriving aircraft between 5-10 flying miles from CAK airport.
 
 ### Youngstown Procedure
 
-CLE S/E will ensure coordination with YNG ATCT for all IFR aircraft arriving or departing to/from 4G4 airport
+CLE S/E will ensure coordination with YNG ATCT for all IFR aircraft arriving or departing to/from 4G4 airport.
 
 ### Approach Scratchpad Usage
 
-See [Scratchpad Usage](../../reference_tables/scratchpads.md)
+See [Scratchpad Usage](../../reference_tables/scratchpads.md).
 
 ## MFD ("West") Sector
 
@@ -340,7 +340,7 @@ Jurisdiction for the radar airspace is graphically defined in Appendix 8.
 
 ### Departures
 
-Departures exiting the MFD Sector shall be IAW the CLE-ZOB LOA
+Departures exiting the MFD Sector shall be IAW the CLE-ZOB LOA.
 
 ### Arrivals
 
@@ -352,4 +352,4 @@ Departures exiting the MFD Sector shall be IAW the CLE-ZOB LOA
 
 ### Approach Scratchpad Usage
 
-See [Scratchpad Usage](../../reference_tables/scratchpads.md)
+See [Scratchpad Usage](../../reference_tables/scratchpads.md).
