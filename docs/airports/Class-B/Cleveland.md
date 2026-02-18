@@ -1,3 +1,5 @@
+# Cleveland
+
 !!! abstract "Quick Reference"
     - IFR Departure Altitude: 6,000(Jet)/4,000(Prop)
     - IFR Departure Heading:
@@ -5,9 +7,9 @@
     - Pattern Altitude: 1,800
     - Missed Approach: 4,000
 
-# General
+## General
 
-## Positions
+### Positions
 
 | Callsign  | Position           | Radio Name          | Position ID | Frequency |
 | --------- | ------------------ | ------------------- | ----------- | --------- |
@@ -23,7 +25,7 @@
 | CAK_S_APP | South Satellite    | Cleveland Approach  | S           | 118.600   |
 | MFD_W_APP | West Satellite     | Cleveland Approach  | W           | 128.350   |
 
-## Position Combination
+### Position Combination
 
 TRACON positions should be opened and combined:
 
@@ -41,7 +43,7 @@ TRACON positions should be opened and combined:
 Other positions may only be opened during events or with the permission of the
 ATM/DATM/TA/EC/CIC.
 
-## Transfer of Position Responsibility
+### Transfer of Position Responsibility
 
 1. All personnel shall review authorized sources of information prior to
    beginning the monitor, including the following:
@@ -53,9 +55,9 @@ ATM/DATM/TA/EC/CIC.
    remain on the position for a minimum of two (2) minutes and advise “monitor
    complete” once the time has elapsed.
 
-# Clearance Delivery
+## Clearance Delivery
 
-## Issue Clearances / Amendments / Instruction
+### Issue Clearances / Amendments / Instruction
 
 CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
 
@@ -87,7 +89,7 @@ CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
       departure frequency.
 6. Ensure that all aircraft requesting clearance have current ATIS code.
 
-## Weather Information/ATIS
+### Weather Information/ATIS
 
 #### Receiving
 
@@ -102,15 +104,15 @@ CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
    ATIS code.
 2. CD shall notify CIC when weather changes from VFR to IFR or from IFR to VFR.
 
-# Ground Control
+## Ground Control
 
-## Jurisdiction of Movement Area
+### Jurisdiction of Movement Area
 
 GC has jurisdiction of the movement area north of runway 06L/24R extended
 centerline and south of runway 06R/24L extended centerline. Areas shaded red in
 Figure 4-1 are owned by LC unless otherwise coordinated.
 
-## Scanning Movement Area
+### Scanning Movement Area
 
 GC shall be aware of and operationally scan the work environment and following
 problem/restricted areas:
@@ -120,7 +122,7 @@ problem/restricted areas:
   subsequent aircraft movements shall be planned around these helicopter
   movements by GC.
 
-## Plan Ground Movement
+### Plan Ground Movement
 
 1. IAW the usage of the CLE ASSC, GC shall ensure all aircraft are squawking
    mode normal/C prior to being issued further ground movement clearance.
@@ -135,7 +137,7 @@ problem/restricted areas:
    sequence traffic on taxiway to expedite departures. Sequencing aircraft based
    off of routing shall be IAW 3.1d/e.
 
-## Runway Crossing
+### Runway Crossing
 
 1. Usage of active runway shall remain the responsibility of LC. GC shall NOT
    cross runways designated as active, unless coordinated and approved by LC.
@@ -148,9 +150,9 @@ problem/restricted areas:
     - Upon crossing completion, GC shall advise LC by stating “crossing
       complete” followed by the controller’s operational initials (OIs).
 
-# Local Control
+## Local Control
 
-## Jurisdiction of Airspace
+### Jurisdiction of Airspace
 
 LC has jurisdiction of airspace as follows, and has control of aircraft when
 talking to any aircraft within 10NM of the airport unless otherwise coordinated.
@@ -158,7 +160,7 @@ talking to any aircraft within 10NM of the airport unless otherwise coordinated.
 1. South Flow and West Flow
 2. North Flow
 
-## Departure Procedures
+### Departure Procedures
 
 1. LC is responsible for ensuring initial separation between departures and
    other aircraft (i.e. successive departure, missed approach, VFR), and is
@@ -193,11 +195,11 @@ talking to any aircraft within 10NM of the airport unless otherwise coordinated.
     - **NOTE**: GTLKE# and ZAAPA# in NORTH FLOW are considered the same RNAV SID
       and require 3 miles or greater from LC to radar.
 
-## Intersection Departures
+### Intersection Departures
 
 LC shall provide runway distance remaining for intersection departure.
 
-### Runway 24L
+#### Runway 24L
 
 | INT | Distance (Ft) |
 | --- | ------------- |
@@ -206,7 +208,7 @@ LC shall provide runway distance remaining for intersection departure.
 | L3  | 4752          |
 | N   | 3138          |
 
-### Runway 6R
+#### Runway 6R
 
 | INT | Distance (Ft) |
 | --- | ------------- |
@@ -215,7 +217,7 @@ LC shall provide runway distance remaining for intersection departure.
 | N   | 5808          |
 | L4  | 3693          |
 
-### Runway 24R
+#### Runway 24R
 
 | INT | Distance (Ft) |
 | --- | ------------- |
@@ -224,7 +226,7 @@ LC shall provide runway distance remaining for intersection departure.
 | G3  | 4224          |
 | N   | 3138          |
 
-### Runway 6L
+#### Runway 6L
 
 | INT | Distance (Ft) |
 | --- | ------------- |
@@ -232,7 +234,7 @@ LC shall provide runway distance remaining for intersection departure.
 | N   | 4752          |
 | G3  | 6396          |
 
-## Line Up and Wait (LUAW) Procedures
+### Line Up and Wait (LUAW) Procedures
 
 LUAW is authorized at CLE IAW FAA directives and under the following criteria:
 
@@ -242,7 +244,7 @@ LUAW is authorized at CLE IAW FAA directives and under the following criteria:
   2sm then two separate aircraft shall not be both holding in position or
   cleared to land at the same time.
 
-## Arrival Procedures
+### Arrival Procedures
 
 1. Arrival is not responsible for notifying LC of arriving aircraft unless the
    aircraft is bound for a secondary arrival runway.
@@ -255,7 +257,7 @@ LUAW is authorized at CLE IAW FAA directives and under the following criteria:
    that permits the aircraft to keep moving, clearing runway exits, without
    infringing on GC’s operation or designated control area.
 
-## Reduced Separation Procedures
+### Reduced Separation Procedures
 
 Reduced longitudinal separation of 2.5NM between aircraft established on the
 final approach course within 10NM of the landing runway is authorized for
@@ -267,7 +269,7 @@ met:
 2. Heavy aircraft and B757 are permitted to participate as the trailing aircraft
    only.
 
-## Go Arounds and Missed Approaches
+### Go Arounds and Missed Approaches
 
 1. LC must advise the departure sector (DN/DS) which will provide radar service
    to the aircraft executing a missed approach or go-around.
@@ -275,29 +277,29 @@ met:
    defined in 5.1. The affected departure sector must be advised of this heading
    assignment prior to transfer of communication.
 
-## Certified Tower Radar Display (CTRD)
+### Certified Tower Radar Display (CTRD)
 
 CLE is equipped with a CTRD that may be utilized to provide radar service as
 deemed necessary IAW FAAO 7110.65 3-1-9.b. Additionally, LC shall issue radar
 traffic advisories IAW FAAO 7110.65 2-1-21a.
 
-## Helicopter Operations
+### Helicopter Operations
 
 All movement areas are authorized for helicopter operations. When conducting
 helicopter operations LC shall coordinate with GC prior to issuing
 arrival/departure instructions to/from any location on the field other than
 active runways.
 
-# RADAR
+## RADAR
 
-## Jurisdiction of Airspace
+### Jurisdiction of Airspace
 
 Jurisdiction for the radar airspace is graphically defined per flow in
 Appendices 3, 4, and 5.
 
-## CLE ("North") Sector
+### CLE ("North") Sector
 
-### Pre-Arranged Coordination Procedures (P-ACP)
+#### Pre-Arranged Coordination Procedures (P-ACP)
 
 DN (D)/DS (R) may permit only departures to penetrate arrival airspace, and are
 subject to the following limitations:
@@ -309,7 +311,7 @@ subject to the following limitations:
    associated tracks in coast status within their airspace to DN/DS. DN/DS must
    do the same with arrival.
 
-### Diverse Vector Area (DVA)
+#### Diverse Vector Area (DVA)
 
 Within the DVA, random vectors may be assigned to IFR aircraft below the Minimum
 Vectoring Altitude (MVA) IAW DVA procedure and facility directive. The following
@@ -319,7 +321,7 @@ DVAs are defined for BKL departures assigned 2,000ft:
 2. BKL RWY 24L: does NOT have a defined DVA. Aircraft must be assigned the RWY
    24L ODP.
 
-### Cleveland (CLE) Departures
+#### Cleveland (CLE) Departures
 
 1. Departures exiting the CLE TRACON shall be IAW CLE-ZOB LOA.
 2. DN/DS assume separation responsibilities when altering Tower assigned
@@ -329,7 +331,7 @@ DVAs are defined for BKL departures assigned 2,000ft:
    45° intercept.
 5. P-ACP is approved for DN/DS with arrival IAW 6.1.2.
 
-### Departure to Satellite Handoff
+#### Departure to Satellite Handoff
 
 As necessary, DN/DS handoff aircraft to CLE Satellite (N/S/E/W) with approval
 for control for turns up to 30° left/right and descent at the following
@@ -339,7 +341,7 @@ altitudes:
 2. Satellite South (S)/East (E): at or descending to 5,000ft.
 3. Satellite West (W): at or descending to 4,000ft.
 
-### Cleveland (CLE) Arrivals
+#### Cleveland (CLE) Arrivals
 
 1. Arrivals entering the CLE TRACON are IAW the CLE-ZOB LOA.
 2. A/F should only utilize runway(s) designated as “arrival” runway(s) by the
@@ -362,7 +364,7 @@ altitudes:
 | 10     | Cross 8 DME                  | AOA 3,000 |
 | 28     | Cross 8 DME                  | AOA 3,000 |
 
-### Satellite Arrivals
+#### Satellite Arrivals
 
 1. Aircraft arriving on RNAV STARs for satellite airports shall be descended
    into CLE N airspace.
@@ -384,13 +386,13 @@ altitudes:
 8. CLE N shall transfer communication of arriving aircraft between 5-10 flying
    miles from BKL and CGF.
 
-### Approach Scratchpad Usage
+#### Approach Scratchpad Usage
 
 See [Scratchpad Usage](../../reference_tables/scratchpads.md).
 
-## CAK ("South") Sector
+### CAK ("South") Sector
 
-### Jurisdiction of Airspace
+#### Jurisdiction of Airspace
 
 Jurisdiction for the radar airspace is graphically defined in Appendices 6 and
 7. Two configuration (config) plans are available. The following are available
@@ -399,7 +401,7 @@ to assist in planning the use of configs when splitting CLE E/CLE S:
 1. Config 1 is primarily used when arriving RWYs 05 and 01.
 2. Config 2 is primarily used when arriving RWYs 23 and 19.
 
-### Departures
+#### Departures
 
 1. Departures exiting the CAK Sector shall be IAW the CLE-ZOB LOA.
 2. In Config 1: CAK S handles westbound departures. CAK E handles east/southeast
@@ -407,7 +409,7 @@ to assist in planning the use of configs when splitting CLE E/CLE S:
 3. In Config 2: CAK S handles west/southwest bound departures. CAK E handles
    east/southeast bound departures.
 
-### Arrivals
+#### Arrivals
 
 1. Arrivals entering the CAK Sector are IAW CLE-ZOB LOA and, from CLE Sector,
    IAW 6.1.5b.
@@ -441,26 +443,26 @@ to assist in planning the use of configs when splitting CLE E/CLE S:
 7. CLE E/S shall transfer communication of arriving aircraft between 5-10 flying
    miles from CAK airport.
 
-### Youngstown Procedure
+#### Youngstown Procedure
 
 CLE S/E will ensure coordination with YNG ATCT for all IFR aircraft arriving or
 departing to/from 4G4 airport.
 
-### Approach Scratchpad Usage
+#### Approach Scratchpad Usage
 
 See [Scratchpad Usage](../../reference_tables/scratchpads.md).
 
-## MFD ("West") Sector
+### MFD ("West") Sector
 
-### Jurisdiction of Airspace
+#### Jurisdiction of Airspace
 
 Jurisdiction for the radar airspace is graphically defined in Appendix 8.
 
-### Departures
+#### Departures
 
 Departures exiting the MFD Sector shall be IAW the CLE-ZOB LOA.
 
-### Arrivals
+#### Arrivals
 
 1. Arrivals entering the MFD Sector are IAW CLE-ZOB LOA and, from CLE Sector,
    IAW 6.1.5c.
@@ -474,6 +476,6 @@ Departures exiting the MFD Sector shall be IAW the CLE-ZOB LOA.
 5. CLE W shall transfer communication of arriving aircraft between 5-15 flying
    miles from MFD airport.
 
-### Approach Scratchpad Usage
+#### Approach Scratchpad Usage
 
 See [Scratchpad Usage](../../reference_tables/scratchpads.md).
