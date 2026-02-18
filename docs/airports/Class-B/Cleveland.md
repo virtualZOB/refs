@@ -34,7 +34,7 @@ TRACON positions should be opened and combined:
 2. CAK_E_APP
     - E/S combined. May use simplified CAK_APP callsign.
     - W may be combined with E/S when the position is not separated staffed by another controller.
-4. MFD_W_APP
+3. MFD_W_APP
 
 Other positions may only be opened during events or with the permission of the ATM/DATM/TA/EC/CIC.
 
