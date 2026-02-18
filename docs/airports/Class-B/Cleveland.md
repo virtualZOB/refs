@@ -1,9 +1,9 @@
 # Cleveland
 
 !!! abstract "Quick Reference"
-    - IFR Departure Altitude: 6,000(Jet)/4,000(Prop)
-    - IFR Departure Heading:
-    - VFR Altitude: 2,500 (Heading 252-058)/3,000(Heading 059-251)
+    - IFR Departure Altitude: 6,000 (Jet)/4,000 (Prop)
+    - IFR Departure Heading: See [Departure Procedures](#departure-procedures).
+    - VFR Altitude: 2,500 (Heading 252-058)/3,000 (Heading 059-251)
     - Pattern Altitude: 1,800
     - Missed Approach: 4,000
 
