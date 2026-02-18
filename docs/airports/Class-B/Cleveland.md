@@ -98,6 +98,8 @@ GC shall be aware of and operationally scan the work environment and following p
     - If the request is unable to be approved, LC shall NOT state “cross” but instead shall explicitly state “hold short of runway (designation)”
     - Upon crossing completion, GC shall advise LC by stating “crossing complete” followed by the controller’s operational initials (OIs).
 
+# Local Control
+
 ## Jurisdiction of Airspace
 LC has jurisdiction of airspace as follows, and has control of aircraft when talking to any aircraft within 10NM of the airport unless otherwise coordinated. 
 1. South Flow and West Flow
