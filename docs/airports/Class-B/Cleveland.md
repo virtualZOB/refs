@@ -155,7 +155,7 @@ LC shall provide runway distance remaining for intersection departure.
 | L3 | 4752 |
 | N | 3138 |
 
-#### Runway 6R
+### Runway 6R
 
 | INT | Distance (Ft) |
 | -- | -- |
@@ -164,7 +164,7 @@ LC shall provide runway distance remaining for intersection departure.
 | N | 5808 |
 | L4 | 3693 |
 
-#### Runway 24R
+### Runway 24R
 
 | INT | Distance (Ft) |
 | -- | -- |
@@ -173,7 +173,7 @@ LC shall provide runway distance remaining for intersection departure.
 | G3 | 4224 |
 | N | 3138 |
 
-#### Runway 6L
+### Runway 6L
 
 | INT | Distance (Ft) |
 | -- | -- |
