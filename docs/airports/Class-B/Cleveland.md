@@ -216,7 +216,7 @@ CLE is equipped with a CTRD that may be utilized to provide radar service as dee
 
 All movement areas are authorized for helicopter operations. When conducting helicopter operations LC shall coordinate with GC prior to issuing arrival/departure instructions to/from any location on the field other than active runways.
 
-## RADAR
+# RADAR
 
 ## Jurisdiction of Airspace
 
