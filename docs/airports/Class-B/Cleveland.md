@@ -110,7 +110,7 @@ CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
 
 GC has jurisdiction of the movement area north of runway 06L/24R extended
 centerline and south of runway 06R/24L extended centerline. Areas shaded red in
-Figure 4-1 are owned by LC unless otherwise coordinated.
+Figure 4-1[^1] are owned by LC unless otherwise coordinated.
 
 ### Scanning Movement Area
 
@@ -295,7 +295,7 @@ active runways.
 ### Jurisdiction of Airspace
 
 Jurisdiction for the radar airspace is graphically defined per flow in
-Appendices 3, 4, and 5.
+Appendices[^2] 3, 4, and 5.
 
 ### CLE ("North") Sector
 
@@ -381,8 +381,8 @@ altitudes:
 6. CLE N shall verbally coordinate any non-tagged aircraft with CGF/BKL prior to
    10nm from BKL or CGF airport.
 7. CLE N has authorization to vector aircraft through the areas defined in
-   Appendix 2 with BKL and CGF so long as vertical and lateral separation are
-   maintained between participating and non-participating traffic.
+   Appendix[^2] 2 with BKL and CGF so long as vertical and lateral separation
+   are maintained between participating and non-participating traffic.
 8. CLE N shall transfer communication of arriving aircraft between 5-10 flying
    miles from BKL and CGF.
 
@@ -394,9 +394,9 @@ See [Scratchpad Usage](../../reference_tables/scratchpads.md).
 
 #### Jurisdiction of Airspace
 
-Jurisdiction for the radar airspace is graphically defined in Appendices 6 and
-7. Two configuration (config) plans are available. The following are available
-to assist in planning the use of configs when splitting CLE E/CLE S:
+Jurisdiction for the radar airspace is graphically defined in Appendices[^2] 6
+and 7. Two configuration (config) plans are available. The following are
+available to assist in planning the use of configs when splitting CLE E/CLE S:
 
 1. Config 1 is primarily used when arriving RWYs 05 and 01.
 2. Config 2 is primarily used when arriving RWYs 23 and 19.
@@ -456,7 +456,7 @@ See [Scratchpad Usage](../../reference_tables/scratchpads.md).
 
 #### Jurisdiction of Airspace
 
-Jurisdiction for the radar airspace is graphically defined in Appendix 8.
+Jurisdiction for the radar airspace is graphically defined in Appendix[^2] 8.
 
 #### Departures
 
@@ -479,3 +479,12 @@ Departures exiting the MFD Sector shall be IAW the CLE-ZOB LOA.
 #### Approach Scratchpad Usage
 
 See [Scratchpad Usage](../../reference_tables/scratchpads.md).
+
+[^1]:
+    Areas of the movement area reserved for Local Control:
+    ![Figure 4-1](../../assets/images/airports/Class-B/Cleveland/Figure_4-1.png)
+
+[^2]:
+    The appendices can be found in the latest `Cleveland ATCT/TRACON (CLE) SOP`
+    from the Cleveland Center website's
+    [Downloads page](https://clevelandcenter.org/downloads).
