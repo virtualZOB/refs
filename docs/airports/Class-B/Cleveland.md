@@ -9,19 +9,19 @@
 
 ## Positions
 
-| Callsign           | Position       | Radio Name        | Position ID | Frequency                       |
-| ------------------ | -------------- | ---------------- | ------------- | --------------------------- |
-| CLE_DEL | Clearance Delivery | Cleveland Delivery | CD | 125.050 |
-| CLE_GND | Ground | Cleveland Ground | GC | 121.700 |
-| CLE_TWR | Local | Cleveland Tower | L | 124.500 |
-| CLE_A_APP | Feeder | Cleveland Approach | A | 124.000 |
-| CLE_F_APP | Final | Cleveland Approach | F | 119.625 |
-| CLE_D_DEP | North Departure | Cleveland Departure | D | 128.250 |
-| CLE_R_DEP | South Departure | Cleveland Departure | R | 135.875 |
-| CLE_N_APP | North Satellite | Cleveland Approach | N | 125.350 |
-| CAK_E_APP | East Satellite | Cleveland Approach | E | 125.500 |
-| CAK_S_APP | South Satellite | Cleveland Approach | S | 118.600 |
-| MFD_W_APP | West Satellite | Cleveland Approach | W | 128.350 |
+| Callsign  | Position           | Radio Name          | Position ID | Frequency |
+| --------- | ------------------ | ------------------- | ----------- | --------- |
+| CLE_DEL   | Clearance Delivery | Cleveland Delivery  | CD          | 125.050   |
+| CLE_GND   | Ground             | Cleveland Ground    | GC          | 121.700   |
+| CLE_TWR   | Local              | Cleveland Tower     | L           | 124.500   |
+| CLE_A_APP | Feeder             | Cleveland Approach  | A           | 124.000   |
+| CLE_F_APP | Final              | Cleveland Approach  | F           | 119.625   |
+| CLE_D_DEP | North Departure    | Cleveland Departure | D           | 128.250   |
+| CLE_R_DEP | South Departure    | Cleveland Departure | R           | 135.875   |
+| CLE_N_APP | North Satellite    | Cleveland Approach  | N           | 125.350   |
+| CAK_E_APP | East Satellite     | Cleveland Approach  | E           | 125.500   |
+| CAK_S_APP | South Satellite    | Cleveland Approach  | S           | 118.600   |
+| MFD_W_APP | West Satellite     | Cleveland Approach  | W           | 128.350   |
 
 ## Position Combination
 
@@ -62,9 +62,9 @@ CD shall issue ATC clearances to IFR and VFR Class B departures as followed:
 4. VFR Class B Departures: determine destination/direction of flight, clear aircraft “out” of CLE Class B, and maintain VFR at or below the following altitudes:
 
 | If on-course heading is: | Clear aircraft at or below: |
-| -- | -- |
-| 252 - 058 (Clockwise) | 2,500 |
-| 059 - 251 (Clockwise) | 3,000 |
+| ------------------------ | --------------------------- |
+| 252 - 058 (Clockwise)    | 2,500                       |
+| 059 - 251 (Clockwise)    | 3,000                       |
 
 5. Departure Frequency Designation:
     - Aircraft cleared via GTLKE#, PFLYD#, ZAAPA# and Non-SID departures shall be assigned DN (D) as their departure frequency.
@@ -149,37 +149,37 @@ LC shall provide runway distance remaining for intersection departure.
 ### Runway 24L
 
 | INT | Distance (Ft) |
-| -- | -- |
-| S | 7392 |
-| A | 6864 |
-| L3 | 4752 |
-| N | 3138 |
+| --- | ------------- |
+| S   | 7392          |
+| A   | 6864          |
+| L3  | 4752          |
+| N   | 3138          |
 
 ### Runway 6R
 
 | INT | Distance (Ft) |
-| -- | -- |
-| L2 | 7392 |
-| P | 6864 |
-| N | 5808 |
-| L4 | 3693 |
+| --- | ------------- |
+| L2  | 7392          |
+| P   | 6864          |
+| N   | 5808          |
+| L4  | 3693          |
 
 ### Runway 24R
 
 | INT | Distance (Ft) |
-| -- | -- |
-| G5 | 6336 |
-| G4 | 5180 |
-| G3 | 4224 |
-| N | 3138 |
+| --- | ------------- |
+| G5  | 6336          |
+| G4  | 5180          |
+| G3  | 4224          |
+| N   | 3138          |
 
 ### Runway 6L
 
 | INT | Distance (Ft) |
-| -- | -- |
-| P | 5808 |
-| N | 4752 |
-| G3 | 6396 |
+| --- | ------------- |
+| P   | 5808          |
+| N   | 4752          |
+| G3  | 6396          |
 
 ## Line Up and Wait (LUAW) Procedures
 
@@ -264,14 +264,14 @@ As necessary, DN/DS handoff aircraft to CLE Satellite (N/S/E/W) with approval fo
 5. Reduced longitudinal separation authorized for all runways except IAW 5.6.
 6. When conducting visual approaches, the following final approach crossing restrictions must be cleared to aircraft:
 
-| Runway | Distance | Altitude |
-| -- | -- | -- |
-| 24R | Cross 6.5 DME or abeam SHERK | AOA 3,000 |
-| 24L | Cross 8.6 DME or abeam ALOMR | AOA 3,000 |
-| 6L | Cross 9 DME | AOA 3,000 |
-| 6R | Cross 9 DME | AOA 3,000 |
-| 10 | Cross 8 DME | AOA 3,000 |
-| 28 | Cross 8 DME | AOA 3,000 |
+| Runway | Distance                     | Altitude  |
+| ------ | ---------------------------- | --------- |
+| 24R    | Cross 6.5 DME or abeam SHERK | AOA 3,000 |
+| 24L    | Cross 8.6 DME or abeam ALOMR | AOA 3,000 |
+| 6L     | Cross 9 DME                  | AOA 3,000 |
+| 6R     | Cross 9 DME                  | AOA 3,000 |
+| 10     | Cross 8 DME                  | AOA 3,000 |
+| 28     | Cross 8 DME                  | AOA 3,000 |
 
 ### Satellite Arrivals
 
