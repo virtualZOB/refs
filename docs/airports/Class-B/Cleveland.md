@@ -140,7 +140,7 @@ LC has jurisdiction of airspace as follows, and has control of aircraft when tal
     - CAVVS# and KKIDS# aircraft and non-SID aircraft with its route parallel to those SIDs shall be issued a heading in the range of RWY counter-clockwise to 180°.
     - LC shall enter the assigned heading in the scratchpad accordingly.
 5. LC is responsible for ensuring 3NM separation or greater between subsequent departures on the *same* RNAV SID.
-**NOTE**: GTLKE# and ZAAPA# in NORTH FLOW are considered the same RNAV SID and require 3 miles or greater from LC to radar
+    - **NOTE**: GTLKE# and ZAAPA# in NORTH FLOW are considered the same RNAV SID and require 3 miles or greater from LC to radar
 
 ## Intersection Departures
 
