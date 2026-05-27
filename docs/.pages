@@ -1,8 +1,8 @@
 nav:
     - Home: index.md
-    - Airports: airports
+    # - Airports: airports
     # - TRACON: tracon
-    - Enroute: enroute
+    # - Enroute: enroute
     - References: references
     # - Assist Us: assist-us
     
