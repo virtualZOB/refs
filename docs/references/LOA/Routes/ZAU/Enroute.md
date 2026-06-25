@@ -18,8 +18,8 @@
 | IGQ | Entering ZAU Southeast area RNAV | AOB FL280 | |
 | IGQ | Entering ZAU Southeast area Non-RNAV | AOB FL220 | |
 | IND | Via ZAU | AOB FL280 | |
-| MDW |  Entering ZAU East area north of LLTCH | AOB FL220 | ZAU has control for left turns AOA FL200 |
-| MDW |  Entering ZAU East area south of LLTCH | AOB FL220 | |
+| MDW | Entering ZAU East area north of LLTCH | AOB FL220 | ZAU has control for left turns AOA FL200 |
+| MDW | Entering ZAU East area south of LLTCH | AOB FL220 | |
 | MDW | Entering ZAU Southeast area | AOB FL300 | |
 | MKE Metro [^1] | | | ZAU has control for turns direct GETCH AOA FL240 north of KORD arrival route |
 | ENW | Entering ZAU East Area | AOB FL320 | |
